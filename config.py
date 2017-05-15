@@ -6,5 +6,5 @@ env = dict(
 	port = 3000,
 	user = 'root', 
 	password = 'root',
-	db = 'group26db',
+	db = 'NBA_DRAFT17',
 )
