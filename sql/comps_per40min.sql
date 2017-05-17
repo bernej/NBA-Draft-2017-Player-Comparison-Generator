@@ -85,8 +85,6 @@ INSERT INTO comps_per40 VALUES ('Antonio Daniels','1996-97','Bowling Green State
 INSERT INTO comps_per40 VALUES ('Tony Battie','1994-95','Texas Tech','SWC',29,368,5.1,10.4,.490,5.1,9.8,.522,0.0,0.7,.000,2.0,2.9,.667,14.0,1.8,0.9,2.5,2.9,5.4,12.2);
 INSERT INTO comps_per40 VALUES ('Tony Battie','1995-96','Texas Tech','SWC',30,806,5.7,11.0,.516,5.5,10.3,.531,0.2,0.7,.286,3.0,4.7,.632,13.2,1.6,1.1,3.4,1.8,4.4,14.5);
 INSERT INTO comps_per40 VALUES ('Tony Battie','1996-97','Texas Tech','Big 12',28,978,8.4,14.6,.579,8.2,13.9,.588,0.2,0.7,.375,4.4,6.7,.656,13.5,0.9,1.1,2.9,3.1,3.5,21.5);
-INSERT INTO comps_per40 VALUES ('Michael Olowokandi','1995-96','Pacific','Big West',25,257,6.2,11.8,.526,6.2,11.8,.526,0.0,0.0,NULL,3.1,5.6,.556,13.1,0.6,0.3,5.1,3.0,7.5,15.6);
-INSERT INTO comps_per40 VALUES ('Michael Olowokandi','1996-97','Pacific','Big West',19,433,8.7,15.2,.570,8.7,NULL,NULL,0.0,NULL,NULL,1.8,5.3,.333,11.6,0.7,0.7,3.0,3.9,4.4,19.1);
 INSERT INTO comps_per40 VALUES ('Mike Bibby','1996-97','Arizona','Pac-10',34,1110,5.4,12.2,.445,3.0,6.1,.497,2.4,6.1,.394,3.2,4.6,.701,3.9,6.3,2.7,0.3,3.6,2.8,16.5);
 INSERT INTO comps_per40 VALUES ('Raef LaFrentz','1994-95','Kansas','Big 8',31,732,7.8,14.6,.534,7.7,14.4,.536,0.1,0.3,.400,3.6,5.6,.637,12.6,0.9,0.5,1.1,3.1,3.9,19.3);
 INSERT INTO comps_per40 VALUES ('Raef LaFrentz','1995-96','Kansas','Big 8',34,917,8.2,15.2,.543,8.2,14.9,.548,0.1,0.3,.286,3.2,4.9,.661,12.1,0.6,1.3,1.2,2.7,3.8,19.8);
