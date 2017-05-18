@@ -418,8 +418,8 @@ INSERT INTO comps_per40 VALUES ('Rodney Hood','2011-12','Mississippi State','SEC
 INSERT INTO comps_per40 VALUES ('Rodney Hood','2013-14','Duke','ACC',35,1150,6.6,14.3,.464,4.2,8.5,.494,2.5,5.9,.420,3.8,4.7,.807,4.8,2.6,0.9,0.3,1.9,3.2,19.5);
 INSERT INTO comps_per40 VALUES ('Kyle Anderson','2012-13','UCLA','Pac-12',35,1046,4.7,11.2,.416,4.4,9.8,.447,0.3,1.5,.211,3.3,4.5,.735,11.5,4.7,2.4,1.2,2.8,2.8,12.9);
 INSERT INTO comps_per40 VALUES ('Kyle Anderson','2013-14','UCLA','Pac-12',36,1196,6.1,12.6,.480,5.1,10.7,.480,0.9,1.9,.483,4.6,6.2,.737,10.5,7.8,2.1,0.9,3.7,2.0,17.6);
-INSERT INTO comps_per40 VALUES ('Jeramy Grant','2012-13','Syracuse','Big East',40,572,3.8,8.2,.462,3.4,7.1,.471,0.4,1.0,.400,2.9,5.1,.562,8.3,1.3,1.2,1.3,1.8,3.8,10.8);
-INSERT INTO comps_per40 VALUES ('Jeramy Grant','2013-14','Syracuse','ACC',32,1005,5.3,10.7,.496,5.3,10.5,.506,0.0,0.2,.000,4.8,7.1,.674,8.6,1.8,1.0,0.7,1.5,3.0,15.4);
+INSERT INTO comps_per40 VALUES ('Jerami Grant','2012-13','Syracuse','Big East',40,572,3.8,8.2,.462,3.4,7.1,.471,0.4,1.0,.400,2.9,5.1,.562,8.3,1.3,1.2,1.3,1.8,3.8,10.8);
+INSERT INTO comps_per40 VALUES ('Jerami Grant','2013-14','Syracuse','ACC',32,1005,5.3,10.7,.496,5.3,10.5,.506,0.0,0.2,.000,4.8,7.1,.674,8.6,1.8,1.0,0.7,1.5,3.0,15.4);
 INSERT INTO comps_per40 VALUES ('Karl Towns','2014-15','Kentucky','SEC',39,822,7.1,12.5,.566,7.0,12.1,.577,0.1,0.4,.250,5.3,6.5,.813,12.7,2.1,0.9,4.3,2.6,5.6,19.5);
 INSERT INTO comps_per40 VALUES ('D’Angelo Russell','2014-15','Ohio State','Big Ten',35,1188,7.8,17.3,.449,4.6,9.6,.479,3.2,7.8,.411,4.0,5.3,.756,6.7,5.9,1.9,0.4,3.4,2.5,22.7);
 INSERT INTO comps_per40 VALUES ('Jahlil Okafor','2014-15','Duke','ACC',38,1143,9.8,14.7,.664,9.8,14.7,.664,0.0,0.0,NULL,3.5,6.8,.510,11.3,1.7,1.0,1.9,3.3,2.8,23.0);
