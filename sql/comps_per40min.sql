@@ -400,9 +400,9 @@ INSERT INTO comps_per40 VALUES ('Julius Randle','2013-14','Kentucky','SEC',40,12
 INSERT INTO comps_per40 VALUES ('Nik Stauskas','2012-13','Michigan','Big Ten',39,1190,4.6,10.0,.463,1.9,3.9,.500,2.7,6.1,.440,2.5,2.9,.851,3.9,1.7,0.7,0.3,1.5,0.9,14.5);
 INSERT INTO comps_per40 VALUES ('Nik Stauskas','2013-14','Michigan','Big Ten',36,1281,5.8,12.3,.470,2.9,5.8,.500,2.9,6.5,.442,5.2,6.4,.824,3.3,3.7,0.6,0.3,2.1,1.5,19.7);
 INSERT INTO comps_per40 VALUES ('Noah Vonleh','2013-14','Indiana','Big Ten',30,794,5.7,10.9,.523,4.9,9.2,.530,0.8,1.7,.485,4.8,6.8,.716,13.6,0.9,1.3,2.1,3.2,4.1,17.0);
-INSERT INTO comps_per40 VALUES ('Elfred Payton','2011-12','Louisiana-Lafayette','Sun Belt',32,726,4.2,9.5,.448,4.2,9.0,.470,0.0,0.4,.000,4.1,7.3,.564,6.3,5.3,2.0,0.5,5.3,3.7,12.6);
-INSERT INTO comps_per40 VALUES ('Elfred Payton','2012-13','Louisiana-Lafayette','Sun Belt',33,1171,6.4,13.5,.475,5.8,11.8,.497,0.5,1.7,.320,4.6,7.2,.643,6.3,6.2,2.7,0.7,3.9,2.6,17.9);
-INSERT INTO comps_per40 VALUES ('Elfred Payton','2013-14','Louisiana-Lafayette','Sun Belt',35,1258,7.5,14.8,.509,7.1,13.1,.541,0.4,1.7,.259,5.9,9.6,.609,6.7,6.6,2.5,0.7,4.0,2.6,21.4);
+INSERT INTO comps_per40 VALUES ('Elfrid Payton','2011-12','Louisiana-Lafayette','Sun Belt',32,726,4.2,9.5,.448,4.2,9.0,.470,0.0,0.4,.000,4.1,7.3,.564,6.3,5.3,2.0,0.5,5.3,3.7,12.6);
+INSERT INTO comps_per40 VALUES ('Elfrid Payton','2012-13','Louisiana-Lafayette','Sun Belt',33,1171,6.4,13.5,.475,5.8,11.8,.497,0.5,1.7,.320,4.6,7.2,.643,6.3,6.2,2.7,0.7,3.9,2.6,17.9);
+INSERT INTO comps_per40 VALUES ('Elfrid Payton','2013-14','Louisiana-Lafayette','Sun Belt',35,1258,7.5,14.8,.509,7.1,13.1,.541,0.4,1.7,.259,5.9,9.6,.609,6.7,6.6,2.5,0.7,4.0,2.6,21.4);
 INSERT INTO comps_per40 VALUES ('Doug McDermott','2010-11','Creighton','MVC',39,1133,7.8,14.8,.525,6.1,10.7,.571,1.7,4.1,.405,3.3,4.4,.746,9.9,1.6,0.4,0.1,3.1,2.9,20.5);
 INSERT INTO comps_per40 VALUES ('Doug McDermott','2011-12','Creighton','MVC',35,1117,11.0,18.3,.601,9.1,14.3,.633,1.9,4.0,.486,4.8,6.0,.796,10.3,1.3,0.3,0.1,2.8,2.2,28.7);
 INSERT INTO comps_per40 VALUES ('Doug McDermott','2012-13','Creighton','MVC',36,1138,10.0,18.2,.548,7.3,12.7,.573,2.7,5.5,.490,6.6,7.6,.875,9.7,2.0,0.3,0.1,3.3,2.0,29.3);
