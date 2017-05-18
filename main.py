@@ -13,10 +13,19 @@ cur = db.cursor()
 cur.execute('SELECT * FROM prosp_per40')
 prosp_per40_results = cur.fetchall()
 
-# Gather all the NBA comps
+# Gather prospect advanced stats
+cur = db.cursor()
+cur.execute('SELECT * FROM prosp_adv')
+prosp_adv_results = cur.fetchall()
+
+# Gather all the NBA comps (per 40 minutes stats)
 cur = db.cursor()
 cur.execute('SELECT * FROM comps_per40')
 comps_per40_results = cur.fetchall()
+
+cur = db.cursor()
+cur.execute('SELECT * FROM comps_adv')
+comps_adv_results = cur.fetchall()
 
 # Compute similarity
 for prospect in prosp_per40_results:
@@ -25,6 +34,7 @@ for prospect in prosp_per40_results:
           str(prospect['PTS']) + " PPG / " + str(prospect['AST']) + " AST / " + str(prospect['TRB']) + " TRB /" + str(prospect['STL']) + " STL /" + str(prospect['BLK']) + " BLK\n")
 
     comparables = {} # Cosine similarity values of prospect versus each NBA comp
+    score = 0.0 # Score of the current prospect versus the current NBA player
 
     for nba_player in comps_per40_results:
 
@@ -44,16 +54,39 @@ for prospect in prosp_per40_results:
 
         comparables[comp_key] = shot_percentage_score * per_game_score
 
+    # for nba_player in comps_adv_results:
+
+    #     # Need to get this prospect's advanced stats.
+    #     college_player = {}
+    #     for nba_prospect in prosp_adv_results:
+    #         key = nba_prospect['Player'] + ", " + nba_prospect['Season']
+    #         desired_key = prospect['Player'] + ", " + prospect['Season']
+    #         if key == desired_key:
+    #             college_player = nba_prospect
+    #             break
+
+    #     # NBA Player and their respective NCAA season
+    #     comp_key = nba_player['Player'] + ", " + nba_player['Season'] + ", " + nba_player['School']
+
+    #     adv_shooting_score = adv_shooting_similarity(college_player, nba_player)
+
+    #     comparables[comp_key] *= adv_shooting_score
+
+
+
+
+    # comparables[comp_key]
+
     comparables = sorted(comparables.items(), key=lambda x: x[1], reverse=True)
 
 
     idx = 0
     for comp in comparables:
         # print(comp)
-        print('\t' + comp[0] + "\t " + str(players[comp[0]]['FGP']) + " FG%/ " + str(players[comp[0]]['2PP']) + " 2P%/ " + str(players[comp[0]]['3PP']) + " 3P%/ " + str(players[comp[0]]['FTP']) + " FT% | \t" + \
+        print('\t' + comp[0] + "\t " + str(players[comp[0]]['FGP']) + " FG%/ " + str(players[comp[0]]['2PP']) + " 2P%/ " + str(players[comp[0]]['3PP']) + " 3P%/ " + str(players[comp[0]]['FTP']) + " FT% | " + \
               str(players[comp[0]]['PTS']) + " PPG / " + str(players[comp[0]]['AST']) + " AST / " + str(players[comp[0]]['TRB']) + " TRB /" + str(players[comp[0]]['STL']) + " STL /" + str(players[comp[0]]['BLK']) + " BLK\t" + \
-              " similarity score:  " + "{0:.5f}".format(comp[1]))
+              " similarity score:  " + "{0:.4f}".format(comp[1]))
         idx += 1
-        if idx == 30:
+        if idx >= 30:
             break
     print('\n')
