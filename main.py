@@ -3,6 +3,9 @@ from similarity import *
 
 db = connect_to_database()
 
+# NBA players in the database. Consists of every top 5 pick since the 1993 draft
+# as well as every all star drafted since 1993. Additionally, contains more
+# active players than retired, i.e. players who are 
 players = {}
 
 # Gather the Top 10 prospects
@@ -36,6 +39,9 @@ for prospect in prosp_per40_results:
         # Look at PTS, AST, TRBs, STLs, and BLKs
         per_game_score = per_game_similarity(prospect, nba_player)
 
+        # Look at FGA, 2PA, 3PA, and FTAs
+        # shot_attempt_score = shot_attempt_similarity(prospect, nba_player)
+
         comparables[comp_key] = shot_percentage_score * per_game_score
 
     comparables = sorted(comparables.items(), key=lambda x: x[1], reverse=True)
@@ -46,8 +52,8 @@ for prospect in prosp_per40_results:
         # print(comp)
         print('\t' + comp[0] + "\t " + str(players[comp[0]]['FGP']) + " FG%/ " + str(players[comp[0]]['2PP']) + " 2P%/ " + str(players[comp[0]]['3PP']) + " 3P%/ " + str(players[comp[0]]['FTP']) + " FT% | \t" + \
               str(players[comp[0]]['PTS']) + " PPG / " + str(players[comp[0]]['AST']) + " AST / " + str(players[comp[0]]['TRB']) + " TRB /" + str(players[comp[0]]['STL']) + " STL /" + str(players[comp[0]]['BLK']) + " BLK\t" + \
-              " similarity score:  " + str(comp[1]))
+              " similarity score:  " + "{0:.5f}".format(comp[1]))
         idx += 1
-        if idx == 5:
+        if idx == 30:
             break
     print('\n')
