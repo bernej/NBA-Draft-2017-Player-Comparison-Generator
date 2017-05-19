@@ -62,18 +62,52 @@ def shot_attempt_similarity(prospect, nba_player):
 
     return score
 
-def adv_shooting_similarity(prospect, nba_player):
-    # print(prospect)
-    # print(nba_player['Player'])
+def adv_rate_similarity(prospect, nba_player):
     numerator = float(prospect['TS']) * float(nba_player['TS'])
-    numerator += ( float(prospect['eFG']) * float(nba_player['eFG']) )
+    numerator += ( float(prospect['eFG']) * float(nba_player['eFG']) )    
+    numerator += ( float(prospect['FTr']) * float(nba_player['FTr']) )
+    numerator += ( float(prospect['WS40']) * float(nba_player['WS40']) )
 
-    prosp_denom = (float(prospect['TS'])**2) + (float(prospect['TS'])**2)
-    comp_denom = (float(nba_player['eFG'])**2) + (float(nba_player['eFG'])**2)
+    prosp_denom = (float(prospect['TS'])**2) + (float(prospect['eFG'])**2) + (float(prospect['FTr'])**2) + (float(prospect['WS40'])**2)
+    comp_denom = (float(nba_player['TS'])**2) + (float(nba_player['eFG'])**2) + (float(nba_player['FTr'])**2) + (float(nba_player['WS40'])**2)
+    
+    denom = sqrt(prosp_denom) * sqrt(comp_denom)
+
+    score = numerator / denom
+
+    return score
+
+def adv_percent_similarity(prospect, nba_player):
+    numerator = float(prospect['ORB']) * float(nba_player['ORB'])
+    numerator += ( float(prospect['DRB']) * float(nba_player['DRB']) )
+    numerator += ( float(prospect['AST']) * float(nba_player['AST']) )
+    numerator += ( float(prospect['STL']) * float(nba_player['STL']) )
+    numerator += ( float(prospect['BLK']) * float(nba_player['BLK']) )
+    numerator += ( float(prospect['TOV']) * float(nba_player['TOV']) )
+    numerator += ( float(prospect['USG']) * float(nba_player['USG']) )    
+
+    prosp_denom = (float(prospect['ORB'])**2) + (float(prospect['DRB'])**2) + (float(prospect['AST'])**2) + (float(prospect['STL'])**2) + \
+                  (float(prospect['BLK'])**2) + (float(prospect['TOV'])**2) + (float(prospect['USG'])**2)
+
+    comp_denom = (float(nba_player['ORB'])**2) + (float(nba_player['DRB'])**2) + (float(nba_player['AST'])**2) + (float(nba_player['STL'])**2) + \
+                  (float(nba_player['BLK'])**2) + (float(nba_player['TOV'])**2) + (float(nba_player['USG'])**2)
 
     denom = sqrt(prosp_denom) * sqrt(comp_denom)
 
     score = numerator / denom
 
-    return score    
+    return score
 
+def adv_misc_similarity(prospect, nba_player):
+    numerator = float(prospect['PER']) * float(nba_player['PER'])
+    numerator += ( float(prospect['OBPM']) * float(nba_player['OBPM']) )
+    numerator += ( float(prospect['DBPM']) * float(nba_player['DBPM']) )    
+
+    prosp_denom = (float(prospect['PER'])**2) + (float(prospect['OBPM'])**2) + (float(prospect['DBPM'])**2)
+    comp_denom = (float(nba_player['PER'])**2) + (float(nba_player['OBPM'])**2) + (float(nba_player['DBPM'])**2)
+
+    denom = sqrt(prosp_denom) * sqrt(comp_denom)
+
+    score = numerator / denom
+
+    return score
