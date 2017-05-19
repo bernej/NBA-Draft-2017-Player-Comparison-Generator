@@ -41,6 +41,7 @@ for prospect in prosp_per40_results:
         # NBA Player and their respective NCAA season
         comp_key = nba_player['Player'] + ", " + nba_player['Season'] + ", " + nba_player['School']
 
+        # todo: Add career VORP to comps_per40_results so results can be sorted in desscending order
         players[comp_key] = nba_player
 
         # Look at FG%, 2P%, 3P%, and FT%
@@ -79,10 +80,11 @@ for prospect in prosp_per40_results:
 
     comparables = sorted(comparables.items(), key=lambda x: x[1], reverse=True)
 
-
+    vorp_comps = {}
     idx = 0
     for comp in comparables:
         # print(comp)
+        vorp_comps[comp[0]] = players[comp[0]]['VORP']
         print('\t' + comp[0] + "\t " + str(players[comp[0]]['FGP']) + " FG%/ " + str(players[comp[0]]['2PP']) + " 2P%/ " + str(players[comp[0]]['3PP']) + " 3P%/ " + str(players[comp[0]]['FTP']) + " FT% | " + \
               str(players[comp[0]]['PTS']) + " PPG / " + str(players[comp[0]]['AST']) + " AST / " + str(players[comp[0]]['TRB']) + " TRB /" + str(players[comp[0]]['STL']) + " STL /" + str(players[comp[0]]['BLK']) + " BLK\t" + \
               " similarity score:  " + "{0:.4f}".format(comp[1]))
@@ -90,3 +92,10 @@ for prospect in prosp_per40_results:
         if idx >= 30:
             break
     print('\n')
+
+    vorp_comps = sorted(vorp_comps.items(), key=lambda x: x[1], reverse=True)
+
+    for comp in vorp_comps:
+        print('\t' + comp[0] + " with a career VORP of " + str(comp[1]))
+    print('\n')
+
