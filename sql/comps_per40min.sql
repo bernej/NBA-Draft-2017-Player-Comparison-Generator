@@ -79,10 +79,10 @@ INSERT INTO comps_per40 VALUES ('Keith Van Horn','1995-96','Utah','WAC',32,990,9
 INSERT INTO comps_per40 VALUES ('Keith Van Horn','1996-97','Utah','WAC',32,1008,9.8,20.0,.492,7.5,14.0,.537,2.3,6.0,.387,6.0,6.6,.904,12.0,1.8,0.9,1.5,3.1,2.4,28.0,8.4);
 INSERT INTO comps_per40 VALUES ('Chauncey Billups','1995-96','Colorado','Big 8',26,919,6.3,15.3,.413,4.4,9.7,.446,2.0,5.5,.354,5.7,6.6,.861,7.2,6.2,1.8,0.2,5.2,3.3,20.2,37.6);
 INSERT INTO comps_per40 VALUES ('Chauncey Billups','1996-97','Colorado','Big 12',29,947,6.4,15.5,.413,3.3,7.6,.425,3.2,7.9,.401,7.4,8.7,.854,6.0,5.9,2.6,0.2,3.5,2.2,23.4,37.6);
-INSERT INTO comps_per40 VALUES ('Antonio Daniels','1993-94','Bowling Green State','MAC',28,864,6.1,11.9,.512,5.8,11.1,.527,0.3,0.9,.316,3.9,4.8,.816,3.8,5.1,1.3,0.2,3.1,1.8,16.4,4.1);
-INSERT INTO comps_per40 VALUES ('Antonio Daniels','1994-95','Bowling Green State','MAC',26,753,5.2,10.4,.495,4.3,8.4,.513,0.8,2.0,.421,3.1,4.4,.699,3.9,5.3,1.0,0.2,3.9,1.7,14.2,4.1);
-INSERT INTO comps_per40 VALUES ('Antonio Daniels','1995-96','Bowling Green State','MAC',25,922,6.2,12.9,.478,5.4,10.7,.508,0.7,2.2,.333,4.3,5.9,.723,3.3,6.4,2.0,0.5,3.0,2.0,17.4,4.1);
-INSERT INTO comps_per40 VALUES ('Antonio Daniels','1996-97','Bowling Green State','MAC',32,1161,9.6,17.6,.547,8.1,14.0,.576,1.6,3.6,.433,5.7,7.3,.777,3.1,7.4,2.5,0.3,3.5,1.8,26.4,4.1);
+INSERT INTO comps_per40 VALUES ('Antonio Daniels','1993-94','Bowling Green','MAC',28,864,6.1,11.9,.512,5.8,11.1,.527,0.3,0.9,.316,3.9,4.8,.816,3.8,5.1,1.3,0.2,3.1,1.8,16.4,4.1);
+INSERT INTO comps_per40 VALUES ('Antonio Daniels','1994-95','Bowling Green','MAC',26,753,5.2,10.4,.495,4.3,8.4,.513,0.8,2.0,.421,3.1,4.4,.699,3.9,5.3,1.0,0.2,3.9,1.7,14.2,4.1);
+INSERT INTO comps_per40 VALUES ('Antonio Daniels','1995-96','Bowling Green','MAC',25,922,6.2,12.9,.478,5.4,10.7,.508,0.7,2.2,.333,4.3,5.9,.723,3.3,6.4,2.0,0.5,3.0,2.0,17.4,4.1);
+INSERT INTO comps_per40 VALUES ('Antonio Daniels','1996-97','Bowling Green','MAC',32,1161,9.6,17.6,.547,8.1,14.0,.576,1.6,3.6,.433,5.7,7.3,.777,3.1,7.4,2.5,0.3,3.5,1.8,26.4,4.1);
 INSERT INTO comps_per40 VALUES ('Tony Battie','1994-95','Texas Tech','SWC',29,368,5.1,10.4,.490,5.1,9.8,.522,0.0,0.7,.000,2.0,2.9,.667,14.0,1.8,0.9,2.5,2.9,5.4,12.2,1.9);
 INSERT INTO comps_per40 VALUES ('Tony Battie','1995-96','Texas Tech','SWC',30,806,5.7,11.0,.516,5.5,10.3,.531,0.2,0.7,.286,3.0,4.7,.632,13.2,1.6,1.1,3.4,1.8,4.4,14.5,1.9);
 INSERT INTO comps_per40 VALUES ('Tony Battie','1996-97','Texas Tech','Big 12',28,978,8.4,14.6,.579,8.2,13.9,.588,0.2,0.7,.375,4.4,6.7,.656,13.5,0.9,1.1,2.9,3.1,3.5,21.5,1.9);
@@ -440,9 +440,9 @@ INSERT INTO comps_per40 VALUES ('Bobby Portis','2013-14','Arkansas','SEC',34,918
 INSERT INTO comps_per40 VALUES ('Bobby Portis','2014-15','Arkansas','SEC',36,1076,9.3,17.3,.536,8.8,16.2,.541,0.5,1.1,.467,4.3,5.8,.737,11.9,1.6,1.4,1.9,2.1,2.9,23.4,-0.6);
 INSERT INTO comps_per40 VALUES ('Rondae Hollis-Jefferson','2013-14','Arizona','Pac-12',38,960,5.0,10.3,.490,5.0,9.9,.502,0.1,0.4,.200,4.3,6.3,.682,9.0,2.3,1.2,1.7,1.8,3.8,14.5,0.9);
 INSERT INTO comps_per40 VALUES ('Rondae Hollis-Jefferson','2014-15','Arizona','Pac-12',38,1090,5.1,10.1,.502,4.8,9.0,.537,0.2,1.1,.207,5.3,7.5,.707,9.5,2.2,1.6,1.2,2.2,3.4,15.7,0.9);
-INSERT INTO comps_per40 VALUES ('Richaun Holmes','2012-13','Bowling Green State','MAC',32,602,5.8,9.2,.633,5.8,9.1,.642,0.0,0.1,.000,2.1,3.3,.620,10.6,0.5,1.1,4.9,1.7,4.4,13.8,1.3);
-INSERT INTO comps_per40 VALUES ('Richaun Holmes','2013-14','Bowling Green State','MAC',32,1024,5.9,11.6,.507,5.4,10.0,.539,0.5,1.6,.300,4.4,6.3,.706,9.6,1.1,1.4,3.4,2.3,3.5,16.6,1.3);
-INSERT INTO comps_per40 VALUES ('Richaun Holmes','2014-15','Bowling Green State','MAC',31,892,7.4,13.1,.563,6.6,11.2,.588,0.8,1.9,.419,4.9,6.9,.712,11.1,1.2,1.0,3.7,2.7,3.5,20.5,1.3);
+INSERT INTO comps_per40 VALUES ('Richaun Holmes','2012-13','Bowling Green','MAC',32,602,5.8,9.2,.633,5.8,9.1,.642,0.0,0.1,.000,2.1,3.3,.620,10.6,0.5,1.1,4.9,1.7,4.4,13.8,1.3);
+INSERT INTO comps_per40 VALUES ('Richaun Holmes','2013-14','Bowling Green','MAC',32,1024,5.9,11.6,.507,5.4,10.0,.539,0.5,1.6,.300,4.4,6.3,.706,9.6,1.1,1.4,3.4,2.3,3.5,16.6,1.3);
+INSERT INTO comps_per40 VALUES ('Richaun Holmes','2014-15','Bowling Green','MAC',31,892,7.4,13.1,.563,6.6,11.2,.588,0.8,1.9,.419,4.9,6.9,.712,11.1,1.2,1.0,3.7,2.7,3.5,20.5,1.3);
 INSERT INTO comps_per40 VALUES ('Norman Powell','2011-12','UCLA','Pac-12',33,586,4.0,10.5,.377,2.2,5.4,.405,1.8,5.1,.347,0.6,1.0,.600,5.1,2.7,1.1,0.6,1.6,3.1,10.3,0.5);
 INSERT INTO comps_per40 VALUES ('Norman Powell','2012-13','UCLA','Pac-12',35,773,4.1,9.4,.434,2.7,4.7,.578,1.4,4.8,.293,1.4,2.1,.675,3.9,1.9,1.3,0.9,2.0,3.5,11.0,0.5);
 INSERT INTO comps_per40 VALUES ('Norman Powell','2013-14','UCLA','Pac-12',37,952,6.4,12.1,.533,5.6,9.2,.607,0.8,2.9,.294,4.0,5.2,.780,4.4,2.6,2.1,0.6,1.6,3.6,17.7,0.5);
