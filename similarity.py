@@ -10,7 +10,9 @@ def shot_percentage_similarity(prospect, nba_player):
     comp_denom = (float(nba_player['FGP'])**2) + (float(nba_player['2PP'])**2) + (float(nba_player['FTP'])**2)
 
     # Ignore players who didn't take any 3s; similarity score was getting skewed
-    if str(nba_player['3PP']) == '0.000' or nba_player['3PP'] is None or nba_player['3PA'] < 1.0:
+    if (str(nba_player['3PP']) == '0.000' or (nba_player['3PP'] is None)) and prospect['3PA'] <= 1.0:
+        return numerator / (sqrt(prosp_denom) * sqrt(comp_denom))
+    elif (str(nba_player['3PP']) == '0.000' or (nba_player['3PP'] is None)) or (nba_player['3PA'] < 1.0 and prospect['3PA'] > 1.0):
         return 0
     else:
         numerator += ( float(prospect['3PP']) * float(nba_player['3PP']) )

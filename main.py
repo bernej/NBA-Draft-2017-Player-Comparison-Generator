@@ -1,5 +1,6 @@
 from extensions import connect_to_database
 from similarity import *
+from misc import *
 import os
 
 db = connect_to_database()
@@ -10,36 +11,33 @@ db = connect_to_database()
 players = {}
 adv_players = {}
 
-# Gather the Top 10 prospects
-cur = db.cursor()
-cur.execute('SELECT * FROM prosp_per40')
-prosp_per40_results = cur.fetchall()
+prosp_szn_results, prosp_per40_results, prosp_adv_results, comps_per40_results, comps_adv_results = query_tables(db)
 
-# Gather prospect advanced stats
-cur = db.cursor()
-cur.execute('SELECT * FROM prosp_adv')
-prosp_adv_results = cur.fetchall()
+remove_output_files()
 
-# Gather all the NBA comps (per 40 minutes stats)
-cur = db.cursor()
-cur.execute('SELECT * FROM comps_per40')
-comps_per40_results = cur.fetchall()
+divider = "____________________________________________________________________________________________________________"
 
-# Gather their advanced stats
-cur = db.cursor()
-cur.execute('SELECT * FROM comps_adv')
-comps_adv_results = cur.fetchall()
-
-try:
-    os.remove('analysis.txt')
-except OSError:
-    pass
-
-out_file = open('analysis.txt', 'w')
+out_file = initialize_output_files(divider)
 
 # Compute similarity
 for prospect in prosp_per40_results:
-    college_player = {}    
+    college_player = {}
+
+    for nba_prospect in prosp_szn_results:
+        key = nba_prospect['Name'] + ", " + nba_prospect['Season']
+        desired_key = prospect['Player'] + ", " + prospect['Season']
+        if key == desired_key:
+            position = nba_prospect['Position']
+            break
+
+    if position == 'Guard':
+        out_file = open('guards.txt', 'a')
+    elif position == 'Wing':
+        out_file = open('wings.txt', 'a')
+    else:
+        out_file = open('bigs.txt', 'a')
+
+
     out_file.write(prospect['Player'] + "\t\t\t" + str(prospect['FGP']) + " FG% / " + str(prospect['2PP']) + " 2P% / " + str(prospect['3PP']) + " 3P% /" + str(prospect['FTP']) + " FT% | \t" + \
           str(prospect['PTS']) + " PPG / " + str(prospect['AST']) + " AST / " + str(prospect['TRB']) + " TRB /" + str(prospect['STL']) + " STL /" + str(prospect['BLK']) + " BLK\n")
 
@@ -113,7 +111,7 @@ for prospect in prosp_per40_results:
         vorp_comps[comp[0]] = players[comp[0]]['VORP']
         out_file.write('\t' + comp[0] + '\t' + str(players[comp[0]]['FGP']) + " FG%/ " + str(players[comp[0]]['2PP']) + " 2P%/ " + str(players[comp[0]]['3PP']) + " 3P%/ " + str(players[comp[0]]['FTP']) + " FT% | " + \
               str(players[comp[0]]['PTS']) + " PPG / " + str(players[comp[0]]['AST']) + " AST / " + str(players[comp[0]]['TRB']) + " TRB /" + str(players[comp[0]]['STL']) + " STL /" + str(players[comp[0]]['BLK']) + " BLK\t" + \
-              " similarity score: " + "{0:.4f}".format(comp[1]) + '\n')
+              " score: " + "{0:.4f}".format(comp[1]) + '\n')
         idx += 1
         if idx >= 30:
             break
@@ -155,5 +153,6 @@ for prospect in prosp_per40_results:
     for score in combined_scores:
         out_file.write('\t' + score[0] + " with a combined similarity score of: " + str(score[1]) + '\n')
 
-    out_file.write('\n')
+    out_file.write('\n' + divider + '\n')
 
+    out_file.close()
