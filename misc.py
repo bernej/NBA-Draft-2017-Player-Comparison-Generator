@@ -53,4 +53,71 @@ def initialize_output_files(divider):
     out_file.write("An analysis of the top Bigs (4s & 5s) in the 2017 NBA Draft. " + gist)
     return out_file 
 
+def determine_output_file(prospect, prosp_szn_results):
+    position = ""
+    for nba_prospect in prosp_szn_results:
+        key = nba_prospect['Name'] + ", " + nba_prospect['Season']
+        desired_key = prospect['Player'] + ", " + prospect['Season']
+        if key == desired_key:
+            position = nba_prospect['Position']
+            break
+
+    if position == 'Guard':
+        out_file = open('guards.txt', 'a')
+    elif position == 'Wing':
+        out_file = open('wings.txt', 'a')
+    else:
+        out_file = open('bigs.txt', 'a')    
+
+    return out_file
+
+def write_per40_stats(out_file, prospect):
+    out_file.write(prospect['Player'] + "\t\t\t" + str(prospect['FGP']) + " FG% / " + str(prospect['2PP']) + " 2P% / " + str(prospect['3PP']) + " 3P% /" + str(prospect['FTP']) + " FT% | \t" + \
+                   str(prospect['PTS']) + " PPG / " + str(prospect['AST']) + " AST / " + str(prospect['TRB']) + " TRB /" + str(prospect['STL']) + " STL /" + str(prospect['BLK']) + " BLK\n\n")
+
+def write_NBA_comp_per40(out_file, comp, players):
+    out_file.write(comp[0] + '  ' + str(players[comp[0]]['FGP']) + " FG% " + str(players[comp[0]]['2PP']) + " 2P% " + str(players[comp[0]]['3PP']) + " 3P% " + str(players[comp[0]]['FTP']) + " FT% | " + \
+                   str(players[comp[0]]['PTS']) + " PPG " + str(players[comp[0]]['AST']) + " AST " + str(players[comp[0]]['TRB']) + " TRB " + str(players[comp[0]]['STL']) + " STL " + str(players[comp[0]]['BLK']) + " BLK  " + \
+                   "score: " + "{0:.4f}".format(comp[1]) + '\n')
+
+def write_adv_stats(out_file, college_player, half_divider):
+    out_file.write(half_divider + college_player['Player'] + '\t\t\t' + str(college_player['PER']) + " PER/" + str(college_player['TS']) + " TS/" + str(college_player['eFG']) + " eFG/" + \
+       str(college_player['ORB']) + " ORB/" + str(college_player['DRB']) + " DRB/" + \
+       str(college_player['AST']) + " AST/" + str(college_player['STL']) + " STL/" + str(college_player['BLK']) + " BLK/" + \
+       str(college_player['TOV']) + " TOV/" + str(college_player['USG']) + " USG/" + str(college_player['WS40']) + " WS40/" + \
+       str(college_player['OBPM']) + " OBPM/" + str(college_player['DBPM']) + " DBPM\n")
+
+def write_NBA_comp_adv(out_file, comp, adv_players):
+    player = comp[0].split(',')[0]
+    out_file.write(player + '  ' + str(adv_players[comp[0]]['PER']) + " PER/" + str(adv_players[comp[0]]['TS']) + " TS/" + str(adv_players[comp[0]]['eFG']) + " eFG/" + \
+           str(adv_players[comp[0]]['ORB']) + " ORB/" + str(adv_players[comp[0]]['DRB']) + " DRB/" + \
+           str(adv_players[comp[0]]['AST']) + " AST/" + str(adv_players[comp[0]]['STL']) + " STL/" + str(adv_players[comp[0]]['BLK']) + " BLK/" + \
+           str(adv_players[comp[0]]['TOV']) + " TOV/" + str(adv_players[comp[0]]['USG']) + " USG/" + str(adv_players[comp[0]]['WS40']) + " WS40/" + \
+           str(adv_players[comp[0]]['OBPM']) + " OBPM/" + str(adv_players[comp[0]]['DBPM']) + " DBPM\t" + "| " + "{0:.4f}".format(comp[1]) + '\n')    
+
+def get_advanced_stats(prospect, prosp_adv_results):
+    for nba_prospect in prosp_adv_results:
+        key = nba_prospect['Player'] + ", " + nba_prospect['Season']
+        desired_key = prospect['Player'] + ", " + prospect['Season']
+        if key == desired_key:
+            college_player = nba_prospect
+            break
+    return college_player
+
+def write_NBA_player_VORPs(out_file, vorp_comps):
+    vorp_comps = sorted(vorp_comps.items(), key=lambda x: x[1], reverse=True)
+    for comp in vorp_comps:
+        out_file.write('\t' + comp[0] + " with a career VORP of " + str(comp[1]) + '\n')
+
+def intersect_similarities(out_file, per40_score, adv_score, divider):
+    out_file.write("\nINTERSECTION OF PER40 AND ADVANCED SIMILARITIES:\n\n")
+    # Combine two scores
+    combined_scores = {x:per40_score[x]*adv_score[x] for x in per40_score if x in adv_score}
+    combined_scores = sorted(combined_scores.items(), key=lambda x: x[1], reverse=True)
+    for score in combined_scores:
+        out_file.write('\t' + score[0] + " with a combined similarity score of: " + str(score[1]) + '\n')
+
+    out_file.write('\n' + divider + '\n')
+
+
 
