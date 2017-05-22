@@ -36,7 +36,7 @@ INSERT INTO prosp_szns VALUES ('Malik Monk','Guard','6-3',200,18.75,'2016-17','K
 INSERT INTO prosp_szns VALUES ('DeAaron Fox','Guard','6-3',187,19,'2016-17','Kentucky','SEC',36,29.6,5.9,12.4,.478,5.5,10.5,.520,0.5,1.9,.246,4.3,5.9,.739,3.9,4.6,1.5,0.2,2.4,2.5,16.7);
 INSERT INTO prosp_szns VALUES ('Jonathan Isaac','Wing','6-10',210,19,'2016-17','Florida State','ACC',32,26.2,4.1,8.0,.508,3.1,5.2,.593,1.0,2.8,.348,2.9,3.7,.780,7.8,1.2,1.2,1.5,1.5,2.2,12.0);
 INSERT INTO prosp_szns VALUES ('Lauri Markannen','Big','7-0',230,18.75,'2016-17','Arizona','Pac-12',37,30.8,5.0,10.2,.492,3.1,5.8,.545,1.9,4.4,.423,3.7,4.4,.835,7.2,0.9,0.4,0.5,1.1,2.0,15.6);
-INSERT INTO prosp_szns VALUES ('Dennis Smith Jr','Guard','6-3',195,19,'2016-17','North Carolina State','ACC',32,34.8,6.0,13.1,.455,4.3,8.3,.509,1.7,4.8,.359,4.5,6.3,.715,4.6,6.2,1.9,0.4,3.4,2.1,18.1);
+INSERT INTO prosp_szns VALUES ('Dennis Smith Jr.','Guard','6-3',195,19,'2016-17','North Carolina State','ACC',32,34.8,6.0,13.1,.455,4.3,8.3,.509,1.7,4.8,.359,4.5,6.3,.715,4.6,6.2,1.9,0.4,3.4,2.1,18.1);
 INSERT INTO prosp_szns VALUES ('Jayson Tatum','Wing','6-8',205,18.75,'2016-17','Duke','ACC',29,33.3,5.7,12.6,.452,4.3,8.6,.504,1.4,4.0,.342,4.1,4.8,.849,7.3,2.1,1.3,1.1,2.6,3.0,16.8);
 INSERT INTO prosp_szns VALUES ('Zach Collins','Big','7-0',230,19,'2016-17','Gonzaga','WCC',39,17.3,3.5,5.3,.652,3.2,4.8,.672,0.3,0.5,.476,2.8,3.8,.743,5.9,0.4,0.5,1.8,1.5,2.7,10.0);
 INSERT INTO prosp_szns VALUES ('Harry Giles','Big','6-10',240,18.5,'2016-17','Duke','ACC',26,11.5,1.7,3.0,.577,1.7,3.0,.577,0.0,0.0,NULL,0.5,0.9,.500,3.8,0.3,0.3,0.7,0.7,2.2,3.9);
