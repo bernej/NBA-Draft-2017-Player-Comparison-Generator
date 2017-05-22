@@ -1,5 +1,5 @@
 CREATE TABLE prosp_szns(
-   Name    VARCHAR(16) NOT NULL
+   Name    VARCHAR(19) NOT NULL
   ,Position VARCHAR(5) NOT NULL
   ,Height  VARCHAR(5) NOT NULL
   ,Weight  INTEGER  NOT NULL
@@ -70,3 +70,31 @@ INSERT INTO prosp_szns VALUES ('Caleb Swanigan','Big','6-9',260,19,'2015-16','Pu
 INSERT INTO prosp_szns VALUES ('Caleb Swanigan','Big','6-9',260,20,'2016-17','Purdue','Big Ten',35,32.5,6.3,12.0,.527,5.3,9.6,.548,1.1,2.4,.447,4.7,6.0,.781,12.5,3.0,0.4,0.8,3.4,2.8,18.5);
 INSERT INTO prosp_szns VALUES ('Tyler Lydon','Big','6-8',205,20,'2015-16','Syracuse','ACC',37,30.3,3.4,7.2,.479,2.1,3.9,.542,1.3,3.3,.405,1.9,2.5,.774,6.3,1.1,1.1,1.8,1.3,2.7,10.1);
 INSERT INTO prosp_szns VALUES ('Tyler Lydon','Big','6-8',205,21,'2016-17','Syracuse','ACC',34,36.1,4.4,9.4,.472,3.0,5.7,.523,1.4,3.7,.392,2.9,3.4,.836,8.6,2.1,1.0,1.4,1.7,2.5,13.2);
+INSERT INTO prosp_szns VALUES ('Semi Ojeleye','Wing','6-8',230,22,'2016-17','SMU','AAC',35,34.1,6.0,12.2,.488,3.9,7.3,.531,2.1,4.9,.424,4.9,6.3,.785,6.8,1.5,0.4,0.4,1.4,1.8,18.9);
+INSERT INTO prosp_szns VALUES ('Justin Jackson','Wing','6-7',225,19.5,'2016-17','Maryland','Big Ten',33,27.8,3.5,8.1,.438,2.2,4.9,.438,1.4,3.2,.438,2.0,2.9,.698,6.0,0.9,0.9,0.8,1.6,2.2,10.5);
+INSERT INTO prosp_szns VALUES ('Derrick White','Guard','6-5',193,22,'2016-17','Colorado','Pac-12',34,32.8,6.0,11.9,.507,4.4,7.6,.569,1.7,4.2,.396,4.4,5.4,.813,4.1,4.4,1.2,1.4,2.4,2.1,18.1);
+INSERT INTO prosp_szns VALUES ('Jordan Bell','Big','6-7',190,22,'2016-17','Oregon','Pac-12',39,28.8,4.4,6.9,.636,4.3,6.5,.659,0.1,0.4,.214,2.1,3.0,.701,8.8,1.8,1.3,2.2,1.9,1.8,10.9);
+INSERT INTO prosp_szns VALUES ('Alec Peters','Big','6-9',225,21.5,'2016-17','Valparaiso','Horizon',29,35.1,7.5,16.1,.466,5.5,10.6,.519,2.0,5.5,.363,5.9,6.7,.887,10.1,2.2,0.8,0.4,2.4,2.2,23.0);
+INSERT INTO prosp_szns VALUES ('Thomas Bryant','Big','6-10',245,19,'2016-17','Indiana','Big Ten',34,28.1,4.4,8.4,.519,3.7,6.6,.556,0.7,1.8,.383,3.2,4.4,.730,6.6,1.5,0.8,1.5,2.3,3.1,12.6);
+INSERT INTO prosp_szns VALUES ('Johnathan Motley','Big','6-9',230,21.5,'2016-17','Baylor','Big 12',34,30.5,6.6,12.7,.522,6.4,11.8,.541,0.3,0.9,.281,3.8,5.4,.699,9.9,2.3,0.4,1.1,2.9,3.1,17.3);
+INSERT INTO prosp_szns VALUES ('Frank Jackson','Guard','6-3',205,18.5,'2016-17','Duke','ACC',36,24.9,3.7,7.8,.473,2.3,4.2,.543,1.4,3.6,.392,2.1,2.8,.755,2.5,1.7,0.6,0.1,1.4,2.4,10.9);
+INSERT INTO prosp_szns VALUES ('Kyle Kuzma','Big','6-9',190,21,'2016-17','Utah','Pac-12',29,30.8,6.3,12.4,.504,5.3,9.6,.560,0.9,2.9,.321,2.9,4.4,.669,9.3,2.4,0.6,0.5,2.1,1.6,16.4);
+INSERT INTO prosp_szns VALUES ('Frank Mason','Guard','5-11',185,22.5,'2016-17','Kansas','Big 12',36,36.1,6.7,13.7,.490,4.4,8.8,.500,2.3,4.8,.471,5.3,6.6,.794,4.2,5.2,1.3,0.1,2.4,2.0,20.9);
+INSERT INTO prosp_szns VALUES ('LJ Peak','Guard','6-5',215,21,'2016-17','Georgetown','Big East',32,32.8,5.2,10.9,.480,4.2,7.7,.543,1.0,3.2,.327,4.8,6.0,.796,3.8,3.5,1.1,0.4,2.7,2.8,16.2);
+INSERT INTO prosp_szns VALUES ('Tyler Dorsey','Guard','6-4',180,21,'2016-17','Oregon','Pac-12',39,30.0,4.8,10.4,.467,2.6,5.1,.513,2.3,5.3,.423,2.7,3.6,.755,3.5,1.7,0.8,0.1,1.5,1.5,14.6);
+INSERT INTO prosp_szns VALUES ('Devin Robinson','Wing','6-8',178,21.5,'2016-17','Florida','SEC',36,26.4,3.9,8.3,.475,2.8,5.3,.524,1.2,3.1,.391,2.0,2.8,.723,6.1,0.6,0.9,0.8,1.1,2.3,11.1);
+INSERT INTO prosp_szns VALUES ('Josh Hart','Guard','6-5',205,21.5,'2016-17','Villanova','Big East',36,33.1,6.6,12.9,.510,4.5,7.8,.579,2.1,5.1,.404,3.5,4.7,.747,6.4,2.9,1.5,0.3,2.0,2.3,18.7);
+INSERT INTO prosp_szns VALUES ('Sindarius Thornwell','Guard','6-5',215,22,'2016-17','South Carolina','SEC',31,33.9,6.3,14.1,.445,4.4,9.4,.471,1.9,4.7,.395,6.9,8.4,.830,7.2,2.8,2.1,1.0,2.5,2.3,21.4);
+INSERT INTO prosp_szns VALUES ('Nigel Williams-Goss','Guard','6-3',185,22,'2016-17','Gonzaga','WCC',38,32.8,5.8,11.9,.486,4.7,8.8,.527,1.1,3.1,.368,4.1,4.8,.867,6.0,4.7,1.7,0.1,2.1,1.6,16.8);
+INSERT INTO prosp_szns VALUES ('Monte Morris','Guard','6-3',170,21.5,'2016-17','Iowa State','Big 12',35,35.3,6.2,13.3,.465,4.6,9.2,.503,1.5,4.1,.378,2.5,3.2,.802,4.8,6.2,1.5,0.3,1.2,1.5,16.4);
+INSERT INTO prosp_szns VALUES ('Nigel Hayes','Wing','6-8',235,22,'2016-17','Wisconsin','Big Ten',37,32.2,4.9,10.6,.457,4.3,8.8,.488,0.6,1.9,.314,3.6,6.2,.587,6.6,2.7,0.8,0.4,1.7,1.8,14.0);
+INSERT INTO prosp_szns VALUES ('Isaiah Briscoe','Guard','6-3',202,20.5,'2016-17','Kentucky','SEC',36,30.4,4.5,9.6,.470,4.1,8.0,.507,0.5,1.6,.288,2.6,4.1,.635,5.4,4.2,0.8,0.2,2.5,2.6,12.1);
+INSERT INTO prosp_szns VALUES ('Dwayne Bacon','Guard','6-5',202,21.5,'2016-17','Florida State','ACC',35,28.8,6.3,14.0,.452,4.7,9.1,.516,1.6,4.9,.333,3.0,3.9,.754,4.2,1.7,1.0,0.1,2.0,1.6,17.2);
+
+
+
+
+
+
+
+
