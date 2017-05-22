@@ -1,158 +1,143 @@
 from extensions import connect_to_database
 from similarity import *
 from misc import *
-import os
 
 db = connect_to_database()
 
 # NBA players in the database. Consists of every top 5 pick since the 1993 draft
 # as well as every all star drafted since 1993. Additionally, contains more
 # active players than retired, i.e. players who are 
-players = {}
-adv_players = {}
+players = {}        # NBA Players mapped to their NCAA seasonal per 40 minutes stats
+adv_players = {}    # NBA Players mapped to their NCAA seasonal advanced stats
 
+# Grab all the data from the tables in the database
 prosp_szn_results, prosp_per40_results, prosp_adv_results, comps_per40_results, comps_adv_results = query_tables(db)
 
+# For refreshing guards.txt, wings.txt, and bigs.txt
 remove_output_files()
 
-divider = "____________________________________________________________________________________________________________"
+# Formatting strings
+divider = "____________________________________________________________________________________________________________\n"
+half_divider = "\n______________________________________________________\n\n"
 
+# Output file to write to. Either guards.txt, wings.txt, or bigs.txt
 out_file = initialize_output_files(divider)
 
-# Compute similarity
+# Go through each prospect and compute their similarity to every NBA player in the database
 for prospect in prosp_per40_results:
+
+    # This variable will contain the prospect's advanced stats after the per40 similarity score is computed
     college_player = {}
 
-    for nba_prospect in prosp_szn_results:
-        key = nba_prospect['Name'] + ", " + nba_prospect['Season']
-        desired_key = prospect['Player'] + ", " + prospect['Season']
-        if key == desired_key:
-            position = nba_prospect['Position']
-            break
+    # Find the prospect's position and return that position-specific output file
+    out_file = determine_output_file(prospect, prosp_szn_results)
 
-    if position == 'Guard':
-        out_file = open('guards.txt', 'a')
-    elif position == 'Wing':
-        out_file = open('wings.txt', 'a')
-    else:
-        out_file = open('bigs.txt', 'a')
+    write_per40_stats(out_file, prospect) # Output this prospect's per 40 stats
 
+    # Mapping of NBA players to their cosine similarity values pertaining to this particular prospect
+    per40_comparables = {}  # Per 40 minutes similarity scores
+    adv_comparables = {}    # Advanced stats similarity scores
 
-    out_file.write(prospect['Player'] + "\t\t\t" + str(prospect['FGP']) + " FG% / " + str(prospect['2PP']) + " 2P% / " + str(prospect['3PP']) + " 3P% /" + str(prospect['FTP']) + " FT% | \t" + \
-          str(prospect['PTS']) + " PPG / " + str(prospect['AST']) + " AST / " + str(prospect['TRB']) + " TRB /" + str(prospect['STL']) + " STL /" + str(prospect['BLK']) + " BLK\n")
-
-    per40_comparables = {} # Cosine similarity values of prospect versus each NBA comp
-    adv_comparables = {}
-
-    score = 0.0 # Score of the current prospect versus the current NBA player
-
-    # Traditional NBA comparisons
+    # Go through each NBA player and compute their per 40 min. cosine similarity score
     for nba_player in comps_per40_results:
 
         # NBA Player and their respective NCAA season
         comp_key = nba_player['Player'] + ", " + nba_player['Season'] + ", " + nba_player['School']
 
-        # todo: add more per40 prospect seasons
-        # todo: figure out advanced stats calculation
-
+        # Map this NBA player to their NCAA season
         players[comp_key] = nba_player
 
-        # Look at FG%, 2P%, 3P%, and FT%
+        # Looks at FG%, 2P%, 3P%, and FT%
         per40_comparables[comp_key] = shot_percentage_similarity(prospect, nba_player)
 
-        # Look at PTS, AST, TRBs, STLs, and BLKs
+        # Looks at PTS, AST, TRBs, STLs, and BLKs
         per40_comparables[comp_key] *= per_game_similarity(prospect, nba_player)
 
-        # Look at FGA, 2PA, 3PA, and FTAs
+        # Looks at FGA, 2PA, 3PA, and FTAs
         # shot_attempt_score = shot_attempt_similarity(prospect, nba_player)
 
-        # per40_comparables[comp_key] = shot_percentage_score * per_game_score
+    # seasons that have complete advanced stats from sports-reference.com
+    adv_seasons = ['11','12','13','14','15','16']
 
-    adv_seasons = ['11','12','13','14','15','16'] # seasons that have complete advanced stats
-
-    # Modern NBA comparisons
+    # Go through each NBA player and compute their adv stats cosine similarity score
     for nba_player in comps_adv_results:
 
         # Need to get this prospect's advanced stats.
-        for nba_prospect in prosp_adv_results:
-            key = nba_prospect['Player'] + ", " + nba_prospect['Season']
-            desired_key = prospect['Player'] + ", " + prospect['Season']
-            if key == desired_key:
-                college_player = nba_prospect
-                break
+        college_player = get_advanced_stats(prospect, prosp_adv_results)
 
-        # NBA Player and their respective NCAA season
-
-        # Valid
+        # Seasons before 2010-11 do not have complete advanced stats. This check
+        # makes sure that we are getting a player who's NCAA season came 2010-11 or later
         if any(season in nba_player['Season'] for season in adv_seasons):
 
+            # NBA Player and their respective NCAA season
             comp_key = nba_player['Player'] + ", " + nba_player['Season'] + ", " + nba_player['School']
 
+            # Map this NBA player to their NCAA season
             adv_players[comp_key] = nba_player
 
+            # Looks at TS%, eFG%, FTr, and WS/40
             adv_comparables[comp_key] = adv_rate_similarity(college_player, nba_player)
 
+            # Looks at ORB%, DRB%, AST%, STL%, BLK%, TOV%, and USG%
             adv_comparables[comp_key] *= adv_percent_similarity(college_player, nba_player)
 
+            # Looks at PER, OBPM, and DBPM
             adv_comparables[comp_key] *= adv_misc_similarity(college_player, nba_player)
 
+    # Sort the similarity scores into descending order
     per40_comparables = sorted(per40_comparables.items(), key=lambda x: x[1], reverse=True)
     adv_comparables = sorted(adv_comparables.items(), key=lambda x: x[1], reverse=True)
 
+    # Dictionaries used for determing the intersection of per40 and adv scores
     per40_score = {}
     adv_score = {}
 
-    out_file.write("Per 40 minute comparisons:\n")
-    vorp_comps = {}
+    # Output the Top 30 per 40 minute similarity scores for this prospect
+    out_file.write("Per 40 minute comparisons:\n\n")
+    vorp_comps = {}     # NBA Players mapped to their career Value Over Replacement Player value
+    
+    # Go through the Top 30 per 40 minute similarity scores
     idx = 0
     for comp in per40_comparables:
-        # out_file.write(comp)
+        # Map this score for possible future intersection calculation
         per40_score[comp[0]] = comp[1]
+        # Map this NBA player's VORP
         vorp_comps[comp[0]] = players[comp[0]]['VORP']
-        out_file.write('\t' + comp[0] + '\t' + str(players[comp[0]]['FGP']) + " FG%/ " + str(players[comp[0]]['2PP']) + " 2P%/ " + str(players[comp[0]]['3PP']) + " 3P%/ " + str(players[comp[0]]['FTP']) + " FT% | " + \
-              str(players[comp[0]]['PTS']) + " PPG / " + str(players[comp[0]]['AST']) + " AST / " + str(players[comp[0]]['TRB']) + " TRB /" + str(players[comp[0]]['STL']) + " STL /" + str(players[comp[0]]['BLK']) + " BLK\t" + \
-              " score: " + "{0:.4f}".format(comp[1]) + '\n')
+        # Output this NBA player's per 40 minute stats for this NCAA season
+        write_NBA_comp_per40(out_file, comp, players)
+        # Check if the index has exceeded 30
         idx += 1
         if idx >= 30:
             break
-    out_file.write('\n')
 
-    vorp_comps = sorted(vorp_comps.items(), key=lambda x: x[1], reverse=True)
-    for comp in vorp_comps:
-        out_file.write('\t' + comp[0] + " with a career VORP of " + str(comp[1]) + '\n')
+    # Output the Top 30 NBA comps in descending order based on their career VORPs
     out_file.write('\n')
-    out_file.write("Advanced stat comparisons:\n")
-    out_file.write(college_player['Player'] + '\t\t\t' + str(college_player['PER']) + " PER/" + str(college_player['TS']) + " TS/" + str(college_player['eFG']) + " eFG/" + \
-       str(college_player['ORB']) + " ORB/" + str(college_player['DRB']) + " DRB/" + \
-       str(college_player['AST']) + " AST/" + str(college_player['STL']) + " STL/" + str(college_player['BLK']) + " BLK/" + \
-       str(college_player['TOV']) + " TOV/" + str(college_player['USG']) + " USG/" + str(college_player['WS40']) + " WS40/" + \
-       str(college_player['OBPM']) + " OBPM/" + str(college_player['DBPM']) + " DBPM\n")
-    vorp_comps = {}
-    # idx = 0
+    write_NBA_player_VORPs(out_file, vorp_comps)
+
+    # Output the prospect's advanced stats
+    write_adv_stats(out_file, college_player, half_divider)
+
+    # Output the advanced stat similarity scores for the prospect that are 0.96 or above
+    out_file.write("\nAdvanced stat comparisons:\n")
+    vorp_comps = {}     # Reset the VORP mappings.
+
+    # Go through and output all the NBA players that have an advanced stats similarity score of 0.96 or above
     for comp in adv_comparables:
+        # Check if the current similarity score has fell under 0.96
         if comp[1] < 0.96:
             break
+        # Map this score for possible future intersection calculation
         adv_score[comp[0]] = comp[1]
+        # Map this NBA player's VORP
         vorp_comps[comp[0]] = players[comp[0]]['VORP']
-        out_file.write(comp[0] + '  ' + str(adv_players[comp[0]]['PER']) + " PER/" + str(adv_players[comp[0]]['TS']) + " TS/" + str(adv_players[comp[0]]['eFG']) + " eFG/" + \
-               str(adv_players[comp[0]]['ORB']) + " ORB/" + str(adv_players[comp[0]]['DRB']) + " DRB/" + \
-               str(adv_players[comp[0]]['AST']) + " AST/" + str(adv_players[comp[0]]['STL']) + " STL/" + str(adv_players[comp[0]]['BLK']) + " BLK/" + \
-               str(adv_players[comp[0]]['TOV']) + " TOV/" + str(adv_players[comp[0]]['USG']) + " USG/" + str(adv_players[comp[0]]['WS40']) + " WS40/" + \
-               str(adv_players[comp[0]]['OBPM']) + " OBPM/" + str(adv_players[comp[0]]['DBPM']) + " DBPM\t" + " score: " + "{0:.4f}".format(comp[1]) + '\n')
-        # idx += 1
+        # Output this NBA player's advanced stats for this NCAA season
+        write_NBA_comp_adv(out_file, comp, adv_players)      
+
+    # Output the advanced stats NBA comps in descending order based on their career VORPs
     out_file.write('\n')
+    write_NBA_player_VORPs(out_file, vorp_comps)
 
-    vorp_comps = sorted(vorp_comps.items(), key=lambda x: x[1], reverse=True)
-    for comp in vorp_comps:
-        out_file.write('\t' + comp[0] + " with a career VORP of " + str(comp[1]) + '\n')
-
-    out_file.write("INTERSECTION OF PER40 AND ADVANCED SIMILARITIES:\n")
-    # Combine two scores
-    combined_scores = {x:per40_score[x]*adv_score[x] for x in per40_score if x in adv_score}
-    combined_scores = sorted(combined_scores.items(), key=lambda x: x[1], reverse=True)
-    for score in combined_scores:
-        out_file.write('\t' + score[0] + " with a combined similarity score of: " + str(score[1]) + '\n')
-
-    out_file.write('\n' + divider + '\n')
+    # Compute intersection similarities for players who appeared in both sets
+    intersect_similarities(out_file, per40_score, adv_score, divider)
 
     out_file.close()
