@@ -61,7 +61,7 @@ def initialize_output_files(divider):
     out_file = open('guards.txt', 'w')
     out_file.write("An analysis of the top Guards (1s & 2s) in the 2017 NBA Draft.\n\n" + gist)
     out_file = open('wings.txt', 'w')
-    out_file.write("An analysis of the top Wings (3s & 4s) in the 2017 NBA Draft.\n\n" + gist)
+    out_file.write("An analysis of the top Wings (2s, 3s & small-ball 4s) in the 2017 NBA Draft.\n\n" + gist)
     out_file = open('bigs.txt', 'w')
     out_file.write("An analysis of the top Bigs (4s & 5s) in the 2017 NBA Draft.\n\n" + gist)
 
