@@ -70,7 +70,6 @@ INSERT INTO prosp_per40 VALUES ('Sindarius Thornwell','2016-17','South Carolina'
 INSERT INTO prosp_per40 VALUES ('Nigel Williams-Goss','2016-17','Gonzaga','WCC',38,1248,7.1,14.5,.486,5.7,10.8,.527,1.4,3.8,.368,5.0,5.8,.867,7.3,5.7,2.1,0.1,2.6,1.9,20.5);
 INSERT INTO prosp_per40 VALUES ('Monte Morris','2016-17','Iowa State','Big 12',35,1237,7.0,15.0,.465,5.2,10.4,.503,1.7,4.6,.378,2.9,3.6,.802,5.5,7.0,1.7,0.3,1.4,1.6,18.6);
 INSERT INTO prosp_per40 VALUES ('Nigel Hayes','2016-17','Wisconsin','Big Ten',37,1190,6.1,13.2,.457,5.3,10.9,.488,0.7,2.4,.314,4.5,7.7,.587,8.2,3.4,0.9,0.5,2.1,2.3,17.4);
-INSERT INTO prosp_per40 VALUES ('Moe Wagner','2016-17','Michigan','Big Ten',38,908,7.4,13.2,.560,5.4,8.2,.661,2.0,5.0,.395,3.4,4.7,.726,7.0,0.9,1.7,0.6,2.4,4.5,20.2);
 INSERT INTO prosp_per40 VALUES ('Isaiah Briscoe','2016-17','Kentucky','SEC',36,1095,6.0,12.7,.470,5.3,10.5,.507,0.6,2.2,.288,3.4,5.4,.635,7.1,5.6,1.1,0.3,3.3,3.4,16.0);
 INSERT INTO prosp_per40 VALUES ('Dwayne Bacon','2016-17','Florida State','ACC',35,1008,8.8,19.4,.452,6.5,12.6,.516,2.3,6.8,.333,4.1,5.5,.754,5.8,2.4,1.4,0.2,2.8,2.2,23.9);
 
