@@ -4,7 +4,7 @@ A cosine similarity is computed between each prospect and NBA player, using both
 
 The NBA players collected are every top 5 pick since 1993 that played in the NCAA, every all-star or all-NBA drafted since 1993, as well as certain exceptions from recent drafts for proper 'modern NBA' comparisons of players who are currently contributing to an NBA team.
 
-____________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________
 
 Lauri Markkanen			0.492 FG% / 0.545 2P% / 0.423 3P% /0.835 FT% | 	20.2 PPG / 1.1 AST / 9.3 TRB /0.5 STL /0.7 BLK
 
@@ -41,6 +41,8 @@ Bobby Portis, 2014-15, Arkansas  0.536 FG% 0.541 2P% 0.467 3P% 0.737 FT% | 23.4 
 Glenn Robinson, 1993-94, Purdue  0.483 FG% 0.522 2P% 0.380 3P% 0.796 FT% | 35.3 PPG 2.3 AST 11.8 TRB 1.9 STL 1.1 BLK  score: 0.9933
 Brandon Ingram, 2015-16, Duke  0.442 FG% 0.464 2P% 0.410 3P% 0.682 FT% | 20.0 PPG 2.3 AST 7.8 TRB 1.3 STL 1.6 BLK  score: 0.9932
 
+The Top 30 per 40 minute NBA comps sorted in descending order based on their career VORPs:
+
 	Kevin Durant, 2006-07, Texas with a career VORP of 47.0
 	Carmelo Anthony, 2002-03, Syracuse with a career VORP of 29.4
 	Luol Deng, 2003-04, Duke with a career VORP of 22.5
@@ -49,13 +51,13 @@ Brandon Ingram, 2015-16, Duke  0.442 FG% 0.464 2P% 0.410 3P% 0.682 FT% | 20.0 PP
 	Wally Szczerbiak, 1995-96, Miami (OH) with a career VORP of 12.8
 	Ryan Anderson, 2007-08, Cal with a career VORP of 10.4
 	Ryan Anderson, 2006-07, Cal with a career VORP of 10.4
+	Glenn Robinson, 1993-94, Purdue with a career VORP of 10.3
 	Glenn Robinson, 1992-93, Purdue with a career VORP of 10.3
 	Josh Howard, 2002-03, Wake Forest with a career VORP of 10.3
-	Glenn Robinson, 1993-94, Purdue with a career VORP of 10.3
 	Marvin Williams, 2004-05, UNC with a career VORP of 9.9
 	Keith Van Horn, 1993-94, Utah with a career VORP of 8.4
-	Keith Van Horn, 1995-96, Utah with a career VORP of 8.4
 	Keith Van Horn, 1996-97, Utah with a career VORP of 8.4
+	Keith Van Horn, 1995-96, Utah with a career VORP of 8.4
 	Keith Van Horn, 1994-95, Utah with a career VORP of 8.4
 	Tobias Harris, 2010-11, Tennessee with a career VORP of 5.4
 	Wilson Chandler, 2006-07, DePaul with a career VORP of 5.2
@@ -72,7 +74,7 @@ Brandon Ingram, 2015-16, Duke  0.442 FG% 0.464 2P% 0.410 3P% 0.682 FT% | 20.0 PP
 	Michael Beasley, 2007-08, Kansas State with a career VORP of -4.4
 	Nick Young, 2005-06, USC with a career VORP of -5.2
 
-______________________________________________________
+___________________________________________________________________
 
 Lauri Markkanen			25.0 PER/0.635 TS/0.584 eFG/10.0 ORB/17.5 DRB/5.6 AST/0.8 STL/1.8 BLK/8.1 TOV/22.4 USG/0.235 WS40/7.8 OBPM/1.5 DBPM
 
@@ -108,22 +110,24 @@ TJ Warren  31.3 PER/0.574 TS/0.548 eFG/10.8 ORB/12.7 DRB/8.6 AST/3.1 STL/1.8 BLK
 Bobby Portis  23.5 PER/0.562 TS/0.524 eFG/10.1 ORB/16.7 DRB/10.9 AST/2.1 STL/5.9 BLK/9.9 TOV/21.4 USG/0.190 WS40/3.3 OBPM/5.1 DBPM	| 0.9518
 Taurean Prince  25.6 PER/0.571 TS/0.556 eFG/8.1 ORB/16.1 DRB/12.1 AST/3.6 STL/3.9 BLK/14.3 TOV/27.9 USG/0.207 WS40/6.9 OBPM/4.8 DBPM	| 0.9507
 
+The Top 30 advanced stats NBA comps sorted in descending order based on their career VORPs:
+
 	Kawhi Leonard, 2010-11, San Diego State with a career VORP of 25.4
 	Nikola Vucevic, 2010-11, USC with a career VORP of 8.0
-	Jae Crowder, 2010-11, Marquette with a career VORP of 7.3
 	Jae Crowder, 2011-12, Marquette with a career VORP of 7.3
+	Jae Crowder, 2010-11, Marquette with a career VORP of 7.3
 	Tobias Harris, 2010-11, Tennessee with a career VORP of 5.4
 	Kentavious Caldwell-Pope, 2011-12, Georgia with a career VORP of 4.6
 	Kelly Olynyk, 2012-13, Gonzaga with a career VORP of 4.5
 	Marcus Morris, 2010-11, Kansas with a career VORP of 4.5
 	Cody Zeller, 2011-12, Indiana with a career VORP of 4.2
 	Markieff Morris, 2010-11, Kansas with a career VORP of 4.0
-	Harrison Barnes, 2010-11, UNC with a career VORP of 2.9
 	Harrison Barnes, 2011-12, UNC with a career VORP of 2.9
+	Harrison Barnes, 2010-11, UNC with a career VORP of 2.9
 	TJ Warren, 2013-14, North Carolina State with a career VORP of 1.1
 	Jabari Parker, 2013-14, Duke with a career VORP of 0.9
-	Sam Dekker, 2013-14, Wisconsin with a career VORP of 0.3
 	Sam Dekker, 2014-15, Wisconsin with a career VORP of 0.3
+	Sam Dekker, 2013-14, Wisconsin with a career VORP of 0.3
 	Taurean Prince, 2014-15, Baylor with a career VORP of -0.1
 	Taurean Prince, 2012-13, Baylor with a career VORP of -0.1
 	Stanley Johnson, 2014-15, Arizona with a career VORP of -0.2
@@ -150,7 +154,7 @@ INTERSECTION OF PER40 AND ADVANCED SIMILARITIES:
 	Stanley Johnson, 2014-15, Arizona with a combined similarity score of: 0.9515313809198979
 	Harrison Barnes, 2010-11, UNC with a combined similarity score of: 0.95106061046446
 
-____________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________
 
 Zach Collins			0.652 FG% / 0.672 2P% / 0.476 3P% /0.743 FT% | 	23.2 PPG / 1.0 AST / 13.6 TRB /1.1 STL /4.1 BLK
 
@@ -187,6 +191,8 @@ Sam Dekker, 2013-14, Wisconsin  0.469 FG% 0.550 2P% 0.326 3P% 0.686 FT% | 16.6 P
 Bobby Portis, 2013-14, Arkansas  0.509 FG% 0.537 2P% 0.273 3P% 0.737 FT% | 18.2 PPG 2.2 AST 10.0 TRB 1.5 STL 2.4 BLK  score: 0.9829
 Aaron Gordon, 2013-14, Arizona  0.495 FG% 0.513 2P% 0.356 3P% 0.422 FT% | 15.8 PPG 2.5 AST 10.2 TRB 1.1 STL 1.3 BLK  score: 0.9829
 
+The Top 30 per 40 minute NBA comps sorted in descending order based on their career VORPs:
+
 	Vince Carter, 1995-96, UNC with a career VORP of 54.6
 	Shawn Marion, 1998-99, UNLV with a career VORP of 52.1
 	Chris Webber, 1992-93, Michigan with a career VORP of 45.9
@@ -209,8 +215,8 @@ Aaron Gordon, 2013-14, Arizona  0.495 FG% 0.513 2P% 0.356 3P% 0.422 FT% | 15.8 P
 	Richaun Holmes, 2013-14, Bowling Green with a career VORP of 1.3
 	Justise Winslow, 2014-15, Duke with a career VORP of 0.7
 	Sam Dekker, 2013-14, Wisconsin with a career VORP of 0.3
-	Marquese Chriss, 2015-16, Washington with a career VORP of 0.2
 	Stromile Swift, 1999-00, LSU with a career VORP of 0.2
+	Marquese Chriss, 2015-16, Washington with a career VORP of 0.2
 	Jerami Grant, 2012-13, Syracuse with a career VORP of -0.1
 	Taurean Prince, 2012-13, Baylor with a career VORP of -0.1
 	Bobby Portis, 2013-14, Arkansas with a career VORP of -0.6
@@ -218,7 +224,7 @@ Aaron Gordon, 2013-14, Arizona  0.495 FG% 0.513 2P% 0.356 3P% 0.422 FT% | 15.8 P
 	Anthony Bennett, 2012-13, UNLV with a career VORP of -1.7
 	Michael Beasley, 2007-08, Kansas State with a career VORP of -4.4
 
-______________________________________________________
+___________________________________________________________________
 
 Zach Collins			30.9 PER/0.703 TS/0.676 eFG/12.0 ORB/23.2 DRB/4.4 AST/1.5 STL/9.8 BLK/17.8 TOV/24.8 USG/0.298 WS40/4.0 OBPM/7.5 DBPM
 
@@ -254,34 +260,36 @@ Bobby Portis  23.5 PER/0.562 TS/0.524 eFG/10.1 ORB/16.7 DRB/10.9 AST/2.1 STL/5.9
 Stanley Johnson  22.5 PER/0.551 TS/0.501 eFG/8.9 ORB/19.1 DRB/11.6 AST/3.2 STL/1.6 BLK/14.7 TOV/26.6 USG/0.212 WS40/4.8 OBPM/5.4 DBPM	| 0.9461
 Jerami Grant  21.6 PER/0.547 TS/0.496 eFG/9.1 ORB/17.2 DRB/9.4 AST/1.7 STL/2.5 BLK/9.5 TOV/21.1 USG/0.185 WS40/3.3 OBPM/2.5 DBPM	| 0.9451
 
+The Top 30 advanced stats NBA comps sorted in descending order based on their career VORPs:
+
 	Anthony Davis, 2011-12, Kentucky with a career VORP of 17.7
 	Karl Towns, 2014-15, Kentucky with a career VORP of 8.5
 	Andre Drummond, 2011-12, UConn with a career VORP of 7.7
 	Steven Adams, 2012-13, Pitt with a career VORP of 5.3
 	Tristan Thompson, 2010-11, Texas with a career VORP of 5.0
 	Nerlens Noel, 2012-13, Kentucky with a career VORP of 4.3
-	Cody Zeller, 2012-13, Indiana with a career VORP of 4.2
 	Cody Zeller, 2011-12, Indiana with a career VORP of 4.2
+	Cody Zeller, 2012-13, Indiana with a career VORP of 4.2
 	Markieff Morris, 2010-11, Kansas with a career VORP of 4.0
 	Andre Roberson, 2011-12, Colorado with a career VORP of 3.5
 	Myles Turner, 2014-15, Texas with a career VORP of 2.7
 	Michael Kidd-Gilchrist, 2011-12, Kentucky with a career VORP of 2.1
-	Richaun Holmes, 2013-14, Bowling Green with a career VORP of 1.3
 	Richaun Holmes, 2014-15, Bowling Green with a career VORP of 1.3
+	Richaun Holmes, 2013-14, Bowling Green with a career VORP of 1.3
 	Joel Embiid, 2013-14, Kansas with a career VORP of 1.0
-	Rondae Hollis-Jefferson, 2013-14, Arizona with a career VORP of 0.9
 	Rondae Hollis-Jefferson, 2014-15, Arizona with a career VORP of 0.9
+	Rondae Hollis-Jefferson, 2013-14, Arizona with a career VORP of 0.9
 	Julius Randle, 2013-14, Kentucky with a career VORP of 0.1
+	Jerami Grant, 2012-13, Syracuse with a career VORP of -0.1
 	Jerami Grant, 2013-14, Syracuse with a career VORP of -0.1
 	Skal Labissiere, 2015-16, Kentucky with a career VORP of -0.1
-	Jerami Grant, 2012-13, Syracuse with a career VORP of -0.1
 	Stanley Johnson, 2014-15, Arizona with a career VORP of -0.2
 	Bobby Portis, 2013-14, Arkansas with a career VORP of -0.6
 	Alex Len, 2012-13, Maryland with a career VORP of -0.7
 	Kelly Oubre, 2014-15, Kansas with a career VORP of -0.8
 	Jahlil Okafor, 2014-15, Duke with a career VORP of -1.2
-	Thomas Robinson, 2011-12, Kansas with a career VORP of -1.3
 	Thomas Robinson, 2010-11, Kansas with a career VORP of -1.3
+	Thomas Robinson, 2011-12, Kansas with a career VORP of -1.3
 	Noah Vonleh, 2013-14, Indiana with a career VORP of -1.4
 	Anthony Bennett, 2012-13, UNLV with a career VORP of -1.7
 
@@ -294,7 +302,7 @@ INTERSECTION OF PER40 AND ADVANCED SIMILARITIES:
 	Anthony Bennett, 2012-13, UNLV with a combined similarity score of: 0.9507646420875515
 	Bobby Portis, 2013-14, Arkansas with a combined similarity score of: 0.9302130311093306
 
-____________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________
 
 Ike Anigbogu			0.564 FG% / 0.564 2P% / 0.000 3P% /0.535 FT% | 	14.5 PPG / 0.6 AST / 12.4 TRB /0.5 STL /3.7 BLK
 
@@ -331,23 +339,25 @@ LaMarcus Aldridge, 2004-05, Texas  0.663 FG% 0.663 2P% None 3P% 0.657 FT% | 17.8
 David Lee, 2001-02, Florida  0.579 FG% 0.579 2P% None 3P% 0.549 FT% | 15.7 PPG 2.3 AST 10.4 TRB 1.4 STL 1.5 BLK  score: 0.9813
 Paul Millsap, 2004-05, Louisiana Tech  0.575 FG% 0.577 2P% 0.000 3P% 0.601 FT% | 22.4 PPG 1.1 AST 13.6 TRB 1.2 STL 2.1 BLK  score: 0.9798
 
+The Top 30 per 40 minute NBA comps sorted in descending order based on their career VORPs:
+
 	Rasheed Wallace, 1993-94, UNC with a career VORP of 37.5
 	Paul Millsap, 2004-05, Louisiana Tech with a career VORP of 33.5
 	Joakim Noah, 2004-05, Florida with a career VORP of 27.8
-	Al Horford, 2006-07, Florida with a career VORP of 27.2
 	Al Horford, 2005-06, Florida with a career VORP of 27.2
+	Al Horford, 2006-07, Florida with a career VORP of 27.2
 	LaMarcus Aldridge, 2004-05, Texas with a career VORP of 22.5
 	David Lee, 2001-02, Florida with a career VORP of 22.3
 	DeAndre Jordan, 2007-08, Texas A&M with a career VORP of 19.6
 	Anthony Davis, 2011-12, Kentucky with a career VORP of 17.7
-	Antonio McDyess, 1994-95, Alabama with a career VORP of 16.4
 	Antonio McDyess, 1993-94, Alabama with a career VORP of 16.4
+	Antonio McDyess, 1994-95, Alabama with a career VORP of 16.4
 	Kenyon Martin, 1998-99, Cincinnati with a career VORP of 15.5
 	Channing Frye, 2001-02, Arizona with a career VORP of 9.1
 	Channing Frye, 2002-03, Arizona with a career VORP of 9.1
 	Derrick Favors, 2009-10, Georgia Tech with a career VORP of 8.7
-	Emeka Okafor, 2003-04, UConn with a career VORP of 7.5
 	Emeka Okafor, 2002-03, UConn with a career VORP of 7.5
+	Emeka Okafor, 2003-04, UConn with a career VORP of 7.5
 	Steven Adams, 2012-13, Pitt with a career VORP of 5.3
 	Tristan Thompson, 2010-11, Texas with a career VORP of 5.0
 	Nerlens Noel, 2012-13, Kentucky with a career VORP of 4.3
@@ -357,12 +367,12 @@ Paul Millsap, 2004-05, Louisiana Tech  0.575 FG% 0.577 2P% 0.000 3P% 0.601 FT% |
 	Alex Len, 2011-12, Maryland with a career VORP of -0.7
 	Shelden Williams, 2002-03, Duke with a career VORP of -1.2
 	Shelden Williams, 2004-05, Duke with a career VORP of -1.2
-	Thomas Robinson, 2009-10, Kansas with a career VORP of -1.3
 	Thomas Robinson, 2010-11, Kansas with a career VORP of -1.3
+	Thomas Robinson, 2009-10, Kansas with a career VORP of -1.3
 	Jamaal Magloire, 1996-97, Kentucky with a career VORP of -3.3
 	Jamaal Magloire, 1998-99, Kentucky with a career VORP of -3.3
 
-______________________________________________________
+___________________________________________________________________
 
 Ike Anigbogu			17.1 PER/0.564 TS/0.564 eFG/13.2 ORB/19.9 DRB/2.3 AST/0.7 STL/8.8 BLK/16.5 TOV/18.4 USG/0.133 WS40/-0.8 OBPM/3.5 DBPM
 
@@ -398,6 +408,8 @@ Otto Porter  21.3 PER/0.578 TS/0.550 eFG/8.8 ORB/19.7 DRB/10.9 AST/2.4 STL/3.1 B
 Victor Oladipo  21.5 PER/0.586 TS/0.571 eFG/10.9 ORB/14.8 DRB/10.5 AST/3.6 STL/1.5 BLK/17.9 TOV/22.5 USG/0.146 WS40/3.9 OBPM/2.7 DBPM	| 0.9010
 Anthony Davis  35.1 PER/0.654 TS/0.628 eFG/11.6 ORB/25.6 DRB/7.5 AST/2.5 STL/13.7 BLK/8.6 TOV/18.8 USG/0.310 WS40/7.8 OBPM/10.8 DBPM	| 0.9001
 
+The Top 30 advanced stats NBA comps sorted in descending order based on their career VORPs:
+
 	Anthony Davis, 2011-12, Kentucky with a career VORP of 17.7
 	Karl Towns, 2014-15, Kentucky with a career VORP of 8.5
 	Andre Drummond, 2011-12, UConn with a career VORP of 7.7
@@ -408,24 +420,24 @@ Anthony Davis  35.1 PER/0.654 TS/0.628 eFG/11.6 ORB/25.6 DRB/7.5 AST/2.5 STL/13.
 	Nerlens Noel, 2012-13, Kentucky with a career VORP of 4.3
 	Markieff Morris, 2010-11, Kansas with a career VORP of 4.0
 	Andre Roberson, 2012-13, Colorado with a career VORP of 3.5
-	Andre Roberson, 2010-11, Colorado with a career VORP of 3.5
 	Andre Roberson, 2011-12, Colorado with a career VORP of 3.5
+	Andre Roberson, 2010-11, Colorado with a career VORP of 3.5
 	Maurice Harkless, 2011-12, St. John's (NY) with a career VORP of 3.4
 	Myles Turner, 2014-15, Texas with a career VORP of 2.7
+	Richaun Holmes, 2012-13, Bowling Green with a career VORP of 1.3
 	Richaun Holmes, 2014-15, Bowling Green with a career VORP of 1.3
 	Richaun Holmes, 2013-14, Bowling Green with a career VORP of 1.3
-	Richaun Holmes, 2012-13, Bowling Green with a career VORP of 1.3
 	Joel Embiid, 2013-14, Kansas with a career VORP of 1.0
 	Marquese Chriss, 2015-16, Washington with a career VORP of 0.2
-	Skal Labissiere, 2015-16, Kentucky with a career VORP of -0.1
 	Jerami Grant, 2012-13, Syracuse with a career VORP of -0.1
+	Skal Labissiere, 2015-16, Kentucky with a career VORP of -0.1
 	Taurean Prince, 2012-13, Baylor with a career VORP of -0.1
 	Bobby Portis, 2013-14, Arkansas with a career VORP of -0.6
-	Alex Len, 2012-13, Maryland with a career VORP of -0.7
 	Alex Len, 2011-12, Maryland with a career VORP of -0.7
+	Alex Len, 2012-13, Maryland with a career VORP of -0.7
 	Jahlil Okafor, 2014-15, Duke with a career VORP of -1.2
-	Thomas Robinson, 2011-12, Kansas with a career VORP of -1.3
 	Thomas Robinson, 2010-11, Kansas with a career VORP of -1.3
+	Thomas Robinson, 2011-12, Kansas with a career VORP of -1.3
 	Noah Vonleh, 2013-14, Indiana with a career VORP of -1.4
 	Anthony Bennett, 2012-13, UNLV with a career VORP of -1.7
 
@@ -438,7 +450,7 @@ INTERSECTION OF PER40 AND ADVANCED SIMILARITIES:
 	Nerlens Noel, 2012-13, Kentucky with a combined similarity score of: 0.9108022558191384
 	Anthony Davis, 2011-12, Kentucky with a combined similarity score of: 0.883820099247031
 
-____________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________
 
 Jarrett Allen			0.566 FG% / 0.579 2P% / 0.000 3P% /0.564 FT% | 	16.7 PPG / 1.0 AST / 10.5 TRB /0.7 STL /1.9 BLK
 
@@ -475,38 +487,40 @@ Carlos Boozer, 2000-01, Duke  0.604 FG% 0.604 2P% None 3P% 0.719 FT% | 20.7 PPG 
 Carlos Boozer, 2001-02, Duke  0.665 FG% 0.667 2P% 0.000 3P% 0.754 FT% | 25.7 PPG 1.5 AST 12.2 TRB 1.2 STL 0.8 BLK  score: 0.9885
 Emeka Okafor, 2002-03, UConn  0.580 FG% 0.580 2P% None 3P% 0.599 FT% | 19.3 PPG 0.7 AST 13.6 TRB 1.1 STL 5.7 BLK  score: 0.9882
 
+The Top 30 per 40 minute NBA comps sorted in descending order based on their career VORPs:
+
 	Elton Brand, 1998-99, Duke with a career VORP of 45.2
 	Rasheed Wallace, 1993-94, UNC with a career VORP of 37.5
 	Paul Millsap, 2004-05, Louisiana Tech with a career VORP of 33.5
 	Joakim Noah, 2004-05, Florida with a career VORP of 27.8
 	Al Horford, 2005-06, Florida with a career VORP of 27.2
 	Al Horford, 2006-07, Florida with a career VORP of 27.2
-	LaMarcus Aldridge, 2004-05, Texas with a career VORP of 22.5
 	LaMarcus Aldridge, 2005-06, Texas with a career VORP of 22.5
+	LaMarcus Aldridge, 2004-05, Texas with a career VORP of 22.5
 	David Lee, 2002-03, Florida with a career VORP of 22.3
 	David Lee, 2001-02, Florida with a career VORP of 22.3
-	Carlos Boozer, 2000-01, Duke with a career VORP of 22.1
 	Carlos Boozer, 2001-02, Duke with a career VORP of 22.1
+	Carlos Boozer, 2000-01, Duke with a career VORP of 22.1
 	Antawn Jamison, 1995-96, UNC with a career VORP of 17.4
 	Antonio McDyess, 1993-94, Alabama with a career VORP of 16.4
 	Kenyon Martin, 1998-99, Cincinnati with a career VORP of 15.5
 	Zach Randolph, 2000-01, Michigan State with a career VORP of 13.5
 	Channing Frye, 2001-02, Arizona with a career VORP of 9.1
 	Channing Frye, 2002-03, Arizona with a career VORP of 9.1
-	Roy Hibbert, 2006-07, Georgetown with a career VORP of 9.1
 	Roy Hibbert, 2005-06, Georgetown with a career VORP of 9.1
+	Roy Hibbert, 2006-07, Georgetown with a career VORP of 9.1
 	Derrick Favors, 2009-10, Georgia Tech with a career VORP of 8.7
 	Emeka Okafor, 2003-04, UConn with a career VORP of 7.5
 	Emeka Okafor, 2002-03, UConn with a career VORP of 7.5
 	Tristan Thompson, 2010-11, Texas with a career VORP of 5.0
 	Greg Oden, 2006-07, Ohio State with a career VORP of 1.6
-	Chris Kaman, 2001-02, Central Michigan with a career VORP of 0.0
 	Chris Kaman, 2002-03, Central Michigan with a career VORP of 0.0
+	Chris Kaman, 2001-02, Central Michigan with a career VORP of 0.0
 	Shelden Williams, 2002-03, Duke with a career VORP of -1.2
 	Shelden Williams, 2004-05, Duke with a career VORP of -1.2
 	Jamaal Magloire, 1998-99, Kentucky with a career VORP of -3.3
 
-______________________________________________________
+___________________________________________________________________
 
 Jarrett Allen			20.2 PER/0.571 TS/0.566 eFG/10.9 ORB/18.9 DRB/5.5 AST/1.0 STL/5.0 BLK/17.8 TOV/22.6 USG/0.123 WS40/0.8 OBPM/4.6 DBPM
 
@@ -542,11 +556,13 @@ Victor Oladipo  20.5 PER/0.546 TS/0.488 eFG/8.7 ORB/16.9 DRB/14.7 AST/3.0 STL/2.
 Steven Adams  23.2 PER/0.555 TS/0.571 eFG/15.3 ORB/21.0 DRB/5.4 AST/1.9 STL/11.2 BLK/14.4 TOV/17.7 USG/0.185 WS40/3.0 OBPM/8.8 DBPM	| 0.9466
 Aaron Gordon  20.4 PER/0.503 TS/0.516 eFG/10.4 ORB/19.3 DRB/13.0 AST/1.8 STL/3.4 BLK/10.5 TOV/23.2 USG/0.183 WS40/2.8 OBPM/6.7 DBPM	| 0.9455
 
+The Top 30 advanced stats NBA comps sorted in descending order based on their career VORPs:
+
 	Andre Drummond, 2011-12, UConn with a career VORP of 7.7
 	Tobias Harris, 2010-11, Tennessee with a career VORP of 5.4
 	Steven Adams, 2012-13, Pitt with a career VORP of 5.3
-	Victor Oladipo, 2011-12, Indiana with a career VORP of 4.7
 	Victor Oladipo, 2010-11, Indiana with a career VORP of 4.7
+	Victor Oladipo, 2011-12, Indiana with a career VORP of 4.7
 	Kelly Olynyk, 2010-11, Gonzaga with a career VORP of 4.5
 	Cody Zeller, 2012-13, Indiana with a career VORP of 4.2
 	Markieff Morris, 2010-11, Kansas with a career VORP of 4.0
@@ -560,13 +576,13 @@ Aaron Gordon  20.4 PER/0.503 TS/0.516 eFG/10.4 ORB/19.3 DRB/13.0 AST/1.8 STL/3.4
 	Richaun Holmes, 2013-14, Bowling Green with a career VORP of 1.3
 	Rondae Hollis-Jefferson, 2013-14, Arizona with a career VORP of 0.9
 	Marquese Chriss, 2015-16, Washington with a career VORP of 0.2
+	Jerami Grant, 2012-13, Syracuse with a career VORP of -0.1
 	Skal Labissiere, 2015-16, Kentucky with a career VORP of -0.1
 	Taurean Prince, 2013-14, Baylor with a career VORP of -0.1
-	Jerami Grant, 2012-13, Syracuse with a career VORP of -0.1
 	Stanley Johnson, 2014-15, Arizona with a career VORP of -0.2
 	Bobby Portis, 2013-14, Arkansas with a career VORP of -0.6
-	Alex Len, 2012-13, Maryland with a career VORP of -0.7
 	Alex Len, 2011-12, Maryland with a career VORP of -0.7
+	Alex Len, 2012-13, Maryland with a career VORP of -0.7
 	Kelly Oubre, 2014-15, Kansas with a career VORP of -0.8
 	Jahlil Okafor, 2014-15, Duke with a career VORP of -1.2
 	Thomas Robinson, 2010-11, Kansas with a career VORP of -1.3
@@ -576,7 +592,7 @@ Aaron Gordon  20.4 PER/0.503 TS/0.516 eFG/10.4 ORB/19.3 DRB/13.0 AST/1.8 STL/3.4
 There are no NBA Player NCAA seasons in the intersection of the per40 and advanced similarity score sets.
 
 
-____________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________
 
 John Collins			0.622 FG% / 0.624 2P% / 0.000 3P% /0.745 FT% | 	28.8 PPG / 0.8 AST / 14.8 TRB /1.0 STL /2.4 BLK
 
@@ -613,38 +629,40 @@ David Lee, 2004-05, Florida  0.525 FG% 0.532 2P% 0.000 3P% 0.714 FT% | 19.4 PPG 
 Antonio McDyess, 1994-95, Alabama  0.512 FG% 0.514 2P% 0.000 3P% 0.667 FT% | 21.3 PPG 1.0 AST 15.7 TRB 1.3 STL 3.1 BLK  score: 0.9853
 David Lee, 2002-03, Florida  0.648 FG% 0.648 2P% None 3P% 0.624 FT% | 17.1 PPG 2.8 AST 10.3 TRB 1.1 STL 2.2 BLK  score: 0.9850
 
+The Top 30 per 40 minute NBA comps sorted in descending order based on their career VORPs:
+
 	Elton Brand, 1998-99, Duke with a career VORP of 45.2
 	Paul Millsap, 2004-05, Louisiana Tech with a career VORP of 33.5
 	Joakim Noah, 2005-06, Florida with a career VORP of 27.8
 	David West, 2000-01, Xavier with a career VORP of 24.5
-	LaMarcus Aldridge, 2004-05, Texas with a career VORP of 22.5
 	LaMarcus Aldridge, 2005-06, Texas with a career VORP of 22.5
-	David Lee, 2004-05, Florida with a career VORP of 22.3
+	LaMarcus Aldridge, 2004-05, Texas with a career VORP of 22.5
 	David Lee, 2002-03, Florida with a career VORP of 22.3
+	David Lee, 2004-05, Florida with a career VORP of 22.3
 	Carlos Boozer, 2001-02, Duke with a career VORP of 22.1
-	Carlos Boozer, 1999-00, Duke with a career VORP of 22.1
 	Carlos Boozer, 2000-01, Duke with a career VORP of 22.1
+	Carlos Boozer, 1999-00, Duke with a career VORP of 22.1
 	Antonio McDyess, 1994-95, Alabama with a career VORP of 16.4
 	Zach Randolph, 2000-01, Michigan State with a career VORP of 13.5
 	Raef LaFrentz, 1996-97, Kansas with a career VORP of 12.8
 	Juwan Howard, 1992-93, Michigan with a career VORP of 10.1
 	Channing Frye, 2001-02, Arizona with a career VORP of 9.1
+	Roy Hibbert, 2005-06, Georgetown with a career VORP of 9.1
 	Channing Frye, 2002-03, Arizona with a career VORP of 9.1
 	Roy Hibbert, 2006-07, Georgetown with a career VORP of 9.1
-	Roy Hibbert, 2005-06, Georgetown with a career VORP of 9.1
 	Derrick Favors, 2009-10, Georgia Tech with a career VORP of 8.7
-	Cody Zeller, 2012-13, Indiana with a career VORP of 4.2
 	Cody Zeller, 2011-12, Indiana with a career VORP of 4.2
+	Cody Zeller, 2012-13, Indiana with a career VORP of 4.2
 	Greg Oden, 2006-07, Ohio State with a career VORP of 1.6
-	Chris Kaman, 2001-02, Central Michigan with a career VORP of 0.0
 	Chris Kaman, 2000-01, Central Michigan with a career VORP of 0.0
 	Chris Kaman, 2002-03, Central Michigan with a career VORP of 0.0
-	Jerami Grant, 2013-14, Syracuse with a career VORP of -0.1
+	Chris Kaman, 2001-02, Central Michigan with a career VORP of 0.0
 	Skal Labissiere, 2015-16, Kentucky with a career VORP of -0.1
+	Jerami Grant, 2013-14, Syracuse with a career VORP of -0.1
 	Jason Smith, 2006-07, Colorado State with a career VORP of -1.2
 	Jamaal Magloire, 1999-00, Kentucky with a career VORP of -3.3
 
-______________________________________________________
+___________________________________________________________________
 
 John Collins			35.9 PER/0.658 TS/0.622 eFG/16.4 ORB/25.6 DRB/4.5 AST/1.3 STL/6.6 BLK/11.1 TOV/29.9 USG/0.256 WS40/6.6 OBPM/1.3 DBPM
 
@@ -680,13 +698,15 @@ Andre Roberson  25.7 PER/0.565 TS/0.543 eFG/12.6 ORB/31.9 DRB/8.8 AST/2.6 STL/6.
 Noah Vonleh  22.2 PER/0.604 TS/0.560 eFG/10.8 ORB/27.3 DRB/4.9 AST/1.9 STL/5.4 BLK/18.6 TOV/21.4 USG/0.182 WS40/1.2 OBPM/4.9 DBPM	| 0.9314
 Marquese Chriss  21.7 PER/0.585 TS/0.561 eFG/9.8 ORB/11.6 DRB/6.3 AST/1.9 STL/5.8 BLK/14.7 TOV/24.1 USG/0.148 WS40/2.8 OBPM/3.1 DBPM	| 0.9309
 
+The Top 30 advanced stats NBA comps sorted in descending order based on their career VORPs:
+
 	Nikola Vucevic, 2010-11, USC with a career VORP of 8.0
 	Jae Crowder, 2010-11, Marquette with a career VORP of 7.3
 	Tobias Harris, 2010-11, Tennessee with a career VORP of 5.4
-	Marcus Morris, 2010-11, Kansas with a career VORP of 4.5
 	Kelly Olynyk, 2012-13, Gonzaga with a career VORP of 4.5
-	Cody Zeller, 2012-13, Indiana with a career VORP of 4.2
+	Marcus Morris, 2010-11, Kansas with a career VORP of 4.5
 	Cody Zeller, 2011-12, Indiana with a career VORP of 4.2
+	Cody Zeller, 2012-13, Indiana with a career VORP of 4.2
 	Markieff Morris, 2010-11, Kansas with a career VORP of 4.0
 	Andre Roberson, 2011-12, Colorado with a career VORP of 3.5
 	Maurice Harkless, 2011-12, St. John's (NY) with a career VORP of 3.4
@@ -704,8 +724,8 @@ Marquese Chriss  21.7 PER/0.585 TS/0.561 eFG/9.8 ORB/11.6 DRB/6.3 AST/1.9 STL/5.
 	Alex Len, 2012-13, Maryland with a career VORP of -0.7
 	Kelly Oubre, 2014-15, Kansas with a career VORP of -0.8
 	Jahlil Okafor, 2014-15, Duke with a career VORP of -1.2
-	Thomas Robinson, 2011-12, Kansas with a career VORP of -1.3
 	Thomas Robinson, 2010-11, Kansas with a career VORP of -1.3
+	Thomas Robinson, 2011-12, Kansas with a career VORP of -1.3
 	Noah Vonleh, 2013-14, Indiana with a career VORP of -1.4
 	Doug McDermott, 2011-12, Creighton with a career VORP of -1.6
 	Anthony Bennett, 2012-13, UNLV with a career VORP of -1.7
@@ -717,7 +737,7 @@ INTERSECTION OF PER40 AND ADVANCED SIMILARITIES:
 	Cody Zeller, 2012-13, Indiana with a combined similarity score of: 0.957693457697161
 	Jerami Grant, 2013-14, Syracuse with a combined similarity score of: 0.9510425554034004
 
-____________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________
 
 Justin Patton			0.676 FG% / 0.683 2P% / 0.533 3P% /0.517 FT% | 	20.5 PPG / 1.9 AST / 9.8 TRB /1.4 STL /2.3 BLK
 
@@ -754,11 +774,13 @@ Kelly Olynyk, 2010-11, Gonzaga  0.574 FG% 0.608 2P% 0.444 3P% 0.618 FT% | 17.2 P
 Kenyon Martin, 1998-99, Cincinnati  0.573 FG% 0.575 2P% 0.000 3P% 0.562 FT% | 14.8 PPG 2.2 AST 10.1 TRB 1.6 STL 3.5 BLK  score: 0.9775
 Grant Hill, 1990-91, Duke  0.516 FG% 0.516 2P% 0.500 3P% 0.609 FT% | 18.1 PPG 3.6 AST 8.3 TRB 2.3 STL 1.4 BLK  score: 0.9771
 
+The Top 30 per 40 minute NBA comps sorted in descending order based on their career VORPs:
+
 	Chris Webber, 1992-93, Michigan with a career VORP of 45.9
 	Elton Brand, 1998-99, Duke with a career VORP of 45.2
 	Grant Hill, 1990-91, Duke with a career VORP of 42.5
-	Rasheed Wallace, 1993-94, UNC with a career VORP of 37.5
 	Rasheed Wallace, 1994-95, UNC with a career VORP of 37.5
+	Rasheed Wallace, 1993-94, UNC with a career VORP of 37.5
 	Paul Millsap, 2004-05, Louisiana Tech with a career VORP of 33.5
 	Joakim Noah, 2005-06, Florida with a career VORP of 27.8
 	Joakim Noah, 2004-05, Florida with a career VORP of 27.8
@@ -785,7 +807,7 @@ Grant Hill, 1990-91, Duke  0.516 FG% 0.516 2P% 0.500 3P% 0.609 FT% | 18.1 PPG 3.
 	TJ Warren, 2012-13, North Carolina State with a career VORP of 1.1
 	Jahlil Okafor, 2014-15, Duke with a career VORP of -1.2
 
-______________________________________________________
+___________________________________________________________________
 
 Justin Patton			25.3 PER/0.671 TS/0.689 eFG/8.0 ORB/19.0 DRB/8.5 AST/1.9 STL/5.9 BLK/15.1 TOV/22.0 USG/0.195 WS40/4.4 OBPM/6.2 DBPM
 
@@ -821,6 +843,8 @@ Taurean Prince  20.8 PER/0.537 TS/0.493 eFG/9.2 ORB/14.8 DRB/14.8 AST/2.4 STL/2.
 Skal Labissiere  18.5 PER/0.540 TS/0.516 eFG/7.3 ORB/14.6 DRB/3.6 AST/0.9 STL/10.3 BLK/13.1 TOV/22.1 USG/0.142 WS40/-0.4 OBPM/5.6 DBPM	| 0.9487
 Terrence Ross  18.8 PER/0.556 TS/0.539 eFG/5.3 ORB/12.3 DRB/9.6 AST/1.8 STL/2.0 BLK/8.9 TOV/21.2 USG/0.171 WS40/5.3 OBPM/1.7 DBPM	| 0.9477
 
+The Top 30 advanced stats NBA comps sorted in descending order based on their career VORPs:
+
 	Kawhi Leonard, 2010-11, San Diego State with a career VORP of 25.4
 	Nikola Vucevic, 2010-11, USC with a career VORP of 8.0
 	Andre Drummond, 2011-12, UConn with a career VORP of 7.7
@@ -839,17 +863,17 @@ Terrence Ross  18.8 PER/0.556 TS/0.539 eFG/5.3 ORB/12.3 DRB/9.6 AST/1.8 STL/2.0 
 	Justise Winslow, 2014-15, Duke with a career VORP of 0.7
 	Sam Dekker, 2013-14, Wisconsin with a career VORP of 0.3
 	Marquese Chriss, 2015-16, Washington with a career VORP of 0.2
+	Taurean Prince, 2014-15, Baylor with a career VORP of -0.1
 	Skal Labissiere, 2015-16, Kentucky with a career VORP of -0.1
 	Taurean Prince, 2015-16, Baylor with a career VORP of -0.1
-	Taurean Prince, 2014-15, Baylor with a career VORP of -0.1
 	Stanley Johnson, 2014-15, Arizona with a career VORP of -0.2
-	Bobby Portis, 2014-15, Arkansas with a career VORP of -0.6
 	Bobby Portis, 2013-14, Arkansas with a career VORP of -0.6
+	Bobby Portis, 2014-15, Arkansas with a career VORP of -0.6
 	Alex Len, 2012-13, Maryland with a career VORP of -0.7
 	Kelly Oubre, 2014-15, Kansas with a career VORP of -0.8
 	Brandon Ingram, 2015-16, Duke with a career VORP of -1.1
-	Ben McLemore, 2012-13, Kansas with a career VORP of -1.2
 	Jahlil Okafor, 2014-15, Duke with a career VORP of -1.2
+	Ben McLemore, 2012-13, Kansas with a career VORP of -1.2
 	Anthony Bennett, 2012-13, UNLV with a career VORP of -1.7
 
 INTERSECTION OF PER40 AND ADVANCED SIMILARITIES:
@@ -857,7 +881,7 @@ INTERSECTION OF PER40 AND ADVANCED SIMILARITIES:
 	Jahlil Okafor, 2014-15, Duke with a combined similarity score of: 0.9612392730003844
 	Markieff Morris, 2010-11, Kansas with a combined similarity score of: 0.9509018258255993
 
-____________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________
 
 Tyler Lydon			0.472 FG% / 0.523 2P% / 0.392 3P% /0.836 FT% | 	14.6 PPG / 2.3 AST / 9.6 TRB /1.1 STL /1.6 BLK
 
@@ -894,6 +918,8 @@ Donyell Marshall, 1991-92, UConn  0.424 FG% 0.472 2P% 0.242 3P% 0.742 FT% | 16.6
 Luol Deng, 2003-04, Duke  0.476 FG% 0.515 2P% 0.360 3P% 0.710 FT% | 19.4 PPG 2.4 AST 8.9 TRB 1.7 STL 1.4 BLK  score: 0.9854
 Jeff Green, 2005-06, Georgetown  0.445 FG% 0.498 2P% 0.315 3P% 0.624 FT% | 14.7 PPG 4.0 AST 8.1 TRB 1.2 STL 1.2 BLK  score: 0.9853
 
+The Top 30 per 40 minute NBA comps sorted in descending order based on their career VORPs:
+
 	Vince Carter, 1995-96, UNC with a career VORP of 54.6
 	Lamar Odom, 1998-99, Rhode Island with a career VORP of 36.3
 	Chris Bosh, 2002-03, Georgia Tech with a career VORP of 27.5
@@ -902,8 +928,8 @@ Jeff Green, 2005-06, Georgetown  0.445 FG% 0.498 2P% 0.315 3P% 0.624 FT% | 14.7 
 	Kevin Love, 2007-08, UCLA with a career VORP of 23.5
 	Luol Deng, 2003-04, Duke with a career VORP of 22.5
 	Donyell Marshall, 1991-92, UConn with a career VORP of 19.1
-	Draymond Green, 2011-12, Michigan State with a career VORP of 16.4
 	Draymond Green, 2010-11, Michigan State with a career VORP of 16.4
+	Draymond Green, 2011-12, Michigan State with a career VORP of 16.4
 	Gordon Hayward, 2009-10, Butler with a career VORP of 16.3
 	Caron Butler, 2000-01, UConn with a career VORP of 15.9
 	Jamal Mashburn, 1990-91, Kentucky with a career VORP of 12.9
@@ -925,7 +951,7 @@ Jeff Green, 2005-06, Georgetown  0.445 FG% 0.498 2P% 0.315 3P% 0.624 FT% | 14.7 
 	Bobby Portis, 2013-14, Arkansas with a career VORP of -0.6
 	Kelly Oubre, 2014-15, Kansas with a career VORP of -0.8
 
-______________________________________________________
+___________________________________________________________________
 
 Tyler Lydon			20.3 PER/0.597 TS/0.548 eFG/7.7 ORB/19.2 DRB/10.8 AST/1.7 STL/4.7 BLK/13.6 TOV/18.0 USG/0.156 WS40/4.7 OBPM/4.2 DBPM
 
@@ -961,25 +987,27 @@ Taurean Prince  25.6 PER/0.571 TS/0.556 eFG/8.1 ORB/16.1 DRB/12.1 AST/3.6 STL/3.
 Victor Oladipo  28.9 PER/0.671 TS/0.648 eFG/11.8 ORB/15.1 DRB/15.2 AST/4.6 STL/2.8 BLK/18.5 TOV/22.2 USG/0.264 WS40/9.7 OBPM/7.3 DBPM	| 0.9610
 Tobias Harris  23.8 PER/0.540 TS/0.489 eFG/7.5 ORB/20.6 DRB/10.4 AST/1.4 STL/3.4 BLK/11.4 TOV/27.2 USG/0.177 WS40/3.3 OBPM/2.3 DBPM	| 0.9603
 
+The Top 30 advanced stats NBA comps sorted in descending order based on their career VORPs:
+
 	Kawhi Leonard, 2010-11, San Diego State with a career VORP of 25.4
 	Draymond Green, 2011-12, Michigan State with a career VORP of 16.4
 	Nikola Vucevic, 2010-11, USC with a career VORP of 8.0
-	Jae Crowder, 2010-11, Marquette with a career VORP of 7.3
 	Jae Crowder, 2011-12, Marquette with a career VORP of 7.3
+	Jae Crowder, 2010-11, Marquette with a career VORP of 7.3
 	Bradley Beal, 2011-12, Florida with a career VORP of 6.2
 	Otto Porter, 2011-12, Georgetown with a career VORP of 6.2
 	Tobias Harris, 2010-11, Tennessee with a career VORP of 5.4
-	Victor Oladipo, 2011-12, Indiana with a career VORP of 4.7
 	Victor Oladipo, 2012-13, Indiana with a career VORP of 4.7
+	Victor Oladipo, 2011-12, Indiana with a career VORP of 4.7
 	Kelly Olynyk, 2012-13, Gonzaga with a career VORP of 4.5
 	Kelly Olynyk, 2010-11, Gonzaga with a career VORP of 4.5
 	Markieff Morris, 2010-11, Kansas with a career VORP of 4.0
 	Andre Roberson, 2012-13, Colorado with a career VORP of 3.5
 	Maurice Harkless, 2011-12, St. John's (NY) with a career VORP of 3.4
-	Michael Kidd-Gilchrist, 2011-12, Kentucky with a career VORP of 2.1
 	Kyle Anderson, 2012-13, UCLA with a career VORP of 2.1
-	Will Barton, 2011-12, Memphis with a career VORP of 1.5
+	Michael Kidd-Gilchrist, 2011-12, Kentucky with a career VORP of 2.1
 	Allen Crabbe, 2010-11, Cal with a career VORP of 1.5
+	Will Barton, 2011-12, Memphis with a career VORP of 1.5
 	Justise Winslow, 2014-15, Duke with a career VORP of 0.7
 	Sam Dekker, 2013-14, Wisconsin with a career VORP of 0.3
 	Taurean Prince, 2014-15, Baylor with a career VORP of -0.1
@@ -1004,7 +1032,7 @@ INTERSECTION OF PER40 AND ADVANCED SIMILARITIES:
 	Michael Kidd-Gilchrist, 2011-12, Kentucky with a combined similarity score of: 0.9534483125582961
 	Tobias Harris, 2010-11, Tennessee with a combined similarity score of: 0.9468758524750053
 
-____________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________
 
 Ivan Rabb			0.484 FG% / 0.490 2P% / 0.400 3P% /0.663 FT% | 	17.2 PPG / 1.9 AST / 12.8 TRB /0.8 STL /1.2 BLK
 
@@ -1041,38 +1069,40 @@ Markieff Morris, 2009-10, Kansas  0.566 FG% 0.571 2P% 0.526 3P% 0.622 FT% | 15.4
 Paul Millsap, 2005-06, Louisiana Tech  0.571 FG% 0.578 2P% 0.357 3P% 0.623 FT% | 23.0 PPG 1.3 AST 15.6 TRB 2.2 STL 2.7 BLK  score: 0.9892
 Juwan Howard, 1991-92, Michigan  0.450 FG% 0.453 2P% 0.000 3P% 0.688 FT% | 15.8 PPG 2.6 AST 8.9 TRB 0.6 STL 0.9 BLK  score: 0.9891
 
+The Top 30 per 40 minute NBA comps sorted in descending order based on their career VORPs:
+
 	Paul Millsap, 2005-06, Louisiana Tech with a career VORP of 33.5
 	Chris Bosh, 2002-03, Georgia Tech with a career VORP of 27.5
 	Al Horford, 2006-07, Florida with a career VORP of 27.2
-	David West, 2000-01, Xavier with a career VORP of 24.5
 	David West, 1999-00, Xavier with a career VORP of 24.5
+	David West, 2000-01, Xavier with a career VORP of 24.5
 	Kevin Love, 2007-08, UCLA with a career VORP of 23.5
 	David Lee, 2004-05, Florida with a career VORP of 22.3
 	Andrew Bogut, 2003-04, Utah with a career VORP of 21.4
-	Antonio McDyess, 1994-95, Alabama with a career VORP of 16.4
 	Draymond Green, 2011-12, Michigan State with a career VORP of 16.4
+	Antonio McDyess, 1994-95, Alabama with a career VORP of 16.4
 	Zach Randolph, 2000-01, Michigan State with a career VORP of 13.5
 	Raef LaFrentz, 1994-95, Kansas with a career VORP of 12.8
 	Juwan Howard, 1991-92, Michigan with a career VORP of 10.1
-	Roy Hibbert, 2005-06, Georgetown with a career VORP of 9.1
 	Channing Frye, 2001-02, Arizona with a career VORP of 9.1
+	Roy Hibbert, 2005-06, Georgetown with a career VORP of 9.1
 	Channing Frye, 2002-03, Arizona with a career VORP of 9.1
 	Nikola Vucevic, 2010-11, USC with a career VORP of 8.0
 	Al-Farouq Aminu, 2009-10, Wake Forest with a career VORP of 5.2
 	Kelly Olynyk, 2010-11, Gonzaga with a career VORP of 4.5
-	Markieff Morris, 2010-11, Kansas with a career VORP of 4.0
 	Markieff Morris, 2009-10, Kansas with a career VORP of 4.0
+	Markieff Morris, 2010-11, Kansas with a career VORP of 4.0
 	Drew Gooden, 1999-00, Kansas with a career VORP of 2.3
 	Chris Kaman, 2001-02, Central Michigan with a career VORP of 0.0
-	Jerami Grant, 2013-14, Syracuse with a career VORP of -0.1
 	Jerami Grant, 2012-13, Syracuse with a career VORP of -0.1
+	Jerami Grant, 2013-14, Syracuse with a career VORP of -0.1
 	Shelden Williams, 2002-03, Duke with a career VORP of -1.2
 	Jason Smith, 2006-07, Colorado State with a career VORP of -1.2
 	Thomas Robinson, 2011-12, Kansas with a career VORP of -1.3
 	Noah Vonleh, 2013-14, Indiana with a career VORP of -1.4
 	Jamaal Magloire, 1999-00, Kentucky with a career VORP of -3.3
 
-______________________________________________________
+___________________________________________________________________
 
 Ivan Rabb			21.7 PER/0.541 TS/0.497 eFG/10.7 ORB/25.7 DRB/10.9 AST/1.3 STL/3.3 BLK/14.3 TOV/23.8 USG/0.181 WS40/1.5 OBPM/5.2 DBPM
 
@@ -1108,34 +1138,36 @@ Otto Porter  21.3 PER/0.578 TS/0.550 eFG/8.8 ORB/19.7 DRB/10.9 AST/2.4 STL/3.1 B
 Bobby Portis  23.5 PER/0.562 TS/0.524 eFG/10.1 ORB/16.7 DRB/10.9 AST/2.1 STL/5.9 BLK/9.9 TOV/21.4 USG/0.190 WS40/3.3 OBPM/5.1 DBPM	| 0.9526
 Bradley Beal  22.0 PER/0.575 TS/0.525 eFG/4.8 ORB/20.3 DRB/12.7 AST/2.5 STL/2.6 BLK/14.3 TOV/23.0 USG/0.180 WS40/5.3 OBPM/3.3 DBPM	| 0.9523
 
+The Top 30 advanced stats NBA comps sorted in descending order based on their career VORPs:
+
 	Nikola Vucevic, 2010-11, USC with a career VORP of 8.0
 	Bradley Beal, 2011-12, Florida with a career VORP of 6.2
 	Otto Porter, 2011-12, Georgetown with a career VORP of 6.2
 	Tobias Harris, 2010-11, Tennessee with a career VORP of 5.4
 	Victor Oladipo, 2011-12, Indiana with a career VORP of 4.7
 	Kelly Olynyk, 2010-11, Gonzaga with a career VORP of 4.5
-	Cody Zeller, 2012-13, Indiana with a career VORP of 4.2
 	Cody Zeller, 2011-12, Indiana with a career VORP of 4.2
+	Cody Zeller, 2012-13, Indiana with a career VORP of 4.2
 	Markieff Morris, 2010-11, Kansas with a career VORP of 4.0
-	Andre Roberson, 2012-13, Colorado with a career VORP of 3.5
 	Andre Roberson, 2011-12, Colorado with a career VORP of 3.5
+	Andre Roberson, 2012-13, Colorado with a career VORP of 3.5
 	Aaron Gordon, 2013-14, Arizona with a career VORP of 2.4
 	Michael Kidd-Gilchrist, 2011-12, Kentucky with a career VORP of 2.1
-	Richaun Holmes, 2013-14, Bowling Green with a career VORP of 1.3
 	Richaun Holmes, 2014-15, Bowling Green with a career VORP of 1.3
+	Richaun Holmes, 2013-14, Bowling Green with a career VORP of 1.3
 	Joel Embiid, 2013-14, Kansas with a career VORP of 1.0
-	Rondae Hollis-Jefferson, 2013-14, Arizona with a career VORP of 0.9
 	Rondae Hollis-Jefferson, 2014-15, Arizona with a career VORP of 0.9
+	Rondae Hollis-Jefferson, 2013-14, Arizona with a career VORP of 0.9
 	Justise Winslow, 2014-15, Duke with a career VORP of 0.7
 	Julius Randle, 2013-14, Kentucky with a career VORP of 0.1
-	Jerami Grant, 2013-14, Syracuse with a career VORP of -0.1
 	Jerami Grant, 2012-13, Syracuse with a career VORP of -0.1
+	Jerami Grant, 2013-14, Syracuse with a career VORP of -0.1
 	Stanley Johnson, 2014-15, Arizona with a career VORP of -0.2
 	Bobby Portis, 2013-14, Arkansas with a career VORP of -0.6
 	Alex Len, 2012-13, Maryland with a career VORP of -0.7
 	Kelly Oubre, 2014-15, Kansas with a career VORP of -0.8
-	Thomas Robinson, 2011-12, Kansas with a career VORP of -1.3
 	Thomas Robinson, 2010-11, Kansas with a career VORP of -1.3
+	Thomas Robinson, 2011-12, Kansas with a career VORP of -1.3
 	Noah Vonleh, 2013-14, Indiana with a career VORP of -1.4
 	Anthony Bennett, 2012-13, UNLV with a career VORP of -1.7
 
@@ -1149,7 +1181,7 @@ INTERSECTION OF PER40 AND ADVANCED SIMILARITIES:
 	Nikola Vucevic, 2010-11, USC with a combined similarity score of: 0.949212553247887
 	Kelly Olynyk, 2010-11, Gonzaga with a combined similarity score of: 0.9453980310195641
 
-____________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________
 
 TJ Leaf			0.617 FG% / 0.644 2P% / 0.466 3P% /0.679 FT% | 	21.7 PPG / 3.2 AST / 11.0 TRB /0.8 STL /1.5 BLK
 
@@ -1186,6 +1218,8 @@ Derrick Williams, 2010-11, Arizona  0.595 FG% 0.601 2P% 0.568 3P% 0.746 FT% | 26
 Paul Pierce, 1995-96, Kansas  0.419 FG% 0.478 2P% 0.304 3P% 0.606 FT% | 18.7 PPG 2.8 AST 8.4 TRB 2.0 STL 1.3 BLK  score: 0.9892
 Aaron Gordon, 2013-14, Arizona  0.495 FG% 0.513 2P% 0.356 3P% 0.422 FT% | 15.8 PPG 2.5 AST 10.2 TRB 1.1 STL 1.3 BLK  score: 0.9886
 
+The Top 30 per 40 minute NBA comps sorted in descending order based on their career VORPs:
+
 	Paul Pierce, 1995-96, Kansas with a career VORP of 61.5
 	Vince Carter, 1995-96, UNC with a career VORP of 54.6
 	Lamar Odom, 1998-99, Rhode Island with a career VORP of 36.3
@@ -1195,15 +1229,15 @@ Aaron Gordon, 2013-14, Arizona  0.495 FG% 0.513 2P% 0.356 3P% 0.422 FT% | 15.8 P
 	Jamal Mashburn, 1992-93, Kentucky with a career VORP of 12.9
 	Jerry Stackhouse, 1994-95, UNC with a career VORP of 12.8
 	Chandler Parsons, 2009-10, Florida with a career VORP of 12.1
-	Josh Howard, 1999-00, Wake Forest with a career VORP of 10.3
 	Josh Howard, 2001-02, Wake Forest with a career VORP of 10.3
+	Josh Howard, 1999-00, Wake Forest with a career VORP of 10.3
 	Jae Crowder, 2010-11, Marquette with a career VORP of 7.3
 	Wilson Chandler, 2006-07, DePaul with a career VORP of 5.2
 	Victor Oladipo, 2012-13, Indiana with a career VORP of 4.7
 	Victor Oladipo, 2010-11, Indiana with a career VORP of 4.7
 	Kelly Olynyk, 2010-11, Gonzaga with a career VORP of 4.5
-	Marcus Morris, 2009-10, Kansas with a career VORP of 4.5
 	Marcus Morris, 2010-11, Kansas with a career VORP of 4.5
+	Marcus Morris, 2009-10, Kansas with a career VORP of 4.5
 	Markieff Morris, 2010-11, Kansas with a career VORP of 4.0
 	Jeff Green, 2004-05, Georgetown with a career VORP of 3.9
 	Aaron Gordon, 2013-14, Arizona with a career VORP of 2.4
@@ -1217,7 +1251,7 @@ Aaron Gordon, 2013-14, Arizona  0.495 FG% 0.513 2P% 0.356 3P% 0.422 FT% | 15.8 P
 	Anthony Bennett, 2012-13, UNLV with a career VORP of -1.7
 	Derrick Williams, 2010-11, Arizona with a career VORP of -2.6
 
-______________________________________________________
+___________________________________________________________________
 
 TJ Leaf			26.6 PER/0.660 TS/0.652 eFG/9.0 ORB/19.7 DRB/13.2 AST/1.1 STL/3.5 BLK/10.8 TOV/22.0 USG/0.220 WS40/6.7 OBPM/3.0 DBPM
 
@@ -1253,33 +1287,35 @@ Tim Hardaway Jr.  17.7 PER/0.538 TS/0.516 eFG/0.8 ORB/16.3 DRB/13.0 AST/1.2 STL/
 Anthony Bennett  28.3 PER/0.609 TS/0.580 eFG/10.3 ORB/24.0 DRB/8.8 AST/1.5 STL/4.6 BLK/12.3 TOV/27.5 USG/0.238 WS40/5.3 OBPM/3.2 DBPM	| 0.9620
 Harrison Barnes  19.4 PER/0.520 TS/0.488 eFG/7.2 ORB/12.8 DRB/9.5 AST/1.4 STL/1.4 BLK/11.5 TOV/26.6 USG/0.159 WS40/4.9 OBPM/2.5 DBPM	| 0.9619
 
+The Top 30 advanced stats NBA comps sorted in descending order based on their career VORPs:
+
 	Kawhi Leonard, 2010-11, San Diego State with a career VORP of 25.4
 	Nikola Vucevic, 2010-11, USC with a career VORP of 8.0
-	Jae Crowder, 2010-11, Marquette with a career VORP of 7.3
 	Jae Crowder, 2011-12, Marquette with a career VORP of 7.3
+	Jae Crowder, 2010-11, Marquette with a career VORP of 7.3
 	Bradley Beal, 2011-12, Florida with a career VORP of 6.2
 	Otto Porter, 2011-12, Georgetown with a career VORP of 6.2
-	Kentavious Caldwell-Pope, 2012-13, Georgia with a career VORP of 4.6
 	Kentavious Caldwell-Pope, 2011-12, Georgia with a career VORP of 4.6
+	Kentavious Caldwell-Pope, 2012-13, Georgia with a career VORP of 4.6
 	Kelly Olynyk, 2012-13, Gonzaga with a career VORP of 4.5
 	Marcus Morris, 2010-11, Kansas with a career VORP of 4.5
 	Markieff Morris, 2010-11, Kansas with a career VORP of 4.0
 	Harrison Barnes, 2010-11, UNC with a career VORP of 2.9
-	Terrence Ross, 2011-12, Washington with a career VORP of 2.7
 	Terrence Ross, 2010-11, Washington with a career VORP of 2.7
+	Terrence Ross, 2011-12, Washington with a career VORP of 2.7
 	Rodney Hood, 2011-12, Mississippi State with a career VORP of 2.3
-	Allen Crabbe, 2010-11, Cal with a career VORP of 1.5
-	Will Barton, 2011-12, Memphis with a career VORP of 1.5
-	Allen Crabbe, 2012-13, Cal with a career VORP of 1.5
 	Allen Crabbe, 2011-12, Cal with a career VORP of 1.5
+	Allen Crabbe, 2010-11, Cal with a career VORP of 1.5
+	Allen Crabbe, 2012-13, Cal with a career VORP of 1.5
+	Will Barton, 2011-12, Memphis with a career VORP of 1.5
 	Sam Dekker, 2012-13, Wisconsin with a career VORP of 0.3
-	Sam Dekker, 2013-14, Wisconsin with a career VORP of 0.3
 	Sam Dekker, 2014-15, Wisconsin with a career VORP of 0.3
-	Taurean Prince, 2014-15, Baylor with a career VORP of -0.1
-	Taurean Prince, 2015-16, Baylor with a career VORP of -0.1
+	Sam Dekker, 2013-14, Wisconsin with a career VORP of 0.3
 	Tim Hardaway Jr., 2012-13, Michigan with a career VORP of -0.1
-	Bobby Portis, 2014-15, Arkansas with a career VORP of -0.6
+	Taurean Prince, 2015-16, Baylor with a career VORP of -0.1
+	Taurean Prince, 2014-15, Baylor with a career VORP of -0.1
 	Bobby Portis, 2013-14, Arkansas with a career VORP of -0.6
+	Bobby Portis, 2014-15, Arkansas with a career VORP of -0.6
 	Brandon Ingram, 2015-16, Duke with a career VORP of -1.1
 	Ben McLemore, 2012-13, Kansas with a career VORP of -1.2
 	Anthony Bennett, 2012-13, UNLV with a career VORP of -1.7
@@ -1295,7 +1331,7 @@ INTERSECTION OF PER40 AND ADVANCED SIMILARITIES:
 	Marcus Morris, 2010-11, Kansas with a combined similarity score of: 0.9553705907050616
 	Anthony Bennett, 2012-13, UNLV with a combined similarity score of: 0.9552968719038507
 
-____________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________
 
 DJ Wilson			0.538 FG% / 0.631 2P% / 0.373 3P% /0.833 FT% | 	14.5 PPG / 1.7 AST / 7.0 TRB /0.7 STL /2.0 BLK
 
@@ -1332,6 +1368,8 @@ Richaun Holmes, 2013-14, Bowling Green  0.507 FG% 0.539 2P% 0.300 3P% 0.706 FT% 
 Jeff Green, 2006-07, Georgetown  0.513 FG% 0.559 2P% 0.375 3P% 0.775 FT% | 17.1 PPG 3.8 AST 7.7 TRB 1.0 STL 1.4 BLK  score: 0.9933
 Danny Granger, 2002-03, Bradley  0.518 FG% 0.544 2P% 0.300 3P% 0.684 FT% | 28.3 PPG 1.7 AST 11.7 TRB 2.0 STL 2.0 BLK  score: 0.9932
 
+The Top 30 per 40 minute NBA comps sorted in descending order based on their career VORPs:
+
 	Paul Pierce, 1995-96, Kansas with a career VORP of 61.5
 	Vince Carter, 1995-96, UNC with a career VORP of 54.6
 	Shawn Marion, 1998-99, UNLV with a career VORP of 52.1
@@ -1344,8 +1382,8 @@ Danny Granger, 2002-03, Bradley  0.518 FG% 0.544 2P% 0.300 3P% 0.684 FT% | 28.3 
 	Rudy Gay, 2005-06, UConn with a career VORP of 16.8
 	Gordon Hayward, 2009-10, Butler with a career VORP of 16.3
 	Danny Granger, 2003-04, New Mexico with a career VORP of 16.1
-	Danny Granger, 2002-03, Bradley with a career VORP of 16.1
 	Danny Granger, 2004-05, New Mexico with a career VORP of 16.1
+	Danny Granger, 2002-03, Bradley with a career VORP of 16.1
 	Jamal Mashburn, 1990-91, Kentucky with a career VORP of 12.9
 	Jerry Stackhouse, 1994-95, UNC with a career VORP of 12.8
 	Nikola Vucevic, 2010-11, USC with a career VORP of 8.0
@@ -1363,7 +1401,7 @@ Danny Granger, 2002-03, Bradley  0.518 FG% 0.544 2P% 0.300 3P% 0.684 FT% | 28.3 
 	Anthony Bennett, 2012-13, UNLV with a career VORP of -1.7
 	Michael Beasley, 2007-08, Kansas State with a career VORP of -4.4
 
-______________________________________________________
+___________________________________________________________________
 
 DJ Wilson			20.9 PER/0.628 TS/0.605 eFG/6.7 ORB/16.4 DRB/8.5 AST/1.1 STL/5.2 BLK/11.2 TOV/18.3 USG/0.166 WS40/5.1 OBPM/4.3 DBPM
 
@@ -1399,10 +1437,12 @@ Buddy Hield  14.9 PER/0.467 TS/0.433 eFG/8.2 ORB/11.6 DRB/14.6 AST/2.9 STL/1.1 B
 Bradley Beal  22.0 PER/0.575 TS/0.525 eFG/4.8 ORB/20.3 DRB/12.7 AST/2.5 STL/2.6 BLK/14.3 TOV/23.0 USG/0.180 WS40/5.3 OBPM/3.3 DBPM	| 0.9455
 Anthony Bennett  28.3 PER/0.609 TS/0.580 eFG/10.3 ORB/24.0 DRB/8.8 AST/1.5 STL/4.6 BLK/12.3 TOV/27.5 USG/0.238 WS40/5.3 OBPM/3.2 DBPM	| 0.9454
 
+The Top 30 advanced stats NBA comps sorted in descending order based on their career VORPs:
+
 	Kawhi Leonard, 2010-11, San Diego State with a career VORP of 25.4
 	Nikola Vucevic, 2010-11, USC with a career VORP of 8.0
-	Jae Crowder, 2010-11, Marquette with a career VORP of 7.3
 	Jae Crowder, 2011-12, Marquette with a career VORP of 7.3
+	Jae Crowder, 2010-11, Marquette with a career VORP of 7.3
 	Bradley Beal, 2011-12, Florida with a career VORP of 6.2
 	Otto Porter, 2011-12, Georgetown with a career VORP of 6.2
 	Kentavious Caldwell-Pope, 2011-12, Georgia with a career VORP of 4.6
@@ -1410,24 +1450,24 @@ Anthony Bennett  28.3 PER/0.609 TS/0.580 eFG/10.3 ORB/24.0 DRB/8.8 AST/1.5 STL/4
 	Markieff Morris, 2010-11, Kansas with a career VORP of 4.0
 	Maurice Harkless, 2011-12, St. John's (NY) with a career VORP of 3.4
 	Harrison Barnes, 2010-11, UNC with a career VORP of 2.9
-	Terrence Ross, 2011-12, Washington with a career VORP of 2.7
 	Terrence Ross, 2010-11, Washington with a career VORP of 2.7
+	Terrence Ross, 2011-12, Washington with a career VORP of 2.7
 	Rodney Hood, 2011-12, Mississippi State with a career VORP of 2.3
 	Allen Crabbe, 2011-12, Cal with a career VORP of 1.5
 	Allen Crabbe, 2010-11, Cal with a career VORP of 1.5
 	Will Barton, 2011-12, Memphis with a career VORP of 1.5
 	Justise Winslow, 2014-15, Duke with a career VORP of 0.7
 	Sam Dekker, 2012-13, Wisconsin with a career VORP of 0.3
-	Sam Dekker, 2013-14, Wisconsin with a career VORP of 0.3
 	Sam Dekker, 2014-15, Wisconsin with a career VORP of 0.3
-	Taurean Prince, 2014-15, Baylor with a career VORP of -0.1
+	Sam Dekker, 2013-14, Wisconsin with a career VORP of 0.3
 	Tim Hardaway Jr., 2012-13, Michigan with a career VORP of -0.1
+	Taurean Prince, 2014-15, Baylor with a career VORP of -0.1
 	Buddy Hield, 2012-13, Oklahoma with a career VORP of -0.4
-	Bobby Portis, 2014-15, Arkansas with a career VORP of -0.6
 	Bobby Portis, 2013-14, Arkansas with a career VORP of -0.6
+	Bobby Portis, 2014-15, Arkansas with a career VORP of -0.6
 	Brandon Ingram, 2015-16, Duke with a career VORP of -1.1
-	Ben McLemore, 2012-13, Kansas with a career VORP of -1.2
 	Jahlil Okafor, 2014-15, Duke with a career VORP of -1.2
+	Ben McLemore, 2012-13, Kansas with a career VORP of -1.2
 	Anthony Bennett, 2012-13, UNLV with a career VORP of -1.7
 
 INTERSECTION OF PER40 AND ADVANCED SIMILARITIES:
@@ -1439,7 +1479,7 @@ INTERSECTION OF PER40 AND ADVANCED SIMILARITIES:
 	Will Barton, 2011-12, Memphis with a combined similarity score of: 0.9406548394729617
 	Anthony Bennett, 2012-13, UNLV with a combined similarity score of: 0.9400640428759466
 
-____________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________
 
 Jordan Bell			0.636 FG% / 0.659 2P% / 0.214 3P% /0.701 FT% | 	15.2 PPG / 2.5 AST / 12.2 TRB /1.7 STL /3.1 BLK
 
@@ -1476,6 +1516,8 @@ Nikola Vucevic, 2009-10, USC  0.504 FG% 0.551 2P% 0.222 3P% 0.718 FT% | 13.3 PPG
 David Lee, 2002-03, Florida  0.648 FG% 0.648 2P% None 3P% 0.624 FT% | 17.1 PPG 2.8 AST 10.3 TRB 1.1 STL 2.2 BLK  score: 0.9881
 Jamaal Magloire, 1996-97, Kentucky  0.490 FG% 0.490 2P% None 3P% 0.549 FT% | 12.5 PPG 1.0 AST 11.3 TRB 1.6 STL 5.0 BLK  score: 0.9874
 
+The Top 30 per 40 minute NBA comps sorted in descending order based on their career VORPs:
+
 	Tim Duncan, 1996-97, Wake Forest with a career VORP of 89.3
 	Rasheed Wallace, 1993-94, UNC with a career VORP of 37.5
 	Joakim Noah, 2004-05, Florida with a career VORP of 27.8
@@ -1488,8 +1530,8 @@ Jamaal Magloire, 1996-97, Kentucky  0.490 FG% 0.490 2P% None 3P% 0.549 FT% | 12.
 	David Lee, 2001-02, Florida with a career VORP of 22.3
 	DeMarcus Cousins, 2009-10, Kentucky with a career VORP of 18.1
 	Anthony Davis, 2011-12, Kentucky with a career VORP of 17.7
-	Antonio McDyess, 1994-95, Alabama with a career VORP of 16.4
 	Antonio McDyess, 1993-94, Alabama with a career VORP of 16.4
+	Antonio McDyess, 1994-95, Alabama with a career VORP of 16.4
 	Kenyon Martin, 1998-99, Cincinnati with a career VORP of 15.5
 	Channing Frye, 2001-02, Arizona with a career VORP of 9.1
 	Channing Frye, 2002-03, Arizona with a career VORP of 9.1
@@ -1504,10 +1546,10 @@ Jamaal Magloire, 1996-97, Kentucky  0.490 FG% 0.490 2P% None 3P% 0.549 FT% | 12.
 	Alex Len, 2011-12, Maryland with a career VORP of -0.7
 	Shelden Williams, 2002-03, Duke with a career VORP of -1.2
 	Shelden Williams, 2004-05, Duke with a career VORP of -1.2
-	Jamaal Magloire, 1998-99, Kentucky with a career VORP of -3.3
 	Jamaal Magloire, 1996-97, Kentucky with a career VORP of -3.3
+	Jamaal Magloire, 1998-99, Kentucky with a career VORP of -3.3
 
-______________________________________________________
+___________________________________________________________________
 
 Jordan Bell			26.3 PER/0.658 TS/0.641 eFG/12.3 ORB/22.3 DRB/11.4 AST/2.5 STL/8.4 BLK/18.8 TOV/18.0 USG/0.222 WS40/4.6 OBPM/9.0 DBPM
 
@@ -1543,18 +1585,20 @@ Victor Oladipo  20.5 PER/0.546 TS/0.488 eFG/8.7 ORB/16.9 DRB/14.7 AST/3.0 STL/2.
 Stanley Johnson  22.5 PER/0.551 TS/0.501 eFG/8.9 ORB/19.1 DRB/11.6 AST/3.2 STL/1.6 BLK/14.7 TOV/26.6 USG/0.212 WS40/4.8 OBPM/5.4 DBPM	| 0.9371
 Jahlil Okafor  30.7 PER/0.641 TS/0.664 eFG/14.8 ORB/18.2 DRB/9.4 AST/1.5 STL/4.5 BLK/15.6 TOV/27.6 USG/0.235 WS40/6.8 OBPM/4.1 DBPM	| 0.9356
 
+The Top 30 advanced stats NBA comps sorted in descending order based on their career VORPs:
+
 	Draymond Green, 2011-12, Michigan State with a career VORP of 16.4
 	Karl Towns, 2014-15, Kentucky with a career VORP of 8.5
 	Andre Drummond, 2011-12, UConn with a career VORP of 7.7
 	Otto Porter, 2011-12, Georgetown with a career VORP of 6.2
 	Steven Adams, 2012-13, Pitt with a career VORP of 5.3
-	Victor Oladipo, 2011-12, Indiana with a career VORP of 4.7
 	Victor Oladipo, 2012-13, Indiana with a career VORP of 4.7
+	Victor Oladipo, 2011-12, Indiana with a career VORP of 4.7
 	Kelly Olynyk, 2010-11, Gonzaga with a career VORP of 4.5
 	Nerlens Noel, 2012-13, Kentucky with a career VORP of 4.3
 	Markieff Morris, 2010-11, Kansas with a career VORP of 4.0
-	Andre Roberson, 2012-13, Colorado with a career VORP of 3.5
 	Andre Roberson, 2011-12, Colorado with a career VORP of 3.5
+	Andre Roberson, 2012-13, Colorado with a career VORP of 3.5
 	Andre Roberson, 2010-11, Colorado with a career VORP of 3.5
 	Myles Turner, 2014-15, Texas with a career VORP of 2.7
 	Aaron Gordon, 2013-14, Arizona with a career VORP of 2.4
@@ -1568,8 +1612,8 @@ Jahlil Okafor  30.7 PER/0.641 TS/0.664 eFG/14.8 ORB/18.2 DRB/9.4 AST/1.5 STL/4.5
 	Jerami Grant, 2012-13, Syracuse with a career VORP of -0.1
 	Stanley Johnson, 2014-15, Arizona with a career VORP of -0.2
 	Bobby Portis, 2013-14, Arkansas with a career VORP of -0.6
-	Alex Len, 2012-13, Maryland with a career VORP of -0.7
 	Alex Len, 2011-12, Maryland with a career VORP of -0.7
+	Alex Len, 2012-13, Maryland with a career VORP of -0.7
 	Jahlil Okafor, 2014-15, Duke with a career VORP of -1.2
 	Thomas Robinson, 2010-11, Kansas with a career VORP of -1.3
 	Noah Vonleh, 2013-14, Indiana with a career VORP of -1.4
@@ -1580,7 +1624,7 @@ INTERSECTION OF PER40 AND ADVANCED SIMILARITIES:
 	Joel Embiid, 2013-14, Kansas with a combined similarity score of: 0.9493655145646644
 	Alex Len, 2011-12, Maryland with a combined similarity score of: 0.929706685896501
 
-____________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________
 
 Harry Giles			0.577 FG% / 0.577 2P% / 0.000 3P% /0.500 FT% | 	13.6 PPG / 1.2 AST / 13.3 TRB /1.2 STL /2.3 BLK
 
@@ -1617,24 +1661,26 @@ Antonio McDyess, 1994-95, Alabama  0.512 FG% 0.514 2P% 0.000 3P% 0.667 FT% | 21.
 LaMarcus Aldridge, 2004-05, Texas  0.663 FG% 0.663 2P% None 3P% 0.657 FT% | 17.8 PPG 1.6 AST 10.7 TRB 1.9 STL 2.7 BLK  score: 0.9713
 Andre Drummond, 2011-12, UConn  0.538 FG% 0.541 2P% 0.000 3P% 0.295 FT% | 14.1 PPG 0.6 AST 10.6 TRB 1.2 STL 3.8 BLK  score: 0.9712
 
+The Top 30 per 40 minute NBA comps sorted in descending order based on their career VORPs:
+
 	Rasheed Wallace, 1993-94, UNC with a career VORP of 37.5
 	Joakim Noah, 2004-05, Florida with a career VORP of 27.8
+	Al Horford, 2005-06, Florida with a career VORP of 27.2
 	Al Horford, 2006-07, Florida with a career VORP of 27.2
 	Al Horford, 2004-05, Florida with a career VORP of 27.2
-	Al Horford, 2005-06, Florida with a career VORP of 27.2
 	David West, 1999-00, Xavier with a career VORP of 24.5
 	LaMarcus Aldridge, 2004-05, Texas with a career VORP of 22.5
 	David Lee, 2001-02, Florida with a career VORP of 22.3
 	DeAndre Jordan, 2007-08, Texas A&M with a career VORP of 19.6
 	Antawn Jamison, 1995-96, UNC with a career VORP of 17.4
-	Antonio McDyess, 1994-95, Alabama with a career VORP of 16.4
 	Antonio McDyess, 1993-94, Alabama with a career VORP of 16.4
+	Antonio McDyess, 1994-95, Alabama with a career VORP of 16.4
 	Kenyon Martin, 1998-99, Cincinnati with a career VORP of 15.5
 	Derrick Favors, 2009-10, Georgia Tech with a career VORP of 8.7
 	Andre Drummond, 2011-12, UConn with a career VORP of 7.7
-	Emeka Okafor, 2003-04, UConn with a career VORP of 7.5
 	Emeka Okafor, 2001-02, UConn with a career VORP of 7.5
 	Emeka Okafor, 2002-03, UConn with a career VORP of 7.5
+	Emeka Okafor, 2003-04, UConn with a career VORP of 7.5
 	Steven Adams, 2012-13, Pitt with a career VORP of 5.3
 	Tristan Thompson, 2010-11, Texas with a career VORP of 5.0
 	Nerlens Noel, 2012-13, Kentucky with a career VORP of 4.3
@@ -1644,11 +1690,11 @@ Andre Drummond, 2011-12, UConn  0.538 FG% 0.541 2P% 0.000 3P% 0.295 FT% | 14.1 P
 	Alex Len, 2011-12, Maryland with a career VORP of -0.7
 	Shelden Williams, 2002-03, Duke with a career VORP of -1.2
 	Shelden Williams, 2004-05, Duke with a career VORP of -1.2
-	Thomas Robinson, 2009-10, Kansas with a career VORP of -1.3
 	Thomas Robinson, 2010-11, Kansas with a career VORP of -1.3
+	Thomas Robinson, 2009-10, Kansas with a career VORP of -1.3
 	Jamaal Magloire, 1996-97, Kentucky with a career VORP of -3.3
 
-______________________________________________________
+___________________________________________________________________
 
 Harry Giles			19.8 PER/0.570 TS/0.577 eFG/16.4 ORB/21.5 DRB/5.6 AST/1.7 STL/5.3 BLK/16.8 TOV/17.9 USG/0.164 WS40/1.9 OBPM/4.4 DBPM
 
@@ -1684,6 +1730,8 @@ Jerami Grant  14.8 PER/0.511 TS/0.487 eFG/9.0 ORB/15.2 DRB/5.9 AST/1.8 STL/3.9 B
 Victor Oladipo  21.5 PER/0.586 TS/0.571 eFG/10.9 ORB/14.8 DRB/10.5 AST/3.6 STL/1.5 BLK/17.9 TOV/22.5 USG/0.146 WS40/3.9 OBPM/2.7 DBPM	| 0.9204
 Myles Turner  25.5 PER/0.556 TS/0.488 eFG/7.2 ORB/24.9 DRB/6.2 AST/0.8 STL/12.3 BLK/13.2 TOV/25.1 USG/0.213 WS40/1.5 OBPM/7.3 DBPM	| 0.9163
 
+The Top 30 advanced stats NBA comps sorted in descending order based on their career VORPs:
+
 	Kawhi Leonard, 2010-11, San Diego State with a career VORP of 25.4
 	Karl Towns, 2014-15, Kentucky with a career VORP of 8.5
 	Nikola Vucevic, 2010-11, USC with a career VORP of 8.0
@@ -1698,15 +1746,15 @@ Myles Turner  25.5 PER/0.556 TS/0.488 eFG/7.2 ORB/24.9 DRB/6.2 AST/0.8 STL/12.3 
 	Andre Roberson, 2010-11, Colorado with a career VORP of 3.5
 	Maurice Harkless, 2011-12, St. John's (NY) with a career VORP of 3.4
 	Myles Turner, 2014-15, Texas with a career VORP of 2.7
+	Richaun Holmes, 2012-13, Bowling Green with a career VORP of 1.3
 	Richaun Holmes, 2014-15, Bowling Green with a career VORP of 1.3
 	Richaun Holmes, 2013-14, Bowling Green with a career VORP of 1.3
-	Richaun Holmes, 2012-13, Bowling Green with a career VORP of 1.3
 	Marquese Chriss, 2015-16, Washington with a career VORP of 0.2
-	Skal Labissiere, 2015-16, Kentucky with a career VORP of -0.1
-	Jerami Grant, 2012-13, Syracuse with a career VORP of -0.1
 	Taurean Prince, 2012-13, Baylor with a career VORP of -0.1
-	Bobby Portis, 2014-15, Arkansas with a career VORP of -0.6
+	Jerami Grant, 2012-13, Syracuse with a career VORP of -0.1
+	Skal Labissiere, 2015-16, Kentucky with a career VORP of -0.1
 	Bobby Portis, 2013-14, Arkansas with a career VORP of -0.6
+	Bobby Portis, 2014-15, Arkansas with a career VORP of -0.6
 	Alex Len, 2011-12, Maryland with a career VORP of -0.7
 	Alex Len, 2012-13, Maryland with a career VORP of -0.7
 	Jahlil Okafor, 2014-15, Duke with a career VORP of -1.2
@@ -1723,7 +1771,7 @@ INTERSECTION OF PER40 AND ADVANCED SIMILARITIES:
 	Richaun Holmes, 2012-13, Bowling Green with a combined similarity score of: 0.9417692434005366
 	Alex Len, 2011-12, Maryland with a combined similarity score of: 0.910720409146154
 
-____________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________
 
 Caleb Swanigan			0.527 FG% / 0.548 2P% / 0.447 3P% /0.781 FT% | 	22.7 PPG / 3.7 AST / 15.3 TRB /0.5 STL /1.0 BLK
 
@@ -1760,6 +1808,8 @@ Jamal Mashburn, 1990-91, Kentucky  0.474 FG% 0.546 2P% 0.293 3P% 0.727 FT% | 21.
 Sam Dekker, 2013-14, Wisconsin  0.469 FG% 0.550 2P% 0.326 3P% 0.686 FT% | 16.6 PPG 1.8 AST 8.1 TRB 1.0 STL 0.8 BLK  score: 0.9850
 Wilson Chandler, 2006-07, DePaul  0.450 FG% 0.494 2P% 0.333 3P% 0.654 FT% | 18.4 PPG 1.8 AST 8.7 TRB 0.8 STL 1.7 BLK  score: 0.9849
 
+The Top 30 per 40 minute NBA comps sorted in descending order based on their career VORPs:
+
 	Vince Carter, 1995-96, UNC with a career VORP of 54.6
 	Lamar Odom, 1998-99, Rhode Island with a career VORP of 36.3
 	Chris Bosh, 2002-03, Georgia Tech with a career VORP of 27.5
@@ -1779,9 +1829,9 @@ Wilson Chandler, 2006-07, DePaul  0.450 FG% 0.494 2P% 0.333 3P% 0.654 FT% | 18.4
 	Markieff Morris, 2010-11, Kansas with a career VORP of 4.0
 	Jeff Green, 2004-05, Georgetown with a career VORP of 3.9
 	Jeff Green, 2005-06, Georgetown with a career VORP of 3.9
+	Rodney Hood, 2011-12, Mississippi State with a career VORP of 2.3
 	Drew Gooden, 2001-02, Kansas with a career VORP of 2.3
 	Wes Johnson, 2009-10, Syracuse with a career VORP of 2.3
-	Rodney Hood, 2011-12, Mississippi State with a career VORP of 2.3
 	Michael Kidd-Gilchrist, 2011-12, Kentucky with a career VORP of 2.1
 	Justise Winslow, 2014-15, Duke with a career VORP of 0.7
 	Sam Dekker, 2013-14, Wisconsin with a career VORP of 0.3
@@ -1791,7 +1841,7 @@ Wilson Chandler, 2006-07, DePaul  0.450 FG% 0.494 2P% 0.333 3P% 0.654 FT% | 18.4
 	Noah Vonleh, 2013-14, Indiana with a career VORP of -1.4
 	Doug McDermott, 2010-11, Creighton with a career VORP of -1.6
 
-______________________________________________________
+___________________________________________________________________
 
 Caleb Swanigan			26.2 PER/0.620 TS/0.572 eFG/10.7 ORB/32.6 DRB/18.7 AST/0.8 STL/2.5 BLK/18.5 TOV/28.1 USG/0.224 WS40/5.0 OBPM/5.6 DBPM
 
@@ -1827,27 +1877,29 @@ Rondae Hollis-Jefferson  21.8 PER/0.573 TS/0.513 eFG/9.0 ORB/20.1 DRB/10.1 AST/2
 Cody Zeller  31.3 PER/0.665 TS/0.623 eFG/11.3 ORB/18.4 DRB/9.5 AST/2.9 STL/4.3 BLK/12.4 TOV/24.3 USG/0.267 WS40/8.3 OBPM/4.2 DBPM	| 0.9593
 Maurice Harkless  21.1 PER/0.504 TS/0.472 eFG/8.4 ORB/20.3 DRB/9.6 AST/2.6 STL/4.2 BLK/14.0 TOV/24.9 USG/0.109 WS40/1.4 OBPM/2.0 DBPM	| 0.9588
 
+The Top 30 advanced stats NBA comps sorted in descending order based on their career VORPs:
+
 	Kawhi Leonard, 2010-11, San Diego State with a career VORP of 25.4
 	Draymond Green, 2011-12, Michigan State with a career VORP of 16.4
 	Nikola Vucevic, 2010-11, USC with a career VORP of 8.0
-	Jae Crowder, 2010-11, Marquette with a career VORP of 7.3
 	Jae Crowder, 2011-12, Marquette with a career VORP of 7.3
+	Jae Crowder, 2010-11, Marquette with a career VORP of 7.3
 	Bradley Beal, 2011-12, Florida with a career VORP of 6.2
 	Otto Porter, 2012-13, Georgetown with a career VORP of 6.2
 	Otto Porter, 2011-12, Georgetown with a career VORP of 6.2
 	Tobias Harris, 2010-11, Tennessee with a career VORP of 5.4
 	Victor Oladipo, 2011-12, Indiana with a career VORP of 4.7
-	Kelly Olynyk, 2010-11, Gonzaga with a career VORP of 4.5
 	Kelly Olynyk, 2012-13, Gonzaga with a career VORP of 4.5
 	Marcus Morris, 2010-11, Kansas with a career VORP of 4.5
+	Kelly Olynyk, 2010-11, Gonzaga with a career VORP of 4.5
 	Cody Zeller, 2011-12, Indiana with a career VORP of 4.2
 	Markieff Morris, 2010-11, Kansas with a career VORP of 4.0
 	Andre Roberson, 2012-13, Colorado with a career VORP of 3.5
 	Andre Roberson, 2011-12, Colorado with a career VORP of 3.5
 	Maurice Harkless, 2011-12, St. John's (NY) with a career VORP of 3.4
 	Aaron Gordon, 2013-14, Arizona with a career VORP of 2.4
-	Michael Kidd-Gilchrist, 2011-12, Kentucky with a career VORP of 2.1
 	Kyle Anderson, 2012-13, UCLA with a career VORP of 2.1
+	Michael Kidd-Gilchrist, 2011-12, Kentucky with a career VORP of 2.1
 	Will Barton, 2011-12, Memphis with a career VORP of 1.5
 	Rondae Hollis-Jefferson, 2014-15, Arizona with a career VORP of 0.9
 	Justise Winslow, 2014-15, Duke with a career VORP of 0.7
@@ -1871,7 +1923,7 @@ INTERSECTION OF PER40 AND ADVANCED SIMILARITIES:
 	Michael Kidd-Gilchrist, 2011-12, Kentucky with a combined similarity score of: 0.952681749583179
 	Kelly Olynyk, 2010-11, Gonzaga with a combined similarity score of: 0.9519721496610116
 
-____________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________
 
 Alec Peters			0.466 FG% / 0.519 2P% / 0.363 3P% /0.887 FT% | 	26.1 PPG / 2.5 AST / 11.5 TRB /0.9 STL /0.4 BLK
 
@@ -1908,6 +1960,8 @@ Danny Granger, 2003-04, New Mexico  0.491 FG% 0.546 2P% 0.333 3P% 0.760 FT% | 24
 Glenn Robinson, 1993-94, Purdue  0.483 FG% 0.522 2P% 0.380 3P% 0.796 FT% | 35.3 PPG 2.3 AST 11.8 TRB 1.9 STL 1.1 BLK  score: 0.9929
 CJ McCollum, 2010-11, Lehigh  0.399 FG% 0.435 2P% 0.315 3P% 0.845 FT% | 25.2 PPG 2.5 AST 9.0 TRB 2.9 STL 0.8 BLK  score: 0.9928
 
+The Top 30 per 40 minute NBA comps sorted in descending order based on their career VORPs:
+
 	Kevin Durant, 2006-07, Texas with a career VORP of 47.0
 	Carmelo Anthony, 2002-03, Syracuse with a career VORP of 29.4
 	Kyle Korver, 1999-00, Creighton with a career VORP of 20.1
@@ -1916,11 +1970,11 @@ CJ McCollum, 2010-11, Lehigh  0.399 FG% 0.435 2P% 0.315 3P% 0.845 FT% | 25.2 PPG
 	Michael Redd, 1999-00, Ohio State with a career VORP of 14.9
 	Ryan Anderson, 2007-08, Cal with a career VORP of 10.4
 	Ryan Anderson, 2006-07, Cal with a career VORP of 10.4
-	Josh Howard, 2002-03, Wake Forest with a career VORP of 10.3
 	Glenn Robinson, 1993-94, Purdue with a career VORP of 10.3
+	Josh Howard, 2002-03, Wake Forest with a career VORP of 10.3
 	Keith Van Horn, 1995-96, Utah with a career VORP of 8.4
-	Keith Van Horn, 1996-97, Utah with a career VORP of 8.4
 	Keith Van Horn, 1994-95, Utah with a career VORP of 8.4
+	Keith Van Horn, 1996-97, Utah with a career VORP of 8.4
 	Bradley Beal, 2011-12, Florida with a career VORP of 6.2
 	Tobias Harris, 2010-11, Tennessee with a career VORP of 5.4
 	Kentavious Caldwell-Pope, 2012-13, Georgia with a career VORP of 4.6
@@ -1928,18 +1982,18 @@ CJ McCollum, 2010-11, Lehigh  0.399 FG% 0.435 2P% 0.315 3P% 0.845 FT% | 25.2 PPG
 	CJ McCollum, 2010-11, Lehigh with a career VORP of 3.9
 	Harrison Barnes, 2010-11, UNC with a career VORP of 2.9
 	Terrence Ross, 2011-12, Washington with a career VORP of 2.7
-	Allen Crabbe, 2010-11, Cal with a career VORP of 1.5
 	Allen Crabbe, 2011-12, Cal with a career VORP of 1.5
+	Allen Crabbe, 2010-11, Cal with a career VORP of 1.5
 	Jabari Parker, 2013-14, Duke with a career VORP of 0.9
 	Malcom Brogdon, 2011-12, Virginia with a career VORP of 0.8
+	Taurean Prince, 2015-16, Baylor with a career VORP of -0.1
 	Tony Snell, 2010-11, New Mexico with a career VORP of -0.1
 	Taurean Prince, 2013-14, Baylor with a career VORP of -0.1
-	Taurean Prince, 2015-16, Baylor with a career VORP of -0.1
 	Stanley Johnson, 2014-15, Arizona with a career VORP of -0.2
 	Andrew Wiggins, 2013-14, Kansas with a career VORP of -0.8
 	Nick Young, 2005-06, USC with a career VORP of -5.2
 
-______________________________________________________
+___________________________________________________________________
 
 Alec Peters			28.8 PER/0.594 TS/0.528 eFG/8.5 ORB/23.3 DRB/14.8 AST/1.3 STL/1.2 BLK/11.2 TOV/30.8 USG/0.241 WS40/6.0 OBPM/0.5 DBPM
 
@@ -1975,35 +2029,37 @@ CJ McCollum  32.4 PER/0.556 TS/0.496 eFG/5.0 ORB/20.0 DRB/25.4 AST/4.6 STL/1.7 B
 Thomas Robinson  27.4 PER/0.549 TS/0.512 eFG/11.1 ORB/33.0 DRB/13.1 AST/2.0 STL/2.9 BLK/14.2 TOV/30.0 USG/0.231 WS40/3.0 OBPM/4.7 DBPM	| 0.9640
 Stanley Johnson  22.5 PER/0.551 TS/0.501 eFG/8.9 ORB/19.1 DRB/11.6 AST/3.2 STL/1.6 BLK/14.7 TOV/26.6 USG/0.212 WS40/4.8 OBPM/5.4 DBPM	| 0.9637
 
+The Top 30 advanced stats NBA comps sorted in descending order based on their career VORPs:
+
 	Kawhi Leonard, 2010-11, San Diego State with a career VORP of 25.4
 	Nikola Vucevic, 2010-11, USC with a career VORP of 8.0
 	Jae Crowder, 2011-12, Marquette with a career VORP of 7.3
 	Jae Crowder, 2010-11, Marquette with a career VORP of 7.3
 	Bradley Beal, 2011-12, Florida with a career VORP of 6.2
 	Tobias Harris, 2010-11, Tennessee with a career VORP of 5.4
-	Kentavious Caldwell-Pope, 2012-13, Georgia with a career VORP of 4.6
 	Kentavious Caldwell-Pope, 2011-12, Georgia with a career VORP of 4.6
+	Kentavious Caldwell-Pope, 2012-13, Georgia with a career VORP of 4.6
 	Kelly Olynyk, 2012-13, Gonzaga with a career VORP of 4.5
 	Marcus Morris, 2010-11, Kansas with a career VORP of 4.5
-	CJ McCollum, 2011-12, Lehigh with a career VORP of 3.9
 	CJ McCollum, 2010-11, Lehigh with a career VORP of 3.9
+	CJ McCollum, 2011-12, Lehigh with a career VORP of 3.9
 	Allen Crabbe, 2011-12, Cal with a career VORP of 1.5
 	Will Barton, 2011-12, Memphis with a career VORP of 1.5
 	Allen Crabbe, 2012-13, Cal with a career VORP of 1.5
 	Jabari Parker, 2013-14, Duke with a career VORP of 0.9
-	Sam Dekker, 2013-14, Wisconsin with a career VORP of 0.3
 	Sam Dekker, 2014-15, Wisconsin with a career VORP of 0.3
-	Tim Hardaway Jr., 2010-11, Michigan with a career VORP of -0.1
+	Sam Dekker, 2013-14, Wisconsin with a career VORP of 0.3
 	Taurean Prince, 2015-16, Baylor with a career VORP of -0.1
+	Tim Hardaway Jr., 2010-11, Michigan with a career VORP of -0.1
 	Stanley Johnson, 2014-15, Arizona with a career VORP of -0.2
 	Bobby Portis, 2014-15, Arkansas with a career VORP of -0.6
 	Kelly Oubre, 2014-15, Kansas with a career VORP of -0.8
 	Brandon Ingram, 2015-16, Duke with a career VORP of -1.1
 	Thomas Robinson, 2011-12, Kansas with a career VORP of -1.3
-	Doug McDermott, 2012-13, Creighton with a career VORP of -1.6
 	Doug McDermott, 2013-14, Creighton with a career VORP of -1.6
-	Doug McDermott, 2011-12, Creighton with a career VORP of -1.6
+	Doug McDermott, 2012-13, Creighton with a career VORP of -1.6
 	Doug McDermott, 2010-11, Creighton with a career VORP of -1.6
+	Doug McDermott, 2011-12, Creighton with a career VORP of -1.6
 	Anthony Bennett, 2012-13, UNLV with a career VORP of -1.7
 
 INTERSECTION OF PER40 AND ADVANCED SIMILARITIES:
@@ -2017,7 +2073,7 @@ INTERSECTION OF PER40 AND ADVANCED SIMILARITIES:
 	Taurean Prince, 2015-16, Baylor with a combined similarity score of: 0.9625786299928757
 	Stanley Johnson, 2014-15, Arizona with a combined similarity score of: 0.9586135412892525
 
-____________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________
 
 Edrice Adebayo			0.599 FG% / 0.601 2P% / 0.000 3P% /0.653 FT% | 	17.3 PPG / 1.1 AST / 10.6 TRB /0.9 STL /2.0 BLK
 
@@ -2054,38 +2110,40 @@ Antonio McDyess, 1994-95, Alabama  0.512 FG% 0.514 2P% 0.000 3P% 0.667 FT% | 21.
 Antawn Jamison, 1995-96, UNC  0.624 FG% 0.626 2P% 0.000 3P% 0.526 FT% | 18.4 PPG 1.3 AST 11.7 TRB 1.0 STL 1.3 BLK  score: 0.9920
 Carlos Boozer, 2001-02, Duke  0.665 FG% 0.667 2P% 0.000 3P% 0.754 FT% | 25.7 PPG 1.5 AST 12.2 TRB 1.2 STL 0.8 BLK  score: 0.9918
 
+The Top 30 per 40 minute NBA comps sorted in descending order based on their career VORPs:
+
 	Elton Brand, 1998-99, Duke with a career VORP of 45.2
 	Rasheed Wallace, 1993-94, UNC with a career VORP of 37.5
 	Paul Millsap, 2004-05, Louisiana Tech with a career VORP of 33.5
 	Joakim Noah, 2004-05, Florida with a career VORP of 27.8
-	Al Horford, 2006-07, Florida with a career VORP of 27.2
 	Al Horford, 2005-06, Florida with a career VORP of 27.2
+	Al Horford, 2006-07, Florida with a career VORP of 27.2
 	David West, 2000-01, Xavier with a career VORP of 24.5
-	LaMarcus Aldridge, 2004-05, Texas with a career VORP of 22.5
 	LaMarcus Aldridge, 2005-06, Texas with a career VORP of 22.5
+	LaMarcus Aldridge, 2004-05, Texas with a career VORP of 22.5
 	David Lee, 2002-03, Florida with a career VORP of 22.3
 	David Lee, 2001-02, Florida with a career VORP of 22.3
-	Carlos Boozer, 2000-01, Duke with a career VORP of 22.1
 	Carlos Boozer, 2001-02, Duke with a career VORP of 22.1
+	Carlos Boozer, 2000-01, Duke with a career VORP of 22.1
 	Antawn Jamison, 1995-96, UNC with a career VORP of 17.4
-	Antonio McDyess, 1994-95, Alabama with a career VORP of 16.4
 	Antonio McDyess, 1993-94, Alabama with a career VORP of 16.4
+	Antonio McDyess, 1994-95, Alabama with a career VORP of 16.4
 	Zach Randolph, 2000-01, Michigan State with a career VORP of 13.5
-	Roy Hibbert, 2005-06, Georgetown with a career VORP of 9.1
 	Channing Frye, 2001-02, Arizona with a career VORP of 9.1
 	Channing Frye, 2002-03, Arizona with a career VORP of 9.1
+	Roy Hibbert, 2005-06, Georgetown with a career VORP of 9.1
 	Roy Hibbert, 2006-07, Georgetown with a career VORP of 9.1
 	Derrick Favors, 2009-10, Georgia Tech with a career VORP of 8.7
 	Tristan Thompson, 2010-11, Texas with a career VORP of 5.0
 	Greg Oden, 2006-07, Ohio State with a career VORP of 1.6
-	Chris Kaman, 2001-02, Central Michigan with a career VORP of 0.0
 	Chris Kaman, 2000-01, Central Michigan with a career VORP of 0.0
 	Chris Kaman, 2002-03, Central Michigan with a career VORP of 0.0
+	Chris Kaman, 2001-02, Central Michigan with a career VORP of 0.0
 	Shelden Williams, 2002-03, Duke with a career VORP of -1.2
-	Shelden Williams, 2004-05, Duke with a career VORP of -1.2
 	Jason Smith, 2006-07, Colorado State with a career VORP of -1.2
+	Shelden Williams, 2004-05, Duke with a career VORP of -1.2
 
-______________________________________________________
+___________________________________________________________________
 
 Edrice Adebayo			22.0 PER/0.624 TS/0.599 eFG/11.2 ORB/17.2 DRB/4.7 AST/1.2 STL/4.9 BLK/13.9 TOV/18.5 USG/0.196 WS40/4.2 OBPM/5.3 DBPM
 
@@ -2121,33 +2179,35 @@ Jahlil Okafor  30.7 PER/0.641 TS/0.664 eFG/14.8 ORB/18.2 DRB/9.4 AST/1.5 STL/4.5
 Andrew Wiggins  21.4 PER/0.563 TS/0.499 eFG/8.4 ORB/12.3 DRB/9.2 AST/2.1 STL/3.1 BLK/13.1 TOV/26.3 USG/0.170 WS40/5.4 OBPM/3.0 DBPM	| 0.9332
 Thomas Robinson  27.4 PER/0.549 TS/0.512 eFG/11.1 ORB/33.0 DRB/13.1 AST/2.0 STL/2.9 BLK/14.2 TOV/30.0 USG/0.231 WS40/3.0 OBPM/4.7 DBPM	| 0.9313
 
+The Top 30 advanced stats NBA comps sorted in descending order based on their career VORPs:
+
 	Karl Towns, 2014-15, Kentucky with a career VORP of 8.5
 	Tristan Thompson, 2010-11, Texas with a career VORP of 5.0
-	Victor Oladipo, 2011-12, Indiana with a career VORP of 4.7
 	Victor Oladipo, 2010-11, Indiana with a career VORP of 4.7
+	Victor Oladipo, 2011-12, Indiana with a career VORP of 4.7
 	Kelly Olynyk, 2010-11, Gonzaga with a career VORP of 4.5
 	Nerlens Noel, 2012-13, Kentucky with a career VORP of 4.3
-	Cody Zeller, 2012-13, Indiana with a career VORP of 4.2
 	Cody Zeller, 2011-12, Indiana with a career VORP of 4.2
+	Cody Zeller, 2012-13, Indiana with a career VORP of 4.2
 	Markieff Morris, 2010-11, Kansas with a career VORP of 4.0
 	Andre Roberson, 2011-12, Colorado with a career VORP of 3.5
 	Aaron Gordon, 2013-14, Arizona with a career VORP of 2.4
 	Michael Kidd-Gilchrist, 2011-12, Kentucky with a career VORP of 2.1
-	Richaun Holmes, 2013-14, Bowling Green with a career VORP of 1.3
 	Richaun Holmes, 2014-15, Bowling Green with a career VORP of 1.3
+	Richaun Holmes, 2013-14, Bowling Green with a career VORP of 1.3
 	Joel Embiid, 2013-14, Kansas with a career VORP of 1.0
-	Rondae Hollis-Jefferson, 2013-14, Arizona with a career VORP of 0.9
 	Rondae Hollis-Jefferson, 2014-15, Arizona with a career VORP of 0.9
+	Rondae Hollis-Jefferson, 2013-14, Arizona with a career VORP of 0.9
 	Julius Randle, 2013-14, Kentucky with a career VORP of 0.1
-	Jerami Grant, 2013-14, Syracuse with a career VORP of -0.1
 	Jerami Grant, 2012-13, Syracuse with a career VORP of -0.1
+	Jerami Grant, 2013-14, Syracuse with a career VORP of -0.1
 	Stanley Johnson, 2014-15, Arizona with a career VORP of -0.2
 	Alex Len, 2012-13, Maryland with a career VORP of -0.7
 	Kelly Oubre, 2014-15, Kansas with a career VORP of -0.8
 	Andrew Wiggins, 2013-14, Kansas with a career VORP of -0.8
 	Jahlil Okafor, 2014-15, Duke with a career VORP of -1.2
-	Thomas Robinson, 2011-12, Kansas with a career VORP of -1.3
 	Thomas Robinson, 2010-11, Kansas with a career VORP of -1.3
+	Thomas Robinson, 2011-12, Kansas with a career VORP of -1.3
 	Noah Vonleh, 2013-14, Indiana with a career VORP of -1.4
 	Anthony Bennett, 2012-13, UNLV with a career VORP of -1.7
 	Derrick Williams, 2010-11, Arizona with a career VORP of -2.6
@@ -2156,7 +2216,7 @@ INTERSECTION OF PER40 AND ADVANCED SIMILARITIES:
 
 	Tristan Thompson, 2010-11, Texas with a combined similarity score of: 0.967905906856861
 
-____________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________
 
 Thomas Bryant			0.519 FG% / 0.556 2P% / 0.383 3P% /0.730 FT% | 	17.9 PPG / 2.1 AST / 9.5 TRB /1.1 STL /2.2 BLK
 
@@ -2193,6 +2253,8 @@ Jamal Mashburn, 1990-91, Kentucky  0.474 FG% 0.546 2P% 0.293 3P% 0.727 FT% | 21.
 Kelly Oubre, 2014-15, Kansas  0.444 FG% 0.497 2P% 0.358 3P% 0.718 FT% | 17.6 PPG 1.5 AST 9.5 TRB 2.2 STL 0.7 BLK  score: 0.9938
 Shawn Marion, 1998-99, UNLV  0.529 FG% 0.573 2P% 0.299 3P% 0.730 FT% | 22.8 PPG 1.5 AST 11.3 TRB 3.1 STL 2.3 BLK  score: 0.9933
 
+The Top 30 per 40 minute NBA comps sorted in descending order based on their career VORPs:
+
 	Paul Pierce, 1995-96, Kansas with a career VORP of 61.5
 	Vince Carter, 1995-96, UNC with a career VORP of 54.6
 	Shawn Marion, 1998-99, UNLV with a career VORP of 52.1
@@ -2218,13 +2280,13 @@ Shawn Marion, 1998-99, UNLV  0.529 FG% 0.573 2P% 0.299 3P% 0.730 FT% | 22.8 PPG 
 	Jabari Parker, 2013-14, Duke with a career VORP of 0.9
 	Justise Winslow, 2014-15, Duke with a career VORP of 0.7
 	Sam Dekker, 2013-14, Wisconsin with a career VORP of 0.3
-	Bobby Portis, 2014-15, Arkansas with a career VORP of -0.6
 	Bobby Portis, 2013-14, Arkansas with a career VORP of -0.6
+	Bobby Portis, 2014-15, Arkansas with a career VORP of -0.6
 	Kelly Oubre, 2014-15, Kansas with a career VORP of -0.8
 	Anthony Bennett, 2012-13, UNLV with a career VORP of -1.7
 	Michael Beasley, 2007-08, Kansas State with a career VORP of -4.4
 
-______________________________________________________
+___________________________________________________________________
 
 Thomas Bryant			21.6 PER/0.601 TS/0.560 eFG/9.7 ORB/17.2 DRB/9.8 AST/1.6 STL/5.7 BLK/18.0 TOV/22.2 USG/0.159 WS40/3.6 OBPM/3.9 DBPM
 
@@ -2260,13 +2322,15 @@ Justin Anderson  15.6 PER/0.516 TS/0.470 eFG/4.2 ORB/14.1 DRB/14.8 AST/1.1 STL/4
 Brandon Ingram  22.5 PER/0.552 TS/0.525 eFG/6.0 ORB/15.5 DRB/11.4 AST/1.9 STL/3.6 BLK/11.3 TOV/25.6 USG/0.157 WS40/4.6 OBPM/2.9 DBPM	| 0.9595
 Marcus Morris  29.3 PER/0.625 TS/0.601 eFG/11.5 ORB/19.0 DRB/11.4 AST/1.7 STL/2.4 BLK/11.4 TOV/26.9 USG/0.269 WS40/7.8 OBPM/3.4 DBPM	| 0.9595
 
+The Top 30 advanced stats NBA comps sorted in descending order based on their career VORPs:
+
 	Bradley Beal, 2011-12, Florida with a career VORP of 6.2
 	Otto Porter, 2011-12, Georgetown with a career VORP of 6.2
 	Tobias Harris, 2010-11, Tennessee with a career VORP of 5.4
-	Victor Oladipo, 2011-12, Indiana with a career VORP of 4.7
 	Victor Oladipo, 2010-11, Indiana with a career VORP of 4.7
-	Marcus Morris, 2010-11, Kansas with a career VORP of 4.5
+	Victor Oladipo, 2011-12, Indiana with a career VORP of 4.7
 	Kelly Olynyk, 2012-13, Gonzaga with a career VORP of 4.5
+	Marcus Morris, 2010-11, Kansas with a career VORP of 4.5
 	Kelly Olynyk, 2010-11, Gonzaga with a career VORP of 4.5
 	Cody Zeller, 2012-13, Indiana with a career VORP of 4.2
 	Cody Zeller, 2011-12, Indiana with a career VORP of 4.2
@@ -2279,9 +2343,9 @@ Marcus Morris  29.3 PER/0.625 TS/0.601 eFG/11.5 ORB/19.0 DRB/11.4 AST/1.7 STL/2.
 	Justise Winslow, 2014-15, Duke with a career VORP of 0.7
 	Justin Anderson, 2013-14, Virginia with a career VORP of 0.3
 	Marquese Chriss, 2015-16, Washington with a career VORP of 0.2
-	Taurean Prince, 2013-14, Baylor with a career VORP of -0.1
-	Taurean Prince, 2015-16, Baylor with a career VORP of -0.1
 	Jerami Grant, 2012-13, Syracuse with a career VORP of -0.1
+	Taurean Prince, 2015-16, Baylor with a career VORP of -0.1
+	Taurean Prince, 2013-14, Baylor with a career VORP of -0.1
 	Stanley Johnson, 2014-15, Arizona with a career VORP of -0.2
 	Bobby Portis, 2013-14, Arkansas with a career VORP of -0.6
 	Alex Len, 2012-13, Maryland with a career VORP of -0.7
@@ -2300,7 +2364,7 @@ INTERSECTION OF PER40 AND ADVANCED SIMILARITIES:
 	Bobby Portis, 2013-14, Arkansas with a combined similarity score of: 0.9639292705852973
 	Anthony Bennett, 2012-13, UNLV with a combined similarity score of: 0.9604756922065362
 
-____________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________
 
 Johnathan Motley			0.522 FG% / 0.541 2P% / 0.281 3P% /0.699 FT% | 	22.7 PPG / 3.1 AST / 12.9 TRB /0.5 STL /1.4 BLK
 
@@ -2337,6 +2401,8 @@ Doug McDermott, 2010-11, Creighton  0.525 FG% 0.571 2P% 0.405 3P% 0.746 FT% | 20
 Shawn Marion, 1998-99, UNLV  0.529 FG% 0.573 2P% 0.299 3P% 0.730 FT% | 22.8 PPG 1.5 AST 11.3 TRB 3.1 STL 2.3 BLK  score: 0.9907
 Luol Deng, 2003-04, Duke  0.476 FG% 0.515 2P% 0.360 3P% 0.710 FT% | 19.4 PPG 2.4 AST 8.9 TRB 1.7 STL 1.4 BLK  score: 0.9904
 
+The Top 30 per 40 minute NBA comps sorted in descending order based on their career VORPs:
+
 	Vince Carter, 1995-96, UNC with a career VORP of 54.6
 	Shawn Marion, 1998-99, UNLV with a career VORP of 52.1
 	Lamar Odom, 1998-99, Rhode Island with a career VORP of 36.3
@@ -2353,8 +2419,8 @@ Luol Deng, 2003-04, Duke  0.476 FG% 0.515 2P% 0.360 3P% 0.710 FT% | 19.4 PPG 2.4
 	Nikola Vucevic, 2010-11, USC with a career VORP of 8.0
 	Jae Crowder, 2010-11, Marquette with a career VORP of 7.3
 	Tobias Harris, 2010-11, Tennessee with a career VORP of 5.4
-	Wilson Chandler, 2006-07, DePaul with a career VORP of 5.2
 	Al-Farouq Aminu, 2009-10, Wake Forest with a career VORP of 5.2
+	Wilson Chandler, 2006-07, DePaul with a career VORP of 5.2
 	Marcus Morris, 2010-11, Kansas with a career VORP of 4.5
 	Maurice Harkless, 2011-12, St. John's (NY) with a career VORP of 3.4
 	Drew Gooden, 2001-02, Kansas with a career VORP of 2.3
@@ -2368,7 +2434,7 @@ Luol Deng, 2003-04, Duke  0.476 FG% 0.515 2P% 0.360 3P% 0.710 FT% | 19.4 PPG 2.4
 	Anthony Bennett, 2012-13, UNLV with a career VORP of -1.7
 	Michael Beasley, 2007-08, Kansas State with a career VORP of -4.4
 
-______________________________________________________
+___________________________________________________________________
 
 Johnathan Motley			26.7 PER/0.566 TS/0.532 eFG/15.2 ORB/22.9 DRB/17.3 AST/0.7 STL/3.8 BLK/16.1 TOV/30.6 USG/0.208 WS40/5.1 OBPM/4.8 DBPM
 
@@ -2404,15 +2470,17 @@ Jabari Parker  28.4 PER/0.558 TS/0.511 eFG/11.4 ORB/23.1 DRB/8.6 AST/2.1 STL/4.0
 Taurean Prince  25.6 PER/0.571 TS/0.556 eFG/8.1 ORB/16.1 DRB/12.1 AST/3.6 STL/3.9 BLK/14.3 TOV/27.9 USG/0.207 WS40/6.9 OBPM/4.8 DBPM	| 0.9697
 Maurice Harkless  21.1 PER/0.504 TS/0.472 eFG/8.4 ORB/20.3 DRB/9.6 AST/2.6 STL/4.2 BLK/14.0 TOV/24.9 USG/0.109 WS40/1.4 OBPM/2.0 DBPM	| 0.9692
 
+The Top 30 advanced stats NBA comps sorted in descending order based on their career VORPs:
+
 	Kawhi Leonard, 2010-11, San Diego State with a career VORP of 25.4
 	Nikola Vucevic, 2010-11, USC with a career VORP of 8.0
 	Jae Crowder, 2010-11, Marquette with a career VORP of 7.3
-	Bradley Beal, 2011-12, Florida with a career VORP of 6.2
 	Otto Porter, 2012-13, Georgetown with a career VORP of 6.2
+	Bradley Beal, 2011-12, Florida with a career VORP of 6.2
 	Otto Porter, 2011-12, Georgetown with a career VORP of 6.2
 	Tobias Harris, 2010-11, Tennessee with a career VORP of 5.4
-	Victor Oladipo, 2011-12, Indiana with a career VORP of 4.7
 	Victor Oladipo, 2010-11, Indiana with a career VORP of 4.7
+	Victor Oladipo, 2011-12, Indiana with a career VORP of 4.7
 	Kelly Olynyk, 2012-13, Gonzaga with a career VORP of 4.5
 	Marcus Morris, 2010-11, Kansas with a career VORP of 4.5
 	Cody Zeller, 2011-12, Indiana with a career VORP of 4.2
@@ -2448,7 +2516,7 @@ INTERSECTION OF PER40 AND ADVANCED SIMILARITIES:
 	Michael Kidd-Gilchrist, 2011-12, Kentucky with a combined similarity score of: 0.9668649790609336
 	Maurice Harkless, 2011-12, St. John's (NY) with a combined similarity score of: 0.963752728913057
 
-____________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________
 
 Tony Bradley			0.573 FG% / 0.573 2P% / 0.000 3P% /0.619 FT% | 	19.5 PPG / 1.7 AST / 14.1 TRB /0.7 STL /1.6 BLK
 
@@ -2485,38 +2553,40 @@ David West, 2000-01, Xavier  0.551 FG% 0.552 2P% 0.000 3P% 0.740 FT% | 21.1 PPG 
 Tristan Thompson, 2010-11, Texas  0.546 FG% 0.546 2P% None 3P% 0.487 FT% | 17.1 PPG 1.6 AST 10.2 TRB 1.2 STL 3.1 BLK  score: 0.9879
 Chris Kaman, 2002-03, Central Michigan  0.622 FG% 0.622 2P% None 3P% 0.749 FT% | 26.3 PPG 1.4 AST 14.1 TRB 0.7 STL 3.7 BLK  score: 0.9879
 
+The Top 30 per 40 minute NBA comps sorted in descending order based on their career VORPs:
+
 	Elton Brand, 1998-99, Duke with a career VORP of 45.2
 	Rasheed Wallace, 1993-94, UNC with a career VORP of 37.5
 	Paul Millsap, 2004-05, Louisiana Tech with a career VORP of 33.5
 	Joakim Noah, 2004-05, Florida with a career VORP of 27.8
-	Al Horford, 2006-07, Florida with a career VORP of 27.2
 	Al Horford, 2005-06, Florida with a career VORP of 27.2
-	David West, 2000-01, Xavier with a career VORP of 24.5
+	Al Horford, 2006-07, Florida with a career VORP of 27.2
 	David West, 1999-00, Xavier with a career VORP of 24.5
-	LaMarcus Aldridge, 2004-05, Texas with a career VORP of 22.5
+	David West, 2000-01, Xavier with a career VORP of 24.5
 	LaMarcus Aldridge, 2005-06, Texas with a career VORP of 22.5
-	David Lee, 2004-05, Florida with a career VORP of 22.3
+	LaMarcus Aldridge, 2004-05, Texas with a career VORP of 22.5
 	David Lee, 2002-03, Florida with a career VORP of 22.3
 	David Lee, 2001-02, Florida with a career VORP of 22.3
+	David Lee, 2004-05, Florida with a career VORP of 22.3
 	Antawn Jamison, 1995-96, UNC with a career VORP of 17.4
-	Antonio McDyess, 1994-95, Alabama with a career VORP of 16.4
 	Antonio McDyess, 1993-94, Alabama with a career VORP of 16.4
+	Antonio McDyess, 1994-95, Alabama with a career VORP of 16.4
 	Zach Randolph, 2000-01, Michigan State with a career VORP of 13.5
-	Roy Hibbert, 2005-06, Georgetown with a career VORP of 9.1
 	Channing Frye, 2001-02, Arizona with a career VORP of 9.1
 	Channing Frye, 2002-03, Arizona with a career VORP of 9.1
+	Roy Hibbert, 2005-06, Georgetown with a career VORP of 9.1
 	Derrick Favors, 2009-10, Georgia Tech with a career VORP of 8.7
 	Tristan Thompson, 2010-11, Texas with a career VORP of 5.0
 	Greg Oden, 2006-07, Ohio State with a career VORP of 1.6
-	Chris Kaman, 2001-02, Central Michigan with a career VORP of 0.0
 	Chris Kaman, 2002-03, Central Michigan with a career VORP of 0.0
+	Chris Kaman, 2001-02, Central Michigan with a career VORP of 0.0
 	Shelden Williams, 2002-03, Duke with a career VORP of -1.2
 	Shelden Williams, 2004-05, Duke with a career VORP of -1.2
 	Jason Smith, 2006-07, Colorado State with a career VORP of -1.2
 	Thomas Robinson, 2010-11, Kansas with a career VORP of -1.3
 	Jamaal Magloire, 1999-00, Kentucky with a career VORP of -3.3
 
-______________________________________________________
+___________________________________________________________________
 
 Tony Bradley			26.1 PER/0.590 TS/0.573 eFG/18.7 ORB/18.9 DRB/7.2 AST/1.0 STL/4.4 BLK/9.9 TOV/20.7 USG/0.225 WS40/5.8 OBPM/4.0 DBPM
 
@@ -2552,15 +2622,17 @@ Rondae Hollis-Jefferson  21.8 PER/0.573 TS/0.513 eFG/9.0 ORB/20.1 DRB/10.1 AST/2
 Stanley Johnson  22.5 PER/0.551 TS/0.501 eFG/8.9 ORB/19.1 DRB/11.6 AST/3.2 STL/1.6 BLK/14.7 TOV/26.6 USG/0.212 WS40/4.8 OBPM/5.4 DBPM	| 0.9306
 Victor Oladipo  21.5 PER/0.586 TS/0.571 eFG/10.9 ORB/14.8 DRB/10.5 AST/3.6 STL/1.5 BLK/17.9 TOV/22.5 USG/0.146 WS40/3.9 OBPM/2.7 DBPM	| 0.9298
 
+The Top 30 advanced stats NBA comps sorted in descending order based on their career VORPs:
+
 	Karl Towns, 2014-15, Kentucky with a career VORP of 8.5
 	Nikola Vucevic, 2010-11, USC with a career VORP of 8.0
 	Jae Crowder, 2010-11, Marquette with a career VORP of 7.3
 	Tristan Thompson, 2010-11, Texas with a career VORP of 5.0
 	Victor Oladipo, 2010-11, Indiana with a career VORP of 4.7
-	Marcus Morris, 2010-11, Kansas with a career VORP of 4.5
 	Kelly Olynyk, 2012-13, Gonzaga with a career VORP of 4.5
-	Cody Zeller, 2012-13, Indiana with a career VORP of 4.2
+	Marcus Morris, 2010-11, Kansas with a career VORP of 4.5
 	Cody Zeller, 2011-12, Indiana with a career VORP of 4.2
+	Cody Zeller, 2012-13, Indiana with a career VORP of 4.2
 	Markieff Morris, 2010-11, Kansas with a career VORP of 4.0
 	Andre Roberson, 2011-12, Colorado with a career VORP of 3.5
 	Andre Roberson, 2010-11, Colorado with a career VORP of 3.5
@@ -2574,8 +2646,8 @@ Victor Oladipo  21.5 PER/0.586 TS/0.571 eFG/10.9 ORB/14.8 DRB/10.5 AST/3.6 STL/1
 	Jerami Grant, 2013-14, Syracuse with a career VORP of -0.1
 	Taurean Prince, 2012-13, Baylor with a career VORP of -0.1
 	Stanley Johnson, 2014-15, Arizona with a career VORP of -0.2
-	Bobby Portis, 2014-15, Arkansas with a career VORP of -0.6
 	Bobby Portis, 2013-14, Arkansas with a career VORP of -0.6
+	Bobby Portis, 2014-15, Arkansas with a career VORP of -0.6
 	Alex Len, 2012-13, Maryland with a career VORP of -0.7
 	Jahlil Okafor, 2014-15, Duke with a career VORP of -1.2
 	Thomas Robinson, 2010-11, Kansas with a career VORP of -1.3
@@ -2588,7 +2660,7 @@ INTERSECTION OF PER40 AND ADVANCED SIMILARITIES:
 	Thomas Robinson, 2010-11, Kansas with a combined similarity score of: 0.9664409103291144
 	Tristan Thompson, 2010-11, Texas with a combined similarity score of: 0.9312962497312358
 
-____________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________
 
 Kyle Kuzma			0.504 FG% / 0.560 2P% / 0.321 3P% /0.669 FT% | 	21.3 PPG / 3.2 AST / 12.1 TRB /0.8 STL /0.6 BLK
 
@@ -2625,6 +2697,8 @@ Jae Crowder, 2011-12, Marquette  0.498 FG% 0.602 2P% 0.345 3P% 0.735 FT% | 21.3 
 David West, 2001-02, Xavier  0.536 FG% 0.553 2P% 0.321 3P% 0.768 FT% | 21.4 PPG 1.8 AST 11.4 TRB 1.4 STL 2.9 BLK  score: 0.9913
 Justise Winslow, 2014-15, Duke  0.486 FG% 0.516 2P% 0.418 3P% 0.641 FT% | 17.3 PPG 2.9 AST 8.9 TRB 1.8 STL 1.2 BLK  score: 0.9911
 
+The Top 30 per 40 minute NBA comps sorted in descending order based on their career VORPs:
+
 	Paul Pierce, 1995-96, Kansas with a career VORP of 61.5
 	Vince Carter, 1995-96, UNC with a career VORP of 54.6
 	Lamar Odom, 1998-99, Rhode Island with a career VORP of 36.3
@@ -2638,15 +2712,15 @@ Justise Winslow, 2014-15, Duke  0.486 FG% 0.516 2P% 0.418 3P% 0.641 FT% | 17.3 P
 	Josh Howard, 1999-00, Wake Forest with a career VORP of 10.3
 	Josh Howard, 2001-02, Wake Forest with a career VORP of 10.3
 	Nikola Vucevic, 2010-11, USC with a career VORP of 8.0
-	Jae Crowder, 2010-11, Marquette with a career VORP of 7.3
 	Jae Crowder, 2011-12, Marquette with a career VORP of 7.3
+	Jae Crowder, 2010-11, Marquette with a career VORP of 7.3
 	Wilson Chandler, 2006-07, DePaul with a career VORP of 5.2
 	Marcus Morris, 2009-10, Kansas with a career VORP of 4.5
 	Marcus Morris, 2010-11, Kansas with a career VORP of 4.5
 	Markieff Morris, 2010-11, Kansas with a career VORP of 4.0
 	Jeff Green, 2005-06, Georgetown with a career VORP of 3.9
-	Drew Gooden, 2001-02, Kansas with a career VORP of 2.3
 	Rodney Hood, 2011-12, Mississippi State with a career VORP of 2.3
+	Drew Gooden, 2001-02, Kansas with a career VORP of 2.3
 	Michael Kidd-Gilchrist, 2011-12, Kentucky with a career VORP of 2.1
 	Will Barton, 2011-12, Memphis with a career VORP of 1.5
 	Justise Winslow, 2014-15, Duke with a career VORP of 0.7
@@ -2656,7 +2730,7 @@ Justise Winslow, 2014-15, Duke  0.486 FG% 0.516 2P% 0.418 3P% 0.641 FT% | 17.3 P
 	Doug McDermott, 2010-11, Creighton with a career VORP of -1.6
 	Anthony Bennett, 2012-13, UNLV with a career VORP of -1.7
 
-______________________________________________________
+___________________________________________________________________
 
 Kyle Kuzma			25.1 PER/0.565 TS/0.542 eFG/11.3 ORB/23.3 DRB/15.2 AST/1.1 STL/1.6 BLK/12.8 TOV/27.0 USG/0.204 WS40/4.6 OBPM/2.0 DBPM
 
@@ -2692,10 +2766,12 @@ Stanley Johnson  22.5 PER/0.551 TS/0.501 eFG/8.9 ORB/19.1 DRB/11.6 AST/3.2 STL/1
 Kentavious Caldwell-Pope  27.7 PER/0.579 TS/0.530 eFG/4.3 ORB/21.3 DRB/16.8 AST/3.8 STL/1.9 BLK/11.1 TOV/29.2 USG/0.230 WS40/8.9 OBPM/3.2 DBPM	| 0.9703
 Allen Crabbe  18.0 PER/0.582 TS/0.545 eFG/2.4 ORB/15.9 DRB/12.2 AST/1.6 STL/1.5 BLK/11.5 TOV/19.6 USG/0.129 WS40/4.7 OBPM/2.2 DBPM	| 0.9688
 
+The Top 30 advanced stats NBA comps sorted in descending order based on their career VORPs:
+
 	Kawhi Leonard, 2010-11, San Diego State with a career VORP of 25.4
 	Nikola Vucevic, 2010-11, USC with a career VORP of 8.0
-	Jae Crowder, 2010-11, Marquette with a career VORP of 7.3
 	Jae Crowder, 2011-12, Marquette with a career VORP of 7.3
+	Jae Crowder, 2010-11, Marquette with a career VORP of 7.3
 	Bradley Beal, 2011-12, Florida with a career VORP of 6.2
 	Otto Porter, 2011-12, Georgetown with a career VORP of 6.2
 	Tobias Harris, 2010-11, Tennessee with a career VORP of 5.4
@@ -2705,16 +2781,16 @@ Allen Crabbe  18.0 PER/0.582 TS/0.545 eFG/2.4 ORB/15.9 DRB/12.2 AST/1.6 STL/1.5 
 	Markieff Morris, 2010-11, Kansas with a career VORP of 4.0
 	Maurice Harkless, 2011-12, St. John's (NY) with a career VORP of 3.4
 	Allen Crabbe, 2011-12, Cal with a career VORP of 1.5
-	Allen Crabbe, 2010-11, Cal with a career VORP of 1.5
 	Will Barton, 2011-12, Memphis with a career VORP of 1.5
+	Allen Crabbe, 2010-11, Cal with a career VORP of 1.5
 	Jabari Parker, 2013-14, Duke with a career VORP of 0.9
 	Justise Winslow, 2014-15, Duke with a career VORP of 0.7
-	Sam Dekker, 2013-14, Wisconsin with a career VORP of 0.3
 	Sam Dekker, 2014-15, Wisconsin with a career VORP of 0.3
+	Sam Dekker, 2013-14, Wisconsin with a career VORP of 0.3
 	Taurean Prince, 2015-16, Baylor with a career VORP of -0.1
 	Stanley Johnson, 2014-15, Arizona with a career VORP of -0.2
-	Bobby Portis, 2014-15, Arkansas with a career VORP of -0.6
 	Bobby Portis, 2013-14, Arkansas with a career VORP of -0.6
+	Bobby Portis, 2014-15, Arkansas with a career VORP of -0.6
 	Kelly Oubre, 2014-15, Kansas with a career VORP of -0.8
 	Brandon Ingram, 2015-16, Duke with a career VORP of -1.1
 	Jahlil Okafor, 2014-15, Duke with a career VORP of -1.2
@@ -2737,7 +2813,7 @@ INTERSECTION OF PER40 AND ADVANCED SIMILARITIES:
 	Jae Crowder, 2011-12, Marquette with a combined similarity score of: 0.9636615012744082
 	Justise Winslow, 2014-15, Duke with a combined similarity score of: 0.9631040516287994
 
-____________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________
 
 Moe Wagner			0.560 FG% / 0.661 2P% / 0.395 3P% /0.726 FT% | 	20.2 PPG / 0.9 AST / 7.0 TRB /1.7 STL /0.6 BLK
 
@@ -2774,8 +2850,10 @@ Ray Allen, 1993-94, UConn  0.510 FG% 0.548 2P% 0.402 3P% 0.792 FT% | 23.3 PPG 2.
 Mike Miller, 1998-99, Florida  0.494 FG% 0.575 2P% 0.356 3P% 0.702 FT% | 20.1 PPG 3.4 AST 8.6 TRB 2.1 STL 0.4 BLK  score: 0.9900
 Ray Allen, 1994-95, UConn  0.489 FG% 0.515 2P% 0.445 3P% 0.727 FT% | 25.7 PPG 2.9 AST 8.3 TRB 2.3 STL 0.6 BLK  score: 0.9897
 
-	Ray Allen, 1994-95, UConn with a career VORP of 58.1
+The Top 30 per 40 minute NBA comps sorted in descending order based on their career VORPs:
+
 	Ray Allen, 1993-94, UConn with a career VORP of 58.1
+	Ray Allen, 1994-95, UConn with a career VORP of 58.1
 	Jason Richardson, 2000-01, Michigan State with a career VORP of 24.4
 	Mike Miller, 1998-99, Florida with a career VORP of 20.3
 	Donyell Marshall, 1993-94, UConn with a career VORP of 19.1
@@ -2783,11 +2861,11 @@ Ray Allen, 1994-95, UConn  0.489 FG% 0.515 2P% 0.445 3P% 0.727 FT% | 25.7 PPG 2.
 	Danny Granger, 2002-03, Bradley with a career VORP of 16.1
 	Mike Dunleavy Jr., 2001-02, Duke with a career VORP of 15.9
 	Michael Redd, 1998-99, Ohio State with a career VORP of 14.9
-	Jamal Mashburn, 1992-93, Kentucky with a career VORP of 12.9
 	Jamal Mashburn, 1991-92, Kentucky with a career VORP of 12.9
+	Jamal Mashburn, 1992-93, Kentucky with a career VORP of 12.9
 	Wally Szczerbiak, 1998-99, Miami (OH) with a career VORP of 12.8
-	Keith Van Horn, 1995-96, Utah with a career VORP of 8.4
 	Keith Van Horn, 1994-95, Utah with a career VORP of 8.4
+	Keith Van Horn, 1995-96, Utah with a career VORP of 8.4
 	Kentavious Caldwell-Pope, 2011-12, Georgia with a career VORP of 4.6
 	Kelly Olynyk, 2012-13, Gonzaga with a career VORP of 4.5
 	Marcus Morris, 2009-10, Kansas with a career VORP of 4.5
@@ -2805,7 +2883,7 @@ Ray Allen, 1994-95, UConn  0.489 FG% 0.515 2P% 0.445 3P% 0.727 FT% | 25.7 PPG 2.
 	Marcus Fizer, 1999-00, Iowa State with a career VORP of -4.1
 	Nick Young, 2004-05, USC with a career VORP of -5.2
 
-______________________________________________________
+___________________________________________________________________
 
 Moe Wagner			24.2 PER/0.654 TS/0.635 eFG/7.6 ORB/15.3 DRB/4.7 AST/2.7 STL/1.6 BLK/13.4 TOV/25.1 USG/0.188 WS40/5.9 OBPM/1.3 DBPM
 
@@ -2841,20 +2919,22 @@ Buddy Hield  28.2 PER/0.665 TS/0.623 eFG/4.0 ORB/13.0 DRB/12.7 AST/1.8 STL/1.4 B
 Terrence Ross  18.8 PER/0.556 TS/0.539 eFG/5.3 ORB/12.3 DRB/9.6 AST/1.8 STL/2.0 BLK/8.9 TOV/21.2 USG/0.171 WS40/5.3 OBPM/1.7 DBPM	| 0.9576
 James Young  16.6 PER/0.536 TS/0.498 eFG/3.7 ORB/11.0 DRB/10.8 AST/1.4 STL/0.6 BLK/12.3 TOV/23.4 USG/0.145 WS40/5.2 OBPM/0.8 DBPM	| 0.9569
 
+The Top 30 advanced stats NBA comps sorted in descending order based on their career VORPs:
+
 	Tobias Harris, 2010-11, Tennessee with a career VORP of 5.4
 	Kentavious Caldwell-Pope, 2011-12, Georgia with a career VORP of 4.6
 	Kelly Olynyk, 2012-13, Gonzaga with a career VORP of 4.5
 	Marcus Morris, 2010-11, Kansas with a career VORP of 4.5
 	Maurice Harkless, 2011-12, St. John's (NY) with a career VORP of 3.4
-	Harrison Barnes, 2010-11, UNC with a career VORP of 2.9
 	Harrison Barnes, 2011-12, UNC with a career VORP of 2.9
-	Terrence Ross, 2011-12, Washington with a career VORP of 2.7
+	Harrison Barnes, 2010-11, UNC with a career VORP of 2.9
 	Terrence Ross, 2010-11, Washington with a career VORP of 2.7
+	Terrence Ross, 2011-12, Washington with a career VORP of 2.7
 	TJ Warren, 2013-14, North Carolina State with a career VORP of 1.1
 	TJ Warren, 2012-13, North Carolina State with a career VORP of 1.1
 	Jabari Parker, 2013-14, Duke with a career VORP of 0.9
-	Sam Dekker, 2013-14, Wisconsin with a career VORP of 0.3
 	Sam Dekker, 2014-15, Wisconsin with a career VORP of 0.3
+	Sam Dekker, 2013-14, Wisconsin with a career VORP of 0.3
 	Marquese Chriss, 2015-16, Washington with a career VORP of 0.2
 	Taurean Prince, 2014-15, Baylor with a career VORP of -0.1
 	Taurean Prince, 2015-16, Baylor with a career VORP of -0.1
@@ -2864,8 +2944,8 @@ James Young  16.6 PER/0.536 TS/0.498 eFG/3.7 ORB/11.0 DRB/10.8 AST/1.4 STL/0.6 B
 	Bobby Portis, 2014-15, Arkansas with a career VORP of -0.6
 	Kelly Oubre, 2014-15, Kansas with a career VORP of -0.8
 	Brandon Ingram, 2015-16, Duke with a career VORP of -1.1
-	Ben McLemore, 2012-13, Kansas with a career VORP of -1.2
 	Jahlil Okafor, 2014-15, Duke with a career VORP of -1.2
+	Ben McLemore, 2012-13, Kansas with a career VORP of -1.2
 	Nik Stauskas, 2012-13, Michigan with a career VORP of -1.5
 	Doug McDermott, 2012-13, Creighton with a career VORP of -1.6
 	Doug McDermott, 2011-12, Creighton with a career VORP of -1.6
@@ -2884,5 +2964,5 @@ INTERSECTION OF PER40 AND ADVANCED SIMILARITIES:
 	Kelly Olynyk, 2012-13, Gonzaga with a combined similarity score of: 0.9498707467795694
 	Terrence Ross, 2010-11, Washington with a combined similarity score of: 0.9485180551701562
 
-____________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________
 

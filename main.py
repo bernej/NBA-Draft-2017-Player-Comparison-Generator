@@ -17,8 +17,8 @@ prosp_szn_results, prosp_per40_results, prosp_adv_results, comps_per40_results, 
 remove_output_files()
 
 # Formatting strings
-divider = "____________________________________________________________________________________________________________\n"
-half_divider = "\n______________________________________________________\n\n"
+divider = "______________________________________________________________________________________________________________________________________\n"
+half_divider = "\n___________________________________________________________________\n\n"
 
 # Output file to write to. Either guards.txt, wings.txt, or bigs.txt
 out_file = initialize_output_files(divider)
@@ -52,9 +52,6 @@ for prospect in prosp_per40_results:
 
         # Looks at PTS, AST, TRBs, STLs, and BLKs
         per40_comparables[comp_key] *= per_game_similarity(prospect, nba_player)
-
-        # Looks at FGA, 2PA, 3PA, and FTAs
-        # shot_attempt_score = shot_attempt_similarity(prospect, nba_player)
 
     # seasons that have complete advanced stats from sports-reference.com
     adv_seasons = ['11','12','13','14','15','16']
@@ -110,8 +107,8 @@ for prospect in prosp_per40_results:
         if idx >= 30:
             break
 
-    # Output the Top 30 NBA comps in descending order based on their career VORPs
-    out_file.write('\n')
+    # Output the Top 30 per 40 minutes NBA comps in descending order based on their career VORPs
+    out_file.write('\nThe Top 30 per 40 minute NBA comps sorted in descending order based on their career VORPs:\n\n')
     write_NBA_player_VORPs(out_file, vorp_comps)
 
     # Output the prospect's advanced stats
@@ -121,23 +118,25 @@ for prospect in prosp_per40_results:
     out_file.write("\nAdvanced stat comparisons:\n")
     vorp_comps = {}     # Reset the VORP mappings.
 
-    # Go through and output all the NBA players that have an advanced stats similarity score of 0.96 or above
+    # Go through the Top 30 advanced stats similarity scores
+    idx = 0
     for comp in adv_comparables:
-        # Check if the current similarity score has fell under 0.96
-        if comp[1] < 0.96:
-            break
         # Map this score for possible future intersection calculation
         adv_score[comp[0]] = comp[1]
         # Map this NBA player's VORP
         vorp_comps[comp[0]] = players[comp[0]]['VORP']
         # Output this NBA player's advanced stats for this NCAA season
-        write_NBA_comp_adv(out_file, comp, adv_players)      
+        write_NBA_comp_adv(out_file, comp, adv_players)
+        # Check if the index has exceeded 30
+        idx += 1
+        if idx >= 30:
+            break  
 
-    # Output the advanced stats NBA comps in descending order based on their career VORPs
-    out_file.write('\n')
+    # Output the Top 30 advanced stats NBA comps in descending order based on their career VORPs
+    out_file.write('\nThe Top 30 advanced stats NBA comps sorted in descending order based on their career VORPs:\n\n')
     write_NBA_player_VORPs(out_file, vorp_comps)
 
     # Compute intersection similarities for players who appeared in both sets
     intersect_similarities(out_file, per40_score, adv_score, divider)
-
+    # Close output file and move on to next prospect
     out_file.close()
