@@ -6,8 +6,9 @@ db = connect_to_database()
 
 # NBA players in the database. Consists of every top 5 pick since the 1993 draft
 # as well as every all star drafted since 1993. Additionally, contains more
-# active players than retired, i.e. players who are 
+# active players than retired, i.e. players who are currently contributing to an NBA team
 players = {}        # NBA Players mapped to their NCAA seasonal per 40 minutes stats
+
 adv_players = {}    # NBA Players mapped to their NCAA seasonal advanced stats
 
 # Grab all the data from the tables in the database
