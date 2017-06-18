@@ -2051,6 +2051,45 @@ INSERT INTO comps_per40 VALUES ('Anthony Morrow','2004-05','Georgia Tech','ACC',
 INSERT INTO comps_per40 VALUES ('Anthony Morrow','2005-06','Georgia Tech','ACC',28,901,6.8,15.4,.443,3.4,7.4,.458,3.5,8.1,.429,2.8,3.2,.887,5.6,2.0,1.3,0.2,NULL,NULL,19.9,1.4);
 INSERT INTO comps_per40 VALUES ('Anthony Morrow','2006-07','Georgia Tech','ACC',32,662,6.3,14.7,.426,2.6,5.9,.439,3.7,8.8,.418,3.0,3.5,.845,5.3,1.7,1.1,0.2,NULL,NULL,19.2,1.4);
 INSERT INTO comps_per40 VALUES ('Anthony Morrow','2007-08','Georgia Tech','ACC',32,951,6.5,14.1,.458,3.1,6.5,.471,3.4,7.6,.448,2.8,3.3,.859,5.5,1.4,1.5,0.4,1.4,NULL,19.2,1.4);
+-- 2009 draftees had invalid per 40 minute stats on sports-reference.com
+-- misc. 2010 draftees
+INSERT INTO comps_per40 VALUES ('Ekpe Udoh','2009-10','Baylor','Big 12',36,1264,6.0,12.3,.490,5.8,11.5,.505,0.2,0.8,.269,3.5,5.1,.685,11.1,3.1,0.9,4.2,2.8,2.8,15.8,1.0);
+INSERT INTO comps_per40 VALUES ('Greg Monroe','2009-10','Georgetown','Big East',34,1164,6.9,13.2,.525,6.7,12.3,.545,0.2,0.9,.259,4.7,7.2,.660,11.3,4.4,1.4,1.8,3.8,3.0,18.9,16.2);
+INSERT INTO comps_per40 VALUES ('Cole Aldrich','2009-10','Kansas','Big 12',36,963,6.2,11.0,.562,6.2,11.0,.562,0.0,0.0,NULL,4.5,6.6,.679,14.7,1.3,1.1,5.2,2.3,3.8,16.9,2.7);
+INSERT INTO comps_per40 VALUES ('Xavier Henry','2009-10','Kansas','Big 12',36,990,6.5,14.3,.458,3.8,7.6,.492,2.8,6.7,.418,3.6,4.6,.783,6.3,2.1,2.2,0.7,2.8,2.7,19.5,-2.3);
+INSERT INTO comps_per40 VALUES ('Ed Davis','2009-10','UNC','ACC',23,641,6.9,12.0,.578,6.9,12.0,.578,0.0,0.0,NULL,5.4,8.2,.659,13.7,1.4,0.6,4.0,2.9,2.6,19.3,7.9);
+INSERT INTO comps_per40 VALUES ('Patrick Patterson','2009-10','Kentucky','SEC',38,1255,6.9,11.9,.575,6.1,9.7,.626,0.8,2.2,.348,2.9,4.1,.692,9.0,1.1,0.9,1.6,1.3,1.9,17.3,7.8);
+INSERT INTO comps_per40 VALUES ('Larry Sanders','2009-10','VCU','CAA',35,941,8.3,15.6,.534,8.2,14.9,.547,0.2,0.7,.250,4.5,7.1,.641,13.6,1.4,1.1,3.8,2.5,4.4,21.4,3.0);
+INSERT INTO comps_per40 VALUES ('Luke Babbitt','2009-10','Nevada','WAC',34,1260,8.0,15.9,.500,6.6,12.7,.521,1.3,3.2,.416,6.3,6.9,.917,9.6,2.3,1.1,0.9,2.6,2.8,23.6,-0.8);
+INSERT INTO comps_per40 VALUES ('James Anderson','2009-10','Oklahoma State','Big 12',33,1124,8.0,17.6,.457,5.4,9.9,.549,2.6,7.7,.341,7.4,9.2,.810,6.8,2.8,1.6,0.7,2.8,3.1,26.2,-0.9);
+INSERT INTO comps_per40 VALUES ('Craig Brackins','2009-10','Iowa State','Big 12',32,1124,6.8,16.3,.420,5.9,13.2,.446,1.0,3.1,.310,4.2,5.5,.760,9.7,2.5,0.9,1.4,2.4,2.3,18.8,-0.2);
+INSERT INTO comps_per40 VALUES ('Elliot Williams','2009-10','Memphis','CUSA',34,1133,6.3,13.7,.459,4.2,7.9,.527,2.1,5.8,.366,6.8,9.0,.758,4.8,4.5,1.6,0.1,3.5,2.4,21.5,-1.2);
+INSERT INTO comps_per40 VALUES ('Trevor Booker','2009-10','Clemson','ACC',32,984,7.6,14.7,.521,7.3,13.3,.547,0.4,1.4,.265,4.1,7.0,.591,10.9,3.3,1.7,1.8,2.5,2.6,19.8,5.6);
+INSERT INTO comps_per40 VALUES ('Damion James','2009-10','Texas','Big 12',34,1029,8.2,16.3,.501,6.8,12.6,.535,1.4,3.7,.383,6.0,8.9,.674,13.6,1.3,2.2,1.6,2.7,3.9,23.8,-0.4);
+INSERT INTO comps_per40 VALUES ('Dominique Jones','2009-10','South Florida','Big East',33,1224,7.3,16.1,.450,5.6,10.7,.521,1.7,5.5,.311,6.8,9.2,.741,6.6,3.9,1.8,0.6,3.2,3.0,23.0,-0.3);
+INSERT INTO comps_per40 VALUES ('Quincy Pondexter','2009-10','Washington','Pac-10',36,1162,8.4,16.0,.528,7.8,14.2,.550,0.6,1.8,.353,6.4,7.8,.827,9.1,2.2,1.6,0.7,2.3,3.1,23.9,1.2);
+INSERT INTO comps_per40 VALUES ('Jordan Crawford','2009-10','Xavier','A-10',35,1147,9.1,19.6,.462,6.3,12.6,.501,2.8,7.0,.391,4.1,5.4,.773,5.8,3.5,1.6,0.2,3.0,2.0,25.0,-0.2);
+INSERT INTO comps_per40 VALUES ('Greivis Vasquez','2009-10','Maryland','ACC',33,1120,7.9,18.3,.429,5.4,11.5,.470,2.5,6.9,.359,4.9,5.8,.857,5.5,7.4,2.0,0.4,4.0,2.5,23.1,1.1);
+INSERT INTO comps_per40 VALUES ('Daniel Orton','2009-10','Kentucky','SEC',38,502,3.8,7.3,.527,3.8,7.1,.539,0.0,0.2,.000,2.6,5.0,.524,10.0,1.2,1.7,4.2,3.0,7.0,10.3,0.0);
+INSERT INTO comps_per40 VALUES ('Lazar Hayward','2009-10','Marquette','Big East',34,1097,8.1,18.7,.432,5.7,12.0,.479,2.4,6.8,.349,3.9,4.6,.843,9.3,1.9,2.3,0.7,2.4,4.2,22.5,-0.4);
+INSERT INTO comps_per40 VALUES ('Dexter Pittman','2009-10','Texas','Big 12',34,648,8.6,13.2,.654,8.6,13.2,.654,0.0,0.0,NULL,4.6,8.3,.556,12.3,1.0,0.7,3.9,3.7,5.6,21.9,-0.4);
+INSERT INTO comps_per40 VALUES ('Armon Johnson','2009-10','Nevada','WAC',34,1172,7.5,15.1,.495,6.9,12.7,.544,0.6,2.4,.239,2.7,4.0,.678,3.9,6.5,1.0,0.4,3.9,2.1,18.3,-0.4);
+INSERT INTO comps_per40 VALUES ('Darington Hobson','2009-10','New Mexico','MWC',35,1175,6.6,14.9,.440,5.2,11.3,.465,1.3,3.7,.361,4.4,6.8,.653,11.0,5.4,1.5,0.5,3.5,2.3,18.9,-0.1);
+INSERT INTO comps_per40 VALUES ('Andy Rautins','2009-10','Syracuse','Big East',35,1137,4.6,10.4,.438,1.1,2.0,.571,3.4,8.5,.407,2.3,2.8,.815,4.2,6.0,2.4,0.3,3.4,2.7,14.9,-0.1);
+INSERT INTO comps_per40 VALUES ('Landry Fields','2009-10','Stanford','Pac-10',32,1161,8.5,17.4,.490,7.5,14.5,.521,1.0,3.0,.337,6.2,8.9,.696,9.6,3.1,1.8,0.9,2.9,2.2,24.3,2.8);
+INSERT INTO comps_per40 VALUES ('Jarvis Varnado','2009-10','Mississippi State','SEC',36,1141,6.5,11.1,.582,6.5,11.1,.582,0.0,0.0,NULL,4.5,7.4,.610,12.9,1.1,0.8,6.0,2.5,3.1,17.4,0.0);
+INSERT INTO comps_per40 VALUES ('Devin Ebanks','2009-10','West Virginia','Big East',34,1161,5.0,10.9,.457,4.9,9.8,.495,0.1,1.0,.100,4.0,5.2,.770,9.5,2.9,1.2,0.8,2.6,1.9,14.1,-0.5);
+INSERT INTO comps_per40 VALUES ('Jerome Jordan','2009-10','Tulsa','CUSA',35,1043,7.1,12.8,.549,7.1,12.8,.549,0.0,0.0,NULL,6.6,9.6,.688,12.2,1.7,0.6,3.1,3.0,3.8,20.7,0.2);
+INSERT INTO comps_per40 VALUES ('Gani Lawal','2009-10','Georgia Tech','ACC',36,930,7.4,14.0,.529,7.4,13.9,.531,0.0,0.0,.000,5.5,9.5,.572,13.1,0.6,0.7,2.1,3.4,3.3,20.3,0.0);
+INSERT INTO comps_per40 VALUES ('Solomon Alabi','2009-10','Florida State','ACC',32,820,6.5,12.1,.534,6.5,12.1,.534,0.0,0.0,NULL,5.3,6.6,.794,9.7,0.8,1.0,3.7,3.0,3.7,18.2,-0.2);
+INSERT INTO comps_per40 VALUES ('Luke Harangody','2009-10','Notre Dame','Big East',30,989,9.9,20.5,.481,8.9,17.2,.514,1.0,3.3,.309,5.7,7.2,.787,11.0,1.9,0.6,0.8,2.2,2.8,26.4,-0.3);
+INSERT INTO comps_per40 VALUES ('Willie Warren','2009-10','Oklahoma','Big 12',21,678,6.3,14.3,.438,4.5,8.6,.524,1.8,5.7,.309,6.0,7.5,.795,4.1,5.1,1.2,0.1,4.7,2.8,20.2,-0.1);
+INSERT INTO comps_per40 VALUES ('Jeremy Evans','2009-10','Western Kentucky','Sun Belt',34,901,6.1,9.4,.649,5.9,8.8,.673,0.1,0.5,.250,2.8,4.1,.688,10.4,1.1,1.2,2.7,1.6,4.4,15.1,2.0);
+INSERT INTO comps_per40 VALUES ('Hamady N’Diaye','2009-10','Rutgers','Big East',32,907,5.0,8.7,.579,5.0,8.7,.579,0.0,0.0,NULL,3.3,5.3,.617,10.1,0.6,0.6,6.4,2.1,4.1,13.3,-0.1);
+INSERT INTO comps_per40 VALUES ('Ryan Reid','2009-10','Florida State','ACC',31,704,4.7,9.5,.491,4.7,9.5,.491,0.0,0.0,NULL,2.6,4.4,.597,7.0,2.0,1.0,0.9,2.9,2.6,11.9,0.0);
+INSERT INTO comps_per40 VALUES ('Derrick Caracter','2009-10','UTEP','CUSA',27,720,8.2,14.5,.567,8.0,13.7,.585,0.2,0.8,.267,4.4,6.6,.672,12.1,1.7,1.4,1.3,4.3,4.6,21.1,-0.2);
+INSERT INTO comps_per40 VALUES ('Jeremy Lin','2009-10','Harvard','Ivy',29,933,6.4,12.3,.519,5.1,8.5,.598,1.3,3.8,.341,6.3,8.4,.755,5.4,5.6,3.0,1.3,3.9,3.6,20.4,5.5);
+INSERT INTO comps_per40 VALUES ('Ish Smith','2009-10','Wake Forest','ACC',31,1140,6.2,14.7,.420,5.8,12.8,.449,0.4,1.9,.222,1.5,3.1,.494,5.3,6.5,1.8,0.7,3.3,1.9,14.3,-0.7);
 
 
 
