@@ -19,12 +19,12 @@ CREATE TABLE comps_adv(
   ,BLK     NUMERIC(4,1)
   ,TOV     NUMERIC(4,1)
   ,USG     NUMERIC(4,1)
-  ,FIELD21 VARCHAR(30)
+  ,FIELD21 VARCHAR(30)  -- irrelevant, undefined column from sports-reference
   ,OWS     NUMERIC(4,1)
   ,DWS     NUMERIC(3,1)
   ,WS      NUMERIC(4,1)
   ,WS40    NUMERIC(5,3)
-  ,FIELD26 VARCHAR(30)
+  ,FIELD26 VARCHAR(30)  -- irrelevant, undefined column from sports-reference
   ,OBPM    NUMERIC(4,1)
   ,DBPM    NUMERIC(4,1)
   ,BPM     NUMERIC(4,1)
@@ -475,3 +475,36 @@ INSERT INTO comps_adv VALUES ('Malcom Brogdon','2011-12','Virginia','ACC',28,626
 INSERT INTO comps_adv VALUES ('Malcom Brogdon','2013-14','Virginia','ACC',37,1163,20.8,.545,.474,.328,.397,460,3.6,17.3,10.7,19.4,2.5,0.5,10.9,23.5,NULL,3.1,3.0,6.0,.208,NULL,5.1,5.0,10.1);
 INSERT INTO comps_adv VALUES ('Malcom Brogdon','2014-15','Virginia','ACC',34,1105,20.1,.545,.481,.342,.353,442,1.9,12.7,7.5,16.5,1.5,1.6,11.7,25.9,NULL,3.0,2.6,5.6,.203,NULL,5.0,3.9,8.9);
 INSERT INTO comps_adv VALUES ('Malcom Brogdon','2015-16','Virginia','ACC',37,1263,25.1,.585,.532,.382,.310,627,2.1,13.3,7.9,19.5,1.8,0.9,8.3,28.4,NULL,4.9,2.1,7.0,.222,NULL,8.5,2.6,11.1);
+-- Adding every other drafted player since 2011 since this is the NCAA season with complete advanced stats
+-- misc. 2011 draftees
+INSERT INTO comps_adv VALUES ('Jimmer Fredette','2010-11','BYU','MWC',37,1323,30.9,.594,.533,.409,.369,986,2.0,8.3,5.2,28.8,2.1,0.1,12.7,37.8,NULL,6.6,1.9,8.5,.256,NULL,10.2,-0.7,9.5);
+INSERT INTO comps_adv VALUES ('Alec Burks','2010-11','Colorado','Big 12',38,1193,29.4,.574,.495,.179,.564,771,9.2,14.8,12.1,19.6,2.0,1.0,12.7,32.3,NULL,5.6,1.0,6.6,.221,NULL,7.3,-0.1,7.2);
+INSERT INTO comps_adv VALUES ('Chris Singleton','2010-11','Florida State','ACC',28,814,21.9,.531,.495,.332,.441,344,8.2,17.0,12.8,8.9,3.9,5.9,15.0,24.5,NULL,1.5,2.4,3.9,.191,NULL,2.6,6.9,9.5);
+INSERT INTO comps_adv VALUES ('Nolan Smith','2010-11','Duke','ACC',37,1259,25.7,.564,.508,.287,.405,779,4.1,10.1,7.2,30.3,2.0,0.2,14.8,30.7,NULL,5.1,2.3,7.4,.234,NULL,7.3,2.3,9.6);
+INSERT INTO comps_adv VALUES ('Kenneth Faried','2010-11','Morehead State','OVC',35,1216,34.7,.619,.623,.000,.644,588,20.0,31.4,25.6,7.4,3.4,8.8,15.8,24.5,NULL,4.7,3.6,8.3,.272,NULL,4.0,5.9,9.9);
+INSERT INTO comps_adv VALUES ('MarShon Brooks','2010-11','Providence','Big East',32,1168,28.8,.584,.542,.345,.384,720,6.3,14.2,10.2,16.0,2.3,3.0,12.7,30.6,NULL,4.8,1.2,5.9,.203,NULL,8.4,1.2,9.5);
+INSERT INTO comps_adv VALUES ('Jordan Hamilton','2010-11','Texas','Big 12',36,1159,25.6,.550,.522,.424,.221,612,7.0,18.5,12.9,14.6,1.6,1.8,11.2,29.1,NULL,4.0,2.7,6.7,.231,NULL,7.2,3.3,10.4);
+INSERT INTO comps_adv VALUES ('JaJuan Johnson','2010-11','Purdue','Big Ten',34,1203,28.8,.564,.509,.098,.402,617,7.9,20.2,14.1,6.4,1.5,6.7,8.3,29.1,NULL,4.3,2.9,7.2,.238,NULL,3.7,4.9,8.6);
+INSERT INTO comps_adv VALUES ('Norris Cole','2010-11','Cleveland State','Horizon',36,1285,30.0,.558,.483,.260,.465,788,2.5,16.5,9.5,37.0,3.7,0.3,12.2,32.1,NULL,5.6,2.7,8.3,.258,NULL,8.0,2.7,10.7);
+INSERT INTO comps_adv VALUES ('Justin Harper','2010-11','Richmond','A-10',37,1178,29.0,.642,.618,.375,.257,561,6.5,18.6,12.8,8.9,1.2,4.0,9.8,26.8,NULL,4.8,2.3,7.1,.240,NULL,7.4,1.5,8.9);
+INSERT INTO comps_adv VALUES ('Kyle Singler','2010-11','Duke','ACC',37,1286,20.0,.536,.491,.379,.305,598,8.0,13.3,10.8,8.8,1.5,0.8,10.7,24.7,NULL,3.7,2.5,6.1,.191,NULL,4.6,2.2,6.8);
+INSERT INTO comps_adv VALUES ('Shelvin Mack','2010-11','Butler','Horizon',38,1219,21.0,.537,.496,.499,.316,593,2.6,14.4,8.4,24.9,1.5,0.3,14.1,28.6,NULL,3.3,1.6,5.0,.163,NULL,5.3,1.0,6.3);
+INSERT INTO comps_adv VALUES ('Tyler Honeycutt','2010-11','UCLA','Pac-10',33,1154,17.4,.519,.483,.428,.299,415,5.3,17.8,11.9,16.8,1.5,5.5,19.8,22.3,NULL,1.2,2.1,3.3,.115,NULL,2.0,5.3,7.3);
+INSERT INTO comps_adv VALUES ('Jordan Williams','2010-11','Maryland','ACC',33,1073,25.2,.552,.538,.000,.576,512,12.6,26.0,19.5,3.9,1.2,4.1,9.5,24.5,NULL,3.1,2.6,5.7,.211,NULL,2.0,3.1,5.1);
+INSERT INTO comps_adv VALUES ('Trey Thompkins','2010-11','Georgia','SEC',30,937,24.2,.536,.510,.184,.295,433,7.3,20.4,14.2,11.1,2.2,5.7,14.2,29.9,NULL,1.9,2.0,3.8,.164,NULL,1.9,3.9,5.8);
+INSERT INTO comps_adv VALUES ('Jon Leuer','2010-11','Wisconsin','Big Ten',34,1139,28.7,.568,.526,.302,.277,558,6.3,22.6,14.1,12.8,1.0,3.1,9.0,31.1,NULL,4.6,1.7,6.3,.221,NULL,6.3,1.9,8.3);
+INSERT INTO comps_adv VALUES ('Darius Morris','2010-11','Michigan','Big Ten',35,1219,22.7,.545,.509,.156,.367,609,3.2,10.8,7.0,44.2,1.9,0.1,17.6,27.3,NULL,3.8,1.5,5.3,.173,NULL,5.4,2.0,7.4);
+INSERT INTO comps_adv VALUES ('Malcolm Lee','2010-11','UCLA','Pac-10',33,1093,15.3,.553,.497,.409,.446,398,2.6,7.8,5.3,12.9,1.2,0.6,12.5,20.8,NULL,2.4,1.1,3.6,.131,NULL,3.7,0.4,4.1);
+INSERT INTO comps_adv VALUES ('Charles Jenkins','2010-11','Hofstra','CAA',33,1232,31.4,.635,.585,.326,.459,706,1.8,8.8,5.3,31.5,2.9,1.9,11.1,28.7,NULL,6.4,0.9,7.3,.236,NULL,10.0,-1.1,8.9);
+INSERT INTO comps_adv VALUES ('Josh Harrellson','2010-11','Kentucky','SEC',38,1083,22.3,.616,.615,.048,.269,324,15.2,18.9,17.1,5.1,2.0,5.2,10.7,12.5,NULL,3.2,2.3,5.5,.204,NULL,5.4,6.0,11.4);
+INSERT INTO comps_adv VALUES ('Andrew Goudelock','2010-11','College of Charleston','Southern',37,1302,26.7,.575,.549,.461,.192,830,2.3,9.9,6.3,26.4,1.5,0.5,13.5,34.5,NULL,5.3,1.2,6.5,.199,NULL,6.5,-2.6,4.0);
+INSERT INTO comps_adv VALUES ('Travis Leslie','2010-11','Georgia','SEC',33,1062,24.9,.561,.510,.119,.378,486,12.2,13.6,12.9,20.6,2.3,2.0,14.3,24.4,NULL,3.4,1.7,5.2,.195,NULL,6.2,3.3,9.4);
+INSERT INTO comps_adv VALUES ('Keith Benson','2010-11','Oakland','Summit',35,1133,28.8,.584,.558,.055,.578,579,9.5,24.1,17.2,6.2,1.4,9.8,10.9,24.9,NULL,4.0,1.7,5.7,.202,NULL,1.6,3.6,5.2);
+INSERT INTO comps_adv VALUES ('Josh Selby','2010-11','Kansas','Big 12',26,530,11.9,.489,.461,.487,.192,205,2.4,9.7,6.3,17.8,2.3,0.2,20.1,24.4,NULL,0.4,0.9,1.3,.098,NULL,0.9,1.9,2.8);
+INSERT INTO comps_adv VALUES ('Lavoy Allen','2010-11','Temple','A-10',33,1120,20.3,.519,.488,.053,.308,397,9.3,20.2,14.8,13.6,1.3,5.4,12.8,19.8,NULL,2.2,2.4,4.6,.163,NULL,1.2,5.3,6.6);
+INSERT INTO comps_adv VALUES ('Vernon Macklin','2010-11','Florida','SEC',37,905,22.2,.578,.593,.000,.317,382,10.9,15.0,13.0,7.7,0.9,3.1,14.5,25.1,NULL,2.2,1.4,3.6,.160,NULL,2.8,2.1,4.9);
+INSERT INTO comps_adv VALUES ('DeAndre Liggins','2010-11','Kentucky','SEC',38,1201,14.5,.523,.492,.348,.398,338,2.2,11.8,7.2,14.2,2.3,2.3,14.9,15.8,NULL,1.8,2.1,3.9,.129,NULL,2.9,4.3,7.2);
+INSERT INTO comps_adv VALUES ('E’Twaun Moore','2010-11','Purdue','Big Ten',34,1152,23.9,.545,.518,.354,.285,573,5.1,12.5,8.8,20.9,2.2,1.6,9.8,28.0,NULL,3.7,2.2,5.9,.205,NULL,7.1,3.4,10.5);
+
+
+
