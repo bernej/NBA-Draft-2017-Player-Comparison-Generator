@@ -275,7 +275,6 @@ INSERT INTO comps_per40 VALUES ('Ryan Anderson','2006-07','Cal','Pac-10',33,1096
 INSERT INTO comps_per40 VALUES ('Ryan Anderson','2007-08','Cal','Pac-10',33,1082,8.5,17.3,.490,6.1,11.6,.530,2.4,5.8,.410,6.4,7.4,.869,12.1,1.7,0.4,0.7,2.7,NULL,25.8,10.4);
 INSERT INTO comps_per40 VALUES ('George Hill','2004-05','IUPUI','Mid-Cont',29,824,5.5,10.6,.523,4.5,8.1,.557,1.0,2.5,.412,3.0,4.2,.709,6.4,3.2,2.0,0.3,NULL,NULL,15.0,18.0);
 INSERT INTO comps_per40 VALUES ('George Hill','2005-06','IUPUI','Mid-Cont',29,1019,6.9,13.3,.518,6.2,11.3,.552,0.6,2.0,.320,7.1,8.9,.798,6.8,4.1,1.9,0.4,NULL,NULL,21.5,18.0);
-INSERT INTO comps_per40 VALUES ('George Hill','2006-07','IUPUI','Mid-Cont',5,142,7.6,14.9,.509,6.5,11.3,.575,1.1,3.7,.308,4.2,6.5,.652,7.6,2.8,2.3,0.0,NULL,NULL,20.6,18.0);
 INSERT INTO comps_per40 VALUES ('George Hill','2007-08','IUPUI','Summit',32,1179,7.5,13.7,.545,5.8,10.0,.580,1.7,3.7,.450,6.8,8.3,.812,7.3,4.6,1.9,0.4,3.2,NULL,23.3,18.0);
 INSERT INTO comps_per40 VALUES ('DeAndre Jordan','2007-08','Texas A&M','Big 12',35,703,6.4,10.4,.617,6.4,10.4,.617,0.0,0.0,NULL,3.0,6.8,.437,11.9,0.9,0.4,2.5,3.2,NULL,15.8,19.6);
 INSERT INTO comps_per40 VALUES ('John Wall','2009-10','Kentucky','SEC',37,1288,6.3,13.6,.461,5.1,10.1,.509,1.1,3.5,.325,5.4,7.2,.754,4.9,7.5,2.0,0.6,4.6,2.2,19.1,20.3);
@@ -328,7 +327,6 @@ INSERT INTO comps_per40 VALUES ('Thomas Robinson','2009-10','Kansas','Big 12',33
 INSERT INTO comps_per40 VALUES ('Thomas Robinson','2010-11','Kansas','Big 12',33,482,8.4,13.9,.601,8.4,13.9,.601,0.0,0.0,NULL,4.1,8.0,.510,17.6,1.7,1.2,1.8,3.6,5.6,20.8,-1.3);
 INSERT INTO comps_per40 VALUES ('Thomas Robinson','2011-12','Kansas','Big 12',39,1242,8.4,16.7,.505,8.2,16.2,.505,0.2,0.5,.500,5.2,7.7,.682,14.9,2.3,1.4,1.1,3.3,3.4,22.3,-1.3);
 INSERT INTO comps_per40 VALUES ('Damian Lillard','2009-10','Weber State','Big Sky',31,1062,7.0,16.2,.431,3.8,8.1,.470,3.2,8.1,.393,6.1,7.2,.853,4.7,4.2,1.3,0.2,2.8,2.2,23.2,18.7);
-INSERT INTO comps_per40 VALUES ('Damian Lillard','2010-11','Weber State','Big Sky',10,285,6.9,15.7,.438,4.2,8.0,.526,2.7,7.7,.345,8.4,9.8,.857,5.3,4.6,2.0,0.3,3.9,3.2,24.8,18.7);
 INSERT INTO comps_per40 VALUES ('Damian Lillard','2011-12','Weber State','Big Sky',32,1105,8.4,17.9,.467,5.0,9.6,.517,3.4,8.3,.409,8.3,9.3,.887,5.8,4.6,1.7,0.3,2.7,2.2,28.4,18.7);
 INSERT INTO comps_per40 VALUES ('Harrison Barnes','2010-11','UNC','ACC',37,1087,7.7,18.3,.421,5.2,11.1,.470,2.5,7.2,.344,3.4,4.6,.750,7.9,2.0,1.0,0.6,2.6,2.6,21.3,2.9);
 INSERT INTO comps_per40 VALUES ('Harrison Barnes','2011-12','UNC','ACC',38,1111,8.2,18.8,.440,6.5,13.8,.469,1.8,4.9,.358,5.1,7.0,.723,7.1,1.5,1.5,0.5,2.7,2.4,23.3,2.9);
@@ -451,7 +449,6 @@ INSERT INTO comps_per40 VALUES ('Ben Simmons','2015-16','LSU','SEC',33,1151,7.5,
 INSERT INTO comps_per40 VALUES ('Brandon Ingram','2015-16','Duke','ACC',36,1246,6.9,15.5,.442,4.3,9.3,.464,2.6,6.3,.410,3.7,5.5,.682,7.8,2.3,1.3,1.6,2.3,2.4,20.0,-1.1);
 INSERT INTO comps_per40 VALUES ('Jaylen Brown','2015-16','Cal','Pac-12',34,939,6.9,16.1,.431,5.7,11.8,.482,1.3,4.3,.294,6.0,9.2,.654,7.8,2.9,1.2,0.9,4.5,4.6,21.2,-0.7);
 INSERT INTO comps_per40 VALUES ('Kris Dunn','2012-13','Providence','Big East',25,680,2.9,7.2,.398,2.6,6.4,.413,0.2,0.8,.286,2.4,3.4,.690,7.1,4.6,1.7,0.4,2.8,4.5,8.4,-0.1);
-INSERT INTO comps_per40 VALUES ('Kris Dunn','2013-14','Providence','Big East',4,106,2.3,7.2,.316,2.3,6.4,.353,0.0,0.8,.000,1.1,1.1,1.000,3.8,7.5,2.6,0.4,5.3,3.4,5.7,-0.1);
 INSERT INTO comps_per40 VALUES ('Kris Dunn','2014-15','Providence','Big East',33,1123,6.6,13.9,.474,5.6,11.1,.505,1.0,2.7,.351,4.2,6.1,.686,6.4,8.8,3.2,0.4,4.9,3.6,18.3,-0.1);
 INSERT INTO comps_per40 VALUES ('Kris Dunn','2015-16','Providence','Big East',33,1088,6.8,15.1,.448,5.2,11.0,.477,1.5,4.2,.372,4.9,7.0,.695,6.5,7.6,3.0,0.7,4.3,3.4,19.9,-0.1);
 INSERT INTO comps_per40 VALUES ('Buddy Hield','2012-13','Oklahoma','Big 12',27,679,4.8,12.3,.388,3.7,7.6,.481,1.1,4.7,.238,1.8,2.1,.833,6.7,2.9,1.9,0.4,2.6,2.9,12.4,-0.4);
@@ -568,7 +565,6 @@ INSERT INTO comps_per40 VALUES ('Adonis Jordan','1992-93','Kansas','Big 8',36,11
 INSERT INTO comps_per40 VALUES ('Josh Grant','1988-89','Utah','WAC',33,890,6.2,13.3,.461,5.1,9.9,.516,1.0,3.4,.303,2.1,2.7,.754,10.7,5.1,1.9,0.9,3.6,4.3,15.4,-0.1);
 INSERT INTO comps_per40 VALUES ('Josh Grant','1989-90','Utah','WAC',30,882,8.4,16.4,.511,6.8,12.3,.548,1.6,4.1,.400,4.1,5.2,.783,9.5,3.9,2.3,1.0,2.7,3.7,22.5,-0.1);
 INSERT INTO comps_per40 VALUES ('Josh Grant','1990-91','Utah','WAC',34,1017,7.9,16.6,.475,6.1,11.5,.526,1.8,5.1,.362,5.7,7.0,.825,10.3,3.7,2.4,1.6,3.1,3.3,23.4,-0.1);
-INSERT INTO comps_per40 VALUES ('Josh Grant','1991-92','Utah','WAC',3,66,5.5,14.5,.375,3.6,9.1,.400,1.8,5.5,.333,4.2,5.5,.778,9.1,5.5,1.2,1.2,3.0,3.6,17.0,-0.1);
 INSERT INTO comps_per40 VALUES ('Josh Grant','1992-93','Utah','WAC',31,973,8.0,15.0,.530,6.2,10.9,.564,1.8,4.1,.440,4.3,4.6,.920,13.6,3.5,1.5,1.0,3.4,3.3,22.0,-0.1);
 INSERT INTO comps_per40 VALUES ('Bryon Russell','1990-91','Long Beach State','Big West',28,552,6.0,14.0,.430,5.4,12.0,.448,0.7,2.0,.321,3.3,5.0,.652,11.7,3.0,0.6,0.6,4.5,6.3,15.9,18.5);
 INSERT INTO comps_per40 VALUES ('Bryon Russell','1991-92','Long Beach State','Big West',26,776,6.5,11.7,.555,5.9,10.3,.578,0.6,1.4,.393,5.1,7.8,.656,9.9,1.5,2.8,1.3,2.9,4.9,18.7,18.5);
@@ -961,7 +957,6 @@ INSERT INTO comps_per40 VALUES ('Danny Fortson','1994-95','Cincinnati','GMWC',34
 INSERT INTO comps_per40 VALUES ('Danny Fortson','1995-96','Cincinnati','CUSA',33,909,9.8,18.2,.538,9.8,18.1,.539,0.0,0.0,.000,9.7,12.8,.753,13.9,2.0,1.8,0.6,3.7,5.2,29.2,-2.1);
 INSERT INTO comps_per40 VALUES ('Danny Fortson','1996-97','Cincinnati','CUSA',33,986,9.9,15.9,.620,9.9,15.9,.621,0.0,0.0,.000,8.8,11.4,.772,12.1,1.5,0.8,0.6,4.1,4.4,28.5,-2.1);
 INSERT INTO comps_per40 VALUES ('Tariq Abdul-Wahad','1993-94','Michigan','Big Ten',32,418,4.7,9.2,.510,4.3,7.8,.549,0.4,1.3,.286,1.2,2.2,.565,6.9,1.6,1.7,0.6,2.9,6.6,11.0,-1.5);
-INSERT INTO comps_per40 VALUES ('Tariq Abdul-Wahad','1994-95','Michigan','Big Ten',4,53,6.0,12.1,.500,5.3,10.6,.500,0.8,1.5,.500,1.5,1.5,1.000,9.8,0.0,0.8,0.8,4.5,8.3,14.3,-1.5);
 INSERT INTO comps_per40 VALUES ('Tariq Abdul-Wahad','1995-96','San Jose State','Big West',25,698,8.5,19.0,.446,7.4,15.3,.487,1.0,3.7,.277,6.7,9.1,.741,9.0,3.7,1.4,1.3,5.0,5.0,24.7,-1.5);
 INSERT INTO comps_per40 VALUES ('Tariq Abdul-Wahad','1996-97','San Jose State','WAC',26,868,10.4,21.1,.492,9.2,17.8,.516,1.2,3.3,.366,6.6,9.0,.730,10.6,1.3,1.8,0.9,3.1,2.9,28.5,-1.5);
 INSERT INTO comps_per40 VALUES ('Austin Croshere','1993-94','Providence','Big East',25,233,6.5,16.3,.400,4.8,11.0,.438,1.7,5.3,.323,5.0,6.9,.725,9.4,0.5,0.9,1.4,3.6,4.5,19.7,4.3);
@@ -1026,7 +1021,6 @@ INSERT INTO comps_per40 VALUES ('Charles O’Bannon','1994-95','UCLA','Pac-10',3
 INSERT INTO comps_per40 VALUES ('Charles O’Bannon','1995-96','UCLA','Pac-10',31,976,6.8,12.9,.527,5.9,10.4,.565,0.9,2.5,.371,3.6,4.8,.767,7.6,3.3,1.4,0.8,3.9,3.0,18.2,-0.1);
 INSERT INTO comps_per40 VALUES ('Charles O’Bannon','1996-97','UCLA','Pac-10',32,1128,7.3,13.3,.551,6.4,10.7,.601,0.9,2.7,.347,4.4,5.6,.791,7.8,2.7,1.3,0.8,2.6,2.5,20.0,-0.1);
 INSERT INTO comps_per40 VALUES ('James Cotton','1993-94','Long Beach State','Big West',26,727,5.4,11.5,.469,3.9,7.2,.546,1.5,4.3,.342,4.0,5.3,.760,6.0,3.2,1.5,0.7,3.5,4.3,16.3,-0.3);
-INSERT INTO comps_per40 VALUES ('James Cotton','1994-95','Long Beach State','Big West',1,29,4.1,13.8,.300,4.1,4.1,1.000,0.0,9.7,.000,11.0,13.8,.800,1.4,4.1,1.4,0.0,4.1,4.1,19.3,-0.3);
 INSERT INTO comps_per40 VALUES ('James Cotton','1995-96','Long Beach State','Big West',26,951,6.4,14.8,.433,3.7,7.9,.465,2.8,7.0,.398,5.7,7.3,.782,4.5,1.8,1.4,0.2,2.6,2.8,21.4,-0.3);
 INSERT INTO comps_per40 VALUES ('James Cotton','1996-97','Long Beach State','Big West',27,968,8.1,18.4,.439,5.5,11.4,.484,2.6,7.1,.368,7.4,8.9,.833,5.5,1.0,1.5,0.4,2.5,2.9,26.2,-0.3);
 INSERT INTO comps_per40 VALUES ('Bubba Wells','1993-94','Austin Peay','OVC',27,608,8.6,16.6,.516,8.2,15.7,.525,0.3,0.9,.357,3.3,5.5,.602,9.7,1.4,2.1,1.4,3.5,5.1,20.7,-0.3);
@@ -1132,7 +1126,6 @@ INSERT INTO comps_per40 VALUES ('DeMarco Johnson','1994-95','Charlotte','Metro',
 INSERT INTO comps_per40 VALUES ('DeMarco Johnson','1995-96','Charlotte','CUSA',29,963,8.6,17.2,.499,8.3,16.2,.517,0.2,1.0,.208,4.5,6.8,.665,10.6,1.3,1.3,0.7,2.4,3.9,21.8,-0.1);
 INSERT INTO comps_per40 VALUES ('DeMarco Johnson','1996-97','Charlotte','CUSA',31,1038,7.6,16.1,.470,7.1,14.7,.486,0.4,1.4,.306,7.0,8.8,.790,10.1,1.7,1.5,0.7,2.9,3.3,22.5,-0.1);
 INSERT INTO comps_per40 VALUES ('Cuttino Mobley','1994-95','Rhode Island','A-10',27,864,5.8,15.5,.377,3.8,8.9,.432,2.0,6.6,.303,2.9,3.8,.778,6.0,2.3,2.0,0.6,2.8,4.0,16.6,15.3);
-INSERT INTO comps_per40 VALUES ('Cuttino Mobley','1995-96','Rhode Island','A-10',2,35,10.3,16.0,.643,4.6,8.0,.571,5.7,8.0,.714,1.1,2.3,.500,0.0,5.7,4.6,0.0,4.6,6.9,27.4,15.3);
 INSERT INTO comps_per40 VALUES ('Cuttino Mobley','1996-97','Rhode Island','A-10',30,730,7.6,17.3,.438,6.0,11.9,.500,1.6,5.3,.299,3.3,4.2,.803,6.4,2.4,2.1,0.5,2.6,4.5,20.1,15.3);
 INSERT INTO comps_per40 VALUES ('Miles Simon','1994-95','Arizona','Pac-10',23,601,4.4,9.1,.482,2.5,4.8,.514,1.9,4.3,.446,2.9,3.7,.768,5.6,3.9,1.1,0.2,2.9,2.9,13.6,-0.1);
 INSERT INTO comps_per40 VALUES ('Miles Simon','1995-96','Arizona','Pac-10',33,1055,5.1,11.5,.446,3.4,6.2,.549,1.7,5.3,.324,4.5,6.0,.764,5.0,5.2,1.3,0.3,4.1,2.9,16.5,-0.1);
@@ -1291,7 +1284,6 @@ INSERT INTO comps_per40 VALUES ('Quentin Richardson','1999-00','DePaul','CUSA',3
 INSERT INTO comps_per40 VALUES ('Speedy Claxton','1996-97','Hofstra','AEC',27,916,5.9,13.5,.432,5.6,11.9,.471,0.3,1.7,.158,5.8,8.2,.706,5.4,4.0,2.2,0.2,3.4,3.7,17.7,2.8);
 INSERT INTO comps_per40 VALUES ('Speedy Claxton','1998-99','Hofstra','AEC',30,970,5.6,11.6,.482,5.4,10.8,.494,0.2,0.8,.316,5.0,6.2,.801,5.4,6.6,2.8,0.7,3.5,3.1,16.5,2.8);
 INSERT INTO comps_per40 VALUES ('Speedy Claxton','1999-00','Hofstra','AEC',31,1089,9.3,19.8,.470,7.4,14.8,.500,1.9,4.9,.381,5.5,7.2,.764,6.2,6.8,3.7,0.2,3.7,2.6,25.9,2.8);
-INSERT INTO comps_per40 VALUES ('Morris Peterson','1995-96','Michigan State','Big Ten',4,12,3.3,3.3,1.000,3.3,3.3,1.000,0.0,0.0,NULL,0.0,3.3,.000,10.0,6.7,0.0,0.0,3.3,6.7,6.7,9.7);
 INSERT INTO comps_per40 VALUES ('Morris Peterson','1996-97','Michigan State','Big Ten',29,518,5.6,12.8,.434,4.3,8.3,.523,1.2,4.6,.271,2.8,3.9,.706,7.5,1.4,1.5,0.5,1.8,4.6,15.1,9.7);
 INSERT INTO comps_per40 VALUES ('Morris Peterson','1998-99','Michigan State','Big Ten',38,907,8.4,15.1,.554,7.4,12.5,.592,1.0,2.6,.373,5.0,6.2,.814,9.5,1.6,1.5,1.0,2.7,4.3,22.8,9.7);
 INSERT INTO comps_per40 VALUES ('Morris Peterson','1999-00','Michigan State','Big Ten',39,1136,7.7,16.5,.465,4.7,9.5,.494,3.0,7.0,.425,4.8,6.2,.773,8.3,1.7,1.6,0.4,3.0,2.8,23.1,9.7);
@@ -1363,7 +1355,6 @@ INSERT INTO comps_per40 VALUES ('Kirk Haston','1999-00','Indiana','Big Ten',29,7
 INSERT INTO comps_per40 VALUES ('Kirk Haston','2000-01','Indiana','Big Ten',33,1018,9.5,21.7,.440,8.5,19.0,.449,1.0,2.7,.377,4.5,6.5,.687,11.3,1.6,1.4,1.6,3.1,3.7,24.6,-0.4);
 INSERT INTO comps_per40 VALUES ('Michael Bradley','1998-99','Kentucky','SEC',37,811,7.7,11.8,.657,7.7,11.8,.657,0.0,0.0,NULL,2.5,5.4,.455,9.0,1.8,1.4,1.5,3.2,3.6,18.0,-0.9);
 INSERT INTO comps_per40 VALUES ('Michael Bradley','2000-01','Villanova','Big East',31,1053,9.6,13.9,.692,9.2,12.6,.727,0.5,1.3,.353,4.7,8.1,.590,11.5,3.1,1.1,2.1,3.3,3.4,24.5,-0.9);
-INSERT INTO comps_per40 VALUES ('Jason Collins','1998-99','Stanford','Pac-10',7,89,4.0,8.1,.500,4.0,8.1,.500,0.0,0.0,NULL,4.9,10.3,.478,10.3,0.9,0.4,1.3,2.2,5.4,13.0,0.2);
 INSERT INTO comps_per40 VALUES ('Jason Collins','1999-00','Stanford','Pac-10',31,607,5.5,8.9,.622,5.5,8.8,.627,0.0,0.1,.000,5.8,8.8,.662,12.5,0.1,0.3,2.8,3.3,4.7,16.9,0.2);
 INSERT INTO comps_per40 VALUES ('Jason Collins','2000-01','Stanford','Pac-10',34,895,7.5,12.1,.620,7.0,10.9,.637,0.5,1.2,.462,6.5,8.3,.784,11.8,2.3,1.3,1.9,2.4,3.5,22.0,0.2);
 INSERT INTO comps_per40 VALUES ('Brendan Haywood','1998-99','UNC','ACC',34,1035,6.2,9.5,.648,6.2,9.5,.648,0.0,0.0,NULL,3.4,5.1,.672,9.1,1.3,0.4,2.3,2.6,3.7,15.8,8.4);
@@ -1972,7 +1963,6 @@ INSERT INTO comps_per40 VALUES ('Anthony Tolliver','2004-05','Creighton','MVC',3
 INSERT INTO comps_per40 VALUES ('Anthony Tolliver','2005-06','Creighton','MVC',30,860,6.2,12.1,.515,5.5,10.4,.529,0.7,1.7,.432,5.3,7.0,.753,9.3,2.0,1.4,2.2,NULL,NULL,18.5,3.6);
 INSERT INTO comps_per40 VALUES ('Anthony Tolliver','2006-07','Creighton','MVC',33,1044,6.1,12.0,.506,5.9,11.2,.526,0.2,0.7,.211,4.7,7.2,.658,8.4,2.5,0.9,2.2,NULL,NULL,17.0,3.6);
 -- misc. 2008 draftees
-INSERT INTO comps_per40 VALUES ('Joe Alexander','2005-06','West Virginia','Big East',10,36,4.4,8.9,.500,4.4,7.8,.571,0.0,1.1,.000,5.6,8.9,.625,7.8,2.2,1.1,7.8,NULL,NULL,14.4,-0.2);
 INSERT INTO comps_per40 VALUES ('Joe Alexander','2006-07','West Virginia','Big East',36,899,6.4,15.1,.425,4.6,9.3,.500,1.8,5.8,.305,1.9,2.9,.636,6.9,3.1,1.0,1.7,NULL,NULL,16.5,-0.2);
 INSERT INTO comps_per40 VALUES ('Joe Alexander','2007-08','West Virginia','Big East',36,1137,7.7,16.7,.462,7.3,15.2,.480,0.4,1.4,.268,5.6,6.8,.814,8.1,3.1,0.9,1.9,2.8,NULL,21.4,-0.2);
 INSERT INTO comps_per40 VALUES ('DJ Augustin','2006-07','Texas','Big 12',35,1245,4.9,11.0,.449,3.5,7.7,.452,1.4,3.3,.441,4.8,5.8,.838,3.2,7.5,1.7,0.1,NULL,NULL,16.2,1.2);
@@ -1999,7 +1989,6 @@ INSERT INTO comps_per40 VALUES ('Darrell Arthur','2006-07','Kansas','Big 12',38,
 INSERT INTO comps_per40 VALUES ('Darrell Arthur','2007-08','Kansas','Big 12',40,989,8.7,15.9,.543,8.6,15.4,.555,0.1,0.5,.167,3.2,4.6,.702,10.1,1.3,0.8,2.1,3.0,NULL,20.6,0.4);
 INSERT INTO comps_per40 VALUES ('Donte Greene','2007-08','Syracuse','Big East',35,1253,7.0,16.6,.418,4.1,8.3,.492,2.9,8.3,.345,3.0,4.2,.707,8.0,2.3,1.4,1.8,2.9,NULL,19.8,-2.0);
 INSERT INTO comps_per40 VALUES ('DJ White','2004-05','Indiana','Big Ten',29,814,7.0,12.3,.572,7.0,12.3,.572,0.0,0.0,NULL,4.9,6.9,.709,7.0,1.1,0.7,3.1,NULL,NULL,19.0,-0.7);
-INSERT INTO comps_per40 VALUES ('DJ White','2005-06','Indiana','Big Ten',5,89,8.5,16.2,.528,8.5,16.2,.528,0.0,0.0,NULL,3.6,6.3,.571,13.5,2.2,0.0,3.1,NULL,NULL,20.7,-0.7);
 INSERT INTO comps_per40 VALUES ('DJ White','2006-07','Indiana','Big Ten',32,1017,6.7,13.1,.512,6.7,13.1,.512,0.0,0.0,NULL,3.9,5.7,.685,9.2,1.6,1.1,2.9,NULL,NULL,17.3,-0.7);
 INSERT INTO comps_per40 VALUES ('DJ White','2007-08','Indiana','Big Ten',33,1105,7.8,12.9,.605,7.8,12.8,.607,0.0,0.1,.333,5.1,7.5,.689,12.3,0.9,0.9,2.0,2.3,NULL,20.8,-0.7);
 INSERT INTO comps_per40 VALUES ('JR Giddens','2003-04','Kansas','Big 12',33,854,6.6,13.9,.475,3.1,5.4,.583,3.5,8.5,.407,0.8,1.3,.667,5.6,1.3,1.1,0.9,NULL,NULL,17.5,-0.2);
@@ -2007,7 +1996,6 @@ INSERT INTO comps_per40 VALUES ('JR Giddens','2004-05','Kansas','Big 12',30,831,
 INSERT INTO comps_per40 VALUES ('JR Giddens','2006-07','New Mexico','MWC',26,785,7.9,18.0,.441,5.9,11.1,.528,2.1,6.9,.301,3.0,5.1,.590,8.6,3.1,1.1,0.7,NULL,NULL,21.0,-0.2);
 INSERT INTO comps_per40 VALUES ('JR Giddens','2007-08','New Mexico','MWC',33,1063,7.9,15.3,.516,7.0,12.5,.557,0.9,2.8,.333,3.5,5.9,.586,10.9,3.9,1.8,1.5,2.7,NULL,20.2,-0.2);
 INSERT INTO comps_per40 VALUES ('Walter Sharpe','2004-05','Mississippi State','SEC',22,195,4.7,8.4,.561,4.7,8.4,.561,0.0,0.0,NULL,1.2,4.5,.273,8.4,2.3,1.0,2.1,NULL,NULL,10.7,-0.1);
-INSERT INTO comps_per40 VALUES ('Walter Sharpe','2005-06','Mississippi State','SEC',6,118,6.8,12.5,.541,6.8,12.5,.541,0.0,0.0,NULL,5.4,8.5,.640,10.2,1.0,1.0,1.7,NULL,NULL,19.0,-0.1);
 INSERT INTO comps_per40 VALUES ('Walter Sharpe','2007-08','Alabama-Birmingham','CUSA',12,299,9.1,17.4,.523,9.1,17.0,.535,0.0,0.4,.000,4.5,8.7,.523,11.0,2.7,1.9,2.9,4.5,NULL,22.7,-0.1);
 INSERT INTO comps_per40 VALUES ('Joey Dorsey','2004-05','Memphis','CUSA',37,557,4.7,8.5,.546,4.7,8.5,.546,0.0,0.0,NULL,2.8,6.5,.429,15.9,1.2,1.6,3.1,NULL,NULL,12.1,0.3);
 INSERT INTO comps_per40 VALUES ('Joey Dorsey','2005-06','Memphis','CUSA',37,782,5.4,8.6,.631,5.4,8.6,.631,0.0,0.0,NULL,2.1,5.5,.393,14.2,1.6,2.3,3.4,NULL,NULL,13.0,0.3);
@@ -2032,7 +2020,6 @@ INSERT INTO comps_per40 VALUES ('Sean Singletary','2004-05','Virginia','ACC',29,
 INSERT INTO comps_per40 VALUES ('Sean Singletary','2005-06','Virginia','ACC',29,982,6.8,17.1,.400,4.8,11.1,.429,2.1,6.0,.347,5.1,6.0,.845,5.2,4.9,2.2,0.1,NULL,NULL,20.9,-0.2);
 INSERT INTO comps_per40 VALUES ('Sean Singletary','2006-07','Virginia','ACC',32,1064,6.4,16.0,.400,3.4,8.3,.410,3.0,7.6,.389,7.1,8.2,.872,5.5,5.7,1.4,0.0,NULL,NULL,22.9,-0.2);
 INSERT INTO comps_per40 VALUES ('Sean Singletary','2007-08','Virginia','ACC',33,1122,7.2,17.0,.426,5.2,11.3,.456,2.1,5.6,.367,6.7,7.9,.851,4.5,7.2,2.1,0.0,4.6,NULL,23.3,-0.2);
-INSERT INTO comps_per40 VALUES ('Henry Walker','2006-07','Kansas State','Big 12',6,139,7.5,18.7,.400,7.5,16.1,.464,0.0,2.6,.000,4.6,6.9,.667,7.8,1.4,1.2,0.0,NULL,NULL,19.6,0.5);
 INSERT INTO comps_per40 VALUES ('Henry Walker','2007-08','Kansas State','Big 12',31,846,8.6,18.4,.465,6.9,13.0,.531,1.7,5.4,.307,4.8,6.5,.737,9.3,2.8,1.3,0.8,3.8,NULL,23.5,0.5);
 INSERT INTO comps_per40 VALUES ('Malik Hairston','2004-05','Oregon','Pac-10',27,830,7.0,13.7,.509,5.9,10.4,.565,1.1,3.3,.333,2.0,4.3,.472,6.5,2.5,0.7,0.4,NULL,NULL,17.1,0.0);
 INSERT INTO comps_per40 VALUES ('Malik Hairston','2005-06','Oregon','Pac-10',32,1056,6.6,14.1,.470,4.8,9.4,.516,1.8,4.7,.379,3.1,4.5,.689,5.7,2.6,0.6,0.8,NULL,NULL,18.1,0.0);
@@ -2205,7 +2192,6 @@ INSERT INTO comps_per40 VALUES ('Tyshawn Taylor','2011-12','Kansas','Big 12',39,
 INSERT INTO comps_per40 VALUES ('Doron Lamb','2010-11','Kentucky','SEC',38,1078,6.0,12.0,.497,3.5,6.8,.505,2.5,5.2,.486,2.9,3.7,.790,2.8,2.3,0.8,0.2,1.9,3.2,17.4,-1.2);
 INSERT INTO comps_per40 VALUES ('Doron Lamb','2011-12','Kentucky','SEC',40,1249,5.6,11.8,.474,3.2,6.6,.481,2.4,5.2,.466,3.9,4.8,.826,3.5,1.9,0.6,0.1,1.4,2.3,17.6,-1.2);
 INSERT INTO comps_per40 VALUES ('Mike Scott','2009-10','Virginia','ACC',28,768,7.4,14.7,.505,7.3,14.4,.507,0.2,0.4,.429,2.4,3.3,.719,10.5,1.8,0.9,0.4,2.4,2.8,17.4,-0.4);
-INSERT INTO comps_per40 VALUES ('Mike Scott','2010-11','Virginia','ACC',10,337,6.3,13.1,.482,6.2,12.9,.477,0.1,0.1,1.000,6.2,7.0,.881,12.1,1.9,0.4,0.8,2.8,1.9,18.9,-0.4);
 INSERT INTO comps_per40 VALUES ('Mike Scott','2011-12','Virginia','ACC',32,999,8.6,15.3,.563,8.4,14.5,.577,0.2,0.8,.300,5.6,6.9,.808,10.6,1.5,0.8,0.6,2.7,2.2,23.0,-0.4);
 INSERT INTO comps_per40 VALUES ('Kim English','2009-10','Missouri','Big 12',34,818,7.6,19.4,.393,4.3,10.4,.413,3.3,9.0,.370,4.6,6.4,.731,5.6,1.9,2.2,0.1,3.5,2.8,23.2,-0.2);
 INSERT INTO comps_per40 VALUES ('Kim English','2010-11','Missouri','Big 12',34,869,4.9,13.3,.366,2.5,6.8,.365,2.4,6.5,.366,3.5,4.9,.726,4.8,3.1,1.9,0.5,3.1,2.7,15.7,-0.2);
