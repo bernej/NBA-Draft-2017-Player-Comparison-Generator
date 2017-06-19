@@ -6,6 +6,7 @@ from math import sqrt
 # Computes the cosine similarity value for a specified prospect and an NBA player's NCAA shooting percentages
 def shot_percentage_similarity(prospect, nba_player):
 
+    # print(nba_player['Player'])
     # Dot product
     numerator = float(prospect['FGP']) * float(nba_player['FGP'])
     numerator += ( float(prospect['2PP']) * float(nba_player['2PP']) )
@@ -31,8 +32,7 @@ def shot_percentage_similarity(prospect, nba_player):
     denom = sqrt(prosp_denom) * sqrt(comp_denom)
 
     # Compute the score and return it
-    score = numerator / denom
-    return score
+    return numerator / denom
 
 
 # Computes the cosine similarity value for a specified prospect and an NBA player's NCAA counting stats per 40 minutes
@@ -44,17 +44,33 @@ def per_game_similarity(prospect, nba_player):
     numerator += ( float(prospect['TRB']) * float(nba_player['TRB']) )
     numerator += ( float(prospect['STL']) * float(nba_player['STL']) )
     numerator += ( float(prospect['BLK']) * float(nba_player['BLK']) )
+    numerator += ( float(prospect['FTA']) * float(nba_player['FTA']) )
+
 
     # Sum of squares
-    prosp_denom = (float(prospect['PTS'])**2) + (float(prospect['AST'])**2) + (float(prospect['TRB'])**2) + (float(prospect['STL'])**2) + (float(prospect['BLK'])**2)
-    comp_denom = (float(nba_player['PTS'])**2) + (float(nba_player['AST'])**2) + (float(nba_player['TRB'])**2) + (float(nba_player['STL'])**2) + (float(nba_player['BLK'])**2)
+    prosp_denom = (float(prospect['PTS'])**2) + (float(prospect['AST'])**2) + (float(prospect['TRB'])**2) + (float(prospect['STL'])**2) + (float(prospect['BLK'])**2) + (float(prospect['FTA'])**2)
+    comp_denom = (float(nba_player['PTS'])**2) + (float(nba_player['AST'])**2) + (float(nba_player['TRB'])**2) + (float(nba_player['STL'])**2) + (float(nba_player['BLK'])**2) + (float(nba_player['FTA'])**2)
+
+    # Multiply the norm of the two vectors
+    denom = sqrt(prosp_denom) * sqrt(comp_denom)
+
+    # Non 3-point shooting comp and non 3-point shooting prospect
+    if nba_player['3PA'] <= 1.0 and prospect['3PA'] <= 1.0:
+        return numerator / (sqrt(prosp_denom) * sqrt(comp_denom))
+    # Non 3-point shooting comp, but 3-point shooting prospect. Disregard comp.
+    elif nba_player['3PA'] <= 1.0 and prospect['3PA'] > 1.0:
+        return 0
+    # Otherwise, take into account 3-point attempts in the similarity score.
+    else:
+        numerator += ( float(prospect['3PA']) * float(nba_player['3PA']) )
+        prosp_denom += (float(prospect['3PA'])**2)
+        comp_denom += (float(nba_player['3PA'])**2)
 
     # Multiply the norm of the two vectors
     denom = sqrt(prosp_denom) * sqrt(comp_denom)
 
     # Compute the score and return it
-    score = numerator / denom
-    return score
+    return numerator / denom
 
 
 # Computes the cosine similarity value for a specified prospect and an NBA player's NCAA advanced stats that are between 0 and 1
@@ -74,8 +90,7 @@ def adv_rate_similarity(prospect, nba_player):
     denom = sqrt(prosp_denom) * sqrt(comp_denom)
 
     # Compute the score and return it
-    score = numerator / denom
-    return score
+    return numerator / denom
 
 
 # Computes the cosine similarity value for a specified prospect and an NBA player's NCAA advanced stats that are between 0 and 100
@@ -101,8 +116,7 @@ def adv_percent_similarity(prospect, nba_player):
     denom = sqrt(prosp_denom) * sqrt(comp_denom)
 
     # Compute the score and return it
-    score = numerator / denom
-    return score
+    return numerator / denom
 
 
 # Computes the cosine similarity value for a specified prospect and an NBA player's NCAA Player Efficiency Rating and Offensive & Defensive Box Plus Minus values
@@ -121,5 +135,4 @@ def adv_misc_similarity(prospect, nba_player):
     denom = sqrt(prosp_denom) * sqrt(comp_denom)
 
     # Compute the score and return it
-    score = numerator / denom
-    return score
+    return numerator / denom
