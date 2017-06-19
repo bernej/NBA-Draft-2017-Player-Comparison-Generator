@@ -107,9 +107,9 @@ def write_per40_stats(out_file, prospect):
 def write_NBA_comp_per40(out_file, comp, players):
 
     # Write NBA player's specified college season to output file    
-    out_file.write(comp[0] + '  ' + str(players[comp[0]]['FGP']) + " FG " + str(players[comp[0]]['2PP']) + " 2P " + str(players[comp[0]]['3PP']) + " 3P " + str(players[comp[0]]['FTP']) + " FT | " + \
+    out_file.write(comp[0] + '  ' + str(players[comp[0]]['FGP']) + " / " + str(players[comp[0]]['2PP']) + " / " + str(players[comp[0]]['3PP']) + " / " + str(players[comp[0]]['FTP']) + " | " + \
                    str(players[comp[0]]['PTS']) + " PPG " + str(players[comp[0]]['AST']) + " AST " + str(players[comp[0]]['TRB']) + " TRB " + str(players[comp[0]]['STL']) + " STL " + str(players[comp[0]]['BLK']) + " BLK | " + \
-                   str(players[comp[0]]['3PA']) + " 3PA " + str(players[comp[0]]['FTA']) + " FTA " + "\t{0:.4f}".format(comp[1]) + '\n')
+                   str(players[comp[0]]['3PA']) + " 3PA " + str(players[comp[0]]['FTA']) + " FTA |" + "\t{0:.4f}".format(comp[1]) + '\n')
 
 
 # Writes the advanced stat line that the prospect produced
