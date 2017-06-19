@@ -99,16 +99,17 @@ def write_per40_stats(out_file, prospect):
 
     # Write prospect's specified college season to output file    
     out_file.write(prospect['Player'] + "\t\t\t" + str(prospect['FGP']) + " FG% / " + str(prospect['2PP']) + " 2P% / " + str(prospect['3PP']) + " 3P% /" + str(prospect['FTP']) + " FT% | \t" + \
-                   str(prospect['PTS']) + " PPG / " + str(prospect['AST']) + " AST / " + str(prospect['TRB']) + " TRB /" + str(prospect['STL']) + " STL /" + str(prospect['BLK']) + " BLK\n\n")
+                   str(prospect['PTS']) + " PPG / " + str(prospect['AST']) + " AST / " + str(prospect['TRB']) + " TRB /" + str(prospect['STL']) + " STL /" + str(prospect['BLK']) + " BLK /" + \
+                   str(prospect['3PA']) + " 3PA /" + str(prospect['FTA']) +  " FTA\n\n")
 
 
 # Writes the per 40 minute stat line that the NBA player produced during a specified NCAA season
 def write_NBA_comp_per40(out_file, comp, players):
 
     # Write NBA player's specified college season to output file    
-    out_file.write(comp[0] + '  ' + str(players[comp[0]]['FGP']) + " FG% " + str(players[comp[0]]['2PP']) + " 2P% " + str(players[comp[0]]['3PP']) + " 3P% " + str(players[comp[0]]['FTP']) + " FT% | " + \
-                   str(players[comp[0]]['PTS']) + " PPG " + str(players[comp[0]]['AST']) + " AST " + str(players[comp[0]]['TRB']) + " TRB " + str(players[comp[0]]['STL']) + " STL " + str(players[comp[0]]['BLK']) + " BLK  " + \
-                   "score: " + "{0:.4f}".format(comp[1]) + '\n')
+    out_file.write(comp[0] + '  ' + str(players[comp[0]]['FGP']) + " FG " + str(players[comp[0]]['2PP']) + " 2P " + str(players[comp[0]]['3PP']) + " 3P " + str(players[comp[0]]['FTP']) + " FT | " + \
+                   str(players[comp[0]]['PTS']) + " PPG " + str(players[comp[0]]['AST']) + " AST " + str(players[comp[0]]['TRB']) + " TRB " + str(players[comp[0]]['STL']) + " STL " + str(players[comp[0]]['BLK']) + " BLK | " + \
+                   str(players[comp[0]]['3PA']) + " 3PA " + str(players[comp[0]]['FTA']) + " FTA " + "\t{0:.4f}".format(comp[1]) + '\n')
 
 
 # Writes the advanced stat line that the prospect produced
