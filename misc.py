@@ -53,6 +53,10 @@ def query_tables(db):
 # Writes a header message on the top of the output files
 def initialize_output_files(divider):
 
+    # Initialize unique.txt
+    out_file = open('unique.txt', 'w')
+    out_file.write("This file contains all of the NBA player per 40 minute & advanced NCAA seasons that were returned for only a single prospect.\n\n")
+
     # Message to be printed at the top of each output file
     header = "A cosine similarity is computed between each prospect and NBA player, using both their per 40 minutes and advanced statistics from their NCAA seasons (collected from sports-reference.com).\n\nThe NBA players collected are every top 5 pick since 1993 that played in the NCAA, every all-star or all-NBA drafted since 1993, as well as certain exceptions from recent drafts for proper \'modern NBA\' comparisons of players who are currently contributing to an NBA team.\n"
     gist = header + '\n' + divider + '\n'
@@ -183,3 +187,35 @@ def intersect_similarities(out_file, per40_score, adv_score, divider):
 
     # Output the divider for formatting purposes
     out_file.write('\n' + divider + '\n')
+
+def initialize_unique_dicts(comps_per40_results, comps_adv_results):
+    unique_per40 = {}
+    unique_adv = {}
+    for nba_player in comps_per40_results:
+        comp_key = nba_player['Player'] + ", " + nba_player['Season'] + ", " + nba_player['School']
+        unique_per40[comp_key] = []
+
+    for nba_player in comps_adv_results:
+        comp_key = nba_player['Player'] + ", " + nba_player['Season'] + ", " + nba_player['School']
+        unique_adv[comp_key] = []
+
+    return unique_per40, unique_adv
+
+def output_unique_seasons(unique_seasons, unique_players, players, out_file):
+    for nba_player in unique_seasons:
+        if len(unique_seasons[nba_player]) == 1:
+            unique_players[unique_seasons[nba_player][0]].append((nba_player, players[nba_player]["VORP"]))
+
+    unique_players = sorted(unique_players.items(), key=lambda x: x[0], reverse=False)
+    for player in unique_players:
+        sorted_players = sorted(player[1], key=lambda tup: tup[1], reverse=True)
+        out_file.write(str(player[0]) + "\'s unique per 40 minute NCAA season comparisons are:\n")
+        for nba_player in sorted_players:
+            out_file.write("\t" + str(nba_player[0]) + "\twith a career VORP of: " + str(nba_player[1]) + '\n')
+        out_file.write('\n')    
+
+def reset_unique_players(prosp_per40_results):
+    unique_players = {}
+    for prospect in prosp_per40_results:
+        unique_players[prospect['Player']] = []
+    return unique_players

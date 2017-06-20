@@ -11,8 +11,15 @@ players = {}        # NBA Players mapped to their NCAA seasonal per 40 minutes s
 
 adv_players = {}    # NBA Players mapped to their NCAA seasonal advanced stats
 
+unique_per40 = {}   # per 40 minute NCAA seasons that only appear once
+unique_adv = {}     # advanced NCAA seasons that only appear once
+unique_players = {} # set of unique players, either per 40 or advanced
+
 # Grab all the data from the tables in the database
 prosp_szn_results, prosp_per40_results, prosp_adv_results, comps_per40_results, comps_adv_results = query_tables(db)
+
+ # For the NBA player NCAA seasons that only appear once in all of the top 30 prospect-comp sets
+unique_per40, unique_adv = initialize_unique_dicts(comps_per40_results, comps_adv_results)
 
 # For refreshing guards.txt, wings.txt, and bigs.txt
 remove_output_files()
@@ -26,7 +33,8 @@ out_file = initialize_output_files(divider)
 
 # Go through each prospect and compute their similarity to every NBA player in the database
 for prospect in prosp_per40_results:
-
+    # Map each prospect to an empty list
+    unique_players[prospect['Player']] = []
     # This variable will contain the prospect's advanced stats after the per40 similarity score is computed
     college_player = {}
 
@@ -55,7 +63,7 @@ for prospect in prosp_per40_results:
         per40_comparables[comp_key] *= per_game_similarity(prospect, nba_player)
 
     # seasons that have complete advanced stats from sports-reference.com
-    adv_seasons = ['11','12','13','14','15','16']
+    # adv_seasons = ['11','12','13','14','15','16']
 
     # Go through each NBA player and compute their adv stats cosine similarity score
     for nba_player in comps_adv_results:
@@ -63,24 +71,20 @@ for prospect in prosp_per40_results:
         # Need to get this prospect's advanced stats.
         college_player = get_advanced_stats(prospect, prosp_adv_results)
 
-        # Seasons before 2010-11 do not have complete advanced stats. This check
-        # makes sure that we are getting a player who's NCAA season came 2010-11 or later
-        if any(season in nba_player['Season'] for season in adv_seasons):
+        # NBA Player and their respective NCAA season
+        comp_key = nba_player['Player'] + ", " + nba_player['Season'] + ", " + nba_player['School']
 
-            # NBA Player and their respective NCAA season
-            comp_key = nba_player['Player'] + ", " + nba_player['Season'] + ", " + nba_player['School']
+        # Map this NBA player to their NCAA season
+        adv_players[comp_key] = nba_player
 
-            # Map this NBA player to their NCAA season
-            adv_players[comp_key] = nba_player
+        # Looks at TS%, eFG%, FTr, and WS/40
+        adv_comparables[comp_key] = adv_rate_similarity(college_player, nba_player)
 
-            # Looks at TS%, eFG%, FTr, and WS/40
-            adv_comparables[comp_key] = adv_rate_similarity(college_player, nba_player)
+        # Looks at ORB%, DRB%, AST%, STL%, BLK%, TOV%, and USG%
+        adv_comparables[comp_key] *= adv_percent_similarity(college_player, nba_player)
 
-            # Looks at ORB%, DRB%, AST%, STL%, BLK%, TOV%, and USG%
-            adv_comparables[comp_key] *= adv_percent_similarity(college_player, nba_player)
-
-            # Looks at PER, OBPM, and DBPM
-            adv_comparables[comp_key] *= adv_misc_similarity(college_player, nba_player)
+        # Looks at PER, OBPM, and DBPM
+        adv_comparables[comp_key] *= adv_misc_similarity(college_player, nba_player)
 
     # Sort the similarity scores into descending order
     per40_comparables = sorted(per40_comparables.items(), key=lambda x: x[1], reverse=True)
@@ -97,6 +101,8 @@ for prospect in prosp_per40_results:
     # Go through the Top 30 per 40 minute similarity scores
     idx = 0
     for comp in per40_comparables:
+        # Map this comp to the prospect for unique comparisons at the end
+        unique_per40[comp[0]].append(prospect['Player'])
         # Map this score for possible future intersection calculation
         per40_score[comp[0]] = comp[1]
         # Map this NBA player's VORP
@@ -122,6 +128,8 @@ for prospect in prosp_per40_results:
     # Go through the Top 30 advanced stats similarity scores
     idx = 0
     for comp in adv_comparables:
+        # Map this comp to the prospect for unique comparisons at the end
+        unique_adv[comp[0]].append(prospect['Player'])
         # Map this score for possible future intersection calculation
         adv_score[comp[0]] = comp[1]
         # Map this NBA player's VORP
@@ -141,3 +149,15 @@ for prospect in prosp_per40_results:
     intersect_similarities(out_file, per40_score, adv_score, divider)
     # Close output file and move on to next prospect
     out_file.close()
+
+# Write the unique combs to unique.txt
+out_file = open('unique.txt','a')
+# Write the unique per 40 min seasons
+out_file.write("\n\nPER 40 MINUTE UNIQUE SEASONS:\n\n")
+output_unique_seasons(unique_per40, unique_players, players, out_file)
+# Reset the unique_players dict to be empty
+unique_players = reset_unique_players(prosp_per40_results)
+# Write the unique adv seasons
+out_file.write("\n\nADVANCED UNIQUE SEASONS:\n\n")
+output_unique_seasons(unique_adv, unique_players, players, out_file)
+
