@@ -154,10 +154,10 @@ for prospect in prosp_per40_results:
 out_file = open('unique.txt','a')
 # Write the unique per 40 min seasons
 out_file.write("\n\nPER 40 MINUTE UNIQUE SEASONS:\n\n")
-output_unique_seasons(unique_per40, unique_players, players, out_file)
+output_unique_seasons(unique_per40, unique_players, players, out_file, True)
 # Reset the unique_players dict to be empty
 unique_players = reset_unique_players(prosp_per40_results)
 # Write the unique adv seasons
 out_file.write("\n\nADVANCED UNIQUE SEASONS:\n\n")
-output_unique_seasons(unique_adv, unique_players, players, out_file)
+output_unique_seasons(unique_adv, unique_players, players, out_file, False)
 

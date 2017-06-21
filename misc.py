@@ -201,7 +201,7 @@ def initialize_unique_dicts(comps_per40_results, comps_adv_results):
 
     return unique_per40, unique_adv
 
-def output_unique_seasons(unique_seasons, unique_players, players, out_file):
+def output_unique_seasons(unique_seasons, unique_players, players, out_file, per40_flag):
     for nba_player in unique_seasons:
         if len(unique_seasons[nba_player]) == 1:
             unique_players[unique_seasons[nba_player][0]].append((nba_player, players[nba_player]["VORP"]))
@@ -209,7 +209,10 @@ def output_unique_seasons(unique_seasons, unique_players, players, out_file):
     unique_players = sorted(unique_players.items(), key=lambda x: x[0], reverse=False)
     for player in unique_players:
         sorted_players = sorted(player[1], key=lambda tup: tup[1], reverse=True)
-        out_file.write(str(player[0]) + "\'s unique per 40 minute NCAA season comparisons are:\n")
+        if per40_flag:
+            out_file.write(str(player[0]) + " unique per 40 minute NCAA season comparisons:\n")
+        else:
+            out_file.write(str(player[0]) + " unique advanced NCAA season comparisons:\n")            
         for nba_player in sorted_players:
             out_file.write("\t" + str(nba_player[0]) + "\twith a career VORP of: " + str(nba_player[1]) + '\n')
         out_file.write('\n')    
