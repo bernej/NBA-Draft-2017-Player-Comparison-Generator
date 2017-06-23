@@ -1,0 +1,845 @@
+
+
+PER 40 MINUTE UNIQUE SEASONS:
+
+AJ Hammons unique per 40 minute NCAA season comparisons:
+	Chris Wilcox, 2000-01, Maryland	with a career VORP of: 1.2
+	Charlie Villanueva, 2004-05, UConn	with a career VORP of: 0.6
+	Paul Grant, 1993-94, Boston College	with a career VORP of: -0.2
+
+Ben Bentil unique per 40 minute NCAA season comparisons:
+	Carmelo Anthony, 2002-03, Syracuse	with a career VORP of: 29.4
+	Wally Szczerbiak, 1998-99, Miami (OH)	with a career VORP of: 12.8
+	Keith Van Horn, 1995-96, Utah	with a career VORP of: 8.4
+	Austin Croshere, 1996-97, Providence	with a career VORP of: 4.3
+	Isaiah Rider, 1992-93, UNLV	with a career VORP of: 3.6
+	Lamond Murray, 1993-94, Cal	with a career VORP of: 1.4
+	Henry Walker, 2007-08, Kansas State	with a career VORP of: 0.5
+	Randy Holcomb, 2000-01, San Diego State	with a career VORP of: 0.0
+	Jamaal Franklin, 2011-12, San Diego State	with a career VORP of: -0.1
+	Matt Freije, 2000-01, Vanderbilt	with a career VORP of: -0.6
+	Donny Marshall, 1994-95, UConn	with a career VORP of: -0.6
+	Cedric Henderson, 1996-97, Memphis	with a career VORP of: -0.7
+	Cleanthony Early, 2012-13, Wichita State	with a career VORP of: -0.8
+	Cleanthony Early, 2013-14, Wichita State	with a career VORP of: -0.8
+	Chris Crawford, 1996-97, Marquette	with a career VORP of: -0.9
+	Dan Langhi, 1998-99, Vanderbilt	with a career VORP of: -1.5
+	Jason Collier, 1998-99, Georgia Tech	with a career VORP of: -2.3
+	Dahntay Jones, 2002-03, Duke	with a career VORP of: -4.1
+
+Ben Simmons unique per 40 minute NCAA season comparisons:
+	Brad Miller, 1996-97, Purdue	with a career VORP of: 25.5
+	Brad Miller, 1994-95, Purdue	with a career VORP of: 25.5
+	David West, 2000-01, Xavier	with a career VORP of: 24.5
+	David Lee, 2003-04, Florida	with a career VORP of: 22.3
+	Greg Monroe, 2009-10, Georgetown	with a career VORP of: 16.2
+	PJ Tucker, 2004-05, Texas	with a career VORP of: 8.7
+	Josh McRoberts, 2005-06, Duke	with a career VORP of: 6.2
+	Trevor Booker, 2009-10, Clemson	with a career VORP of: 5.6
+	Solomon Hill, 2009-10, Arizona	with a career VORP of: 2.4
+	Jarron Collins, 2000-01, Stanford	with a career VORP of: 0.5
+	Evan Eschmeyer, 1998-99, Northwestern	with a career VORP of: 0.5
+	Ryan Reid, 2009-10, Florida State	with a career VORP of: 0.0
+	Jerami Grant, 2013-14, Syracuse	with a career VORP of: -0.1
+	Cuonzo Martin, 1991-92, Purdue	with a career VORP of: -0.1
+	Torraye Braggs, 1996-97, Xavier	with a career VORP of: -0.1
+	Jabari Smith, 1999-00, LSU	with a career VORP of: -0.5
+	Brandon Hunter, 2000-01, Ohio	with a career VORP of: -0.5
+	Bill Curley, 1990-91, Boston College	with a career VORP of: -0.6
+	Jason Caffey, 1994-95, Alabama	with a career VORP of: -1.6
+	Dickey Simpkins, 1992-93, Providence	with a career VORP of: -2.3
+
+Brandon Ingram unique per 40 minute NCAA season comparisons:
+	Shane Battier, 1999-00, Duke	with a career VORP of: 37.0
+	Jason Richardson, 2000-01, Michigan State	with a career VORP of: 24.4
+	Kerry Kittles, 1995-96, Villanova	with a career VORP of: 16.9
+	Matt Bonner, 2002-03, Florida	with a career VORP of: 10.1
+	Matt Harpring, 1996-97, Georgia Tech	with a career VORP of: 8.2
+	Robert Covington, 2011-12, Tennessee State	with a career VORP of: 3.7
+	Brandon Rush, 2006-07, Kansas	with a career VORP of: 0.7
+	Justin Anderson, 2014-15, Virginia	with a career VORP of: 0.3
+	Charles Smith, 1996-97, New Mexico	with a career VORP of: 0.2
+	Justin Harper, 2010-11, Richmond	with a career VORP of: -0.2
+	Orlando Johnson, 2011-12, UCSB	with a career VORP of: -0.5
+	Anthony Brown, 2013-14, Stanford	with a career VORP of: -0.5
+	Sean Kilpatrick, 2010-11, Cincinnati	with a career VORP of: -0.6
+	Hollis Thompson, 2011-12, Georgetown	with a career VORP of: -1.3
+	Antoine Wright, 2004-05, Texas A&M	with a career VORP of: -1.5
+	Xavier Henry, 2009-10, Kansas	with a career VORP of: -2.3
+	Daequan Cook, 2006-07, Ohio State	with a career VORP of: -2.4
+
+Brice Johnson unique per 40 minute NCAA season comparisons:
+	DeMarco Johnson, 1994-95, Charlotte	with a career VORP of: -0.1
+	David Vaughn, 1991-92, Memphis	with a career VORP of: -1.0
+	John Wallace, 1992-93, Syracuse	with a career VORP of: -3.8
+
+Buddy Hield unique per 40 minute NCAA season comparisons:
+	Tony Delk, 1995-96, Kentucky	with a career VORP of: 2.1
+	Seth Curry, 2012-13, Duke	with a career VORP of: 1.8
+	Alphonso Ford, 1989-90, Mississippi Valley State	with a career VORP of: -0.2
+	CJ Wilcox, 2012-13, Washington	with a career VORP of: -0.3
+	Rashad McCants, 2003-04, UNC	with a career VORP of: -0.6
+	Joe Harris, 2012-13, Virginia	with a career VORP of: -0.6
+	AJ Guyton, 1999-00, Indiana	with a career VORP of: -1.1
+	Quincy Douby, 2005-06, Rutgers	with a career VORP of: -1.3
+
+Caris LeVert unique per 40 minute NCAA season comparisons:
+	Kirk Hinrich, 2001-02, Kansas	with a career VORP of: 14.7
+	Jalen Rose, 1993-94, Michigan	with a career VORP of: 11.9
+	Delonte West, 2003-04, St. Joseph's	with a career VORP of: 7.6
+	Fred Hoiberg, 1993-94, Iowa State	with a career VORP of: 6.9
+	Arron Afflalo, 2004-05, UCLA	with a career VORP of: 5.2
+	Miles Simon, 1996-97, Arizona	with a career VORP of: -0.1
+	Toby Bailey, 1996-97, UCLA	with a career VORP of: -0.3
+	Lamar Patterson, 2013-14, Pitt	with a career VORP of: -0.4
+	Lionel Chalmers, 2001-02, Xavier	with a career VORP of: -0.5
+	Jerome Allen, 1994-95, Penn	with a career VORP of: -0.7
+	Reece Gaines, 2000-01, Louisville	with a career VORP of: -0.9
+
+Cheick Diallo unique per 40 minute NCAA season comparisons:
+	Erick Dampier, 1994-95, Mississippi State	with a career VORP of: 13.1
+	Greg Ostertag, 1994-95, Kansas	with a career VORP of: 10.0
+	Kevin Cato, 1996-97, Iowa State	with a career VORP of: 4.6
+	Adonal Foyle, 1994-95, Colgate	with a career VORP of: 3.9
+	Don Reid, 1994-95, Georgetown	with a career VORP of: 2.4
+	Travis Knight, 1992-93, UConn	with a career VORP of: 0.8
+	Rakeem Christmas, 2013-14, Syracuse	with a career VORP of: -0.1
+	Ken Johnson, 1998-99, Ohio State	with a career VORP of: -0.3
+	Cory Jefferson, 2011-12, Baylor	with a career VORP of: -0.4
+	Alex Len, 2011-12, Maryland	with a career VORP of: -0.7
+	Solomon Jones, 2004-05, South Florida	with a career VORP of: -0.7
+	Adreian Payne, 2010-11, Michigan State	with a career VORP of: -1.2
+	Jamaal Magloire, 1996-97, Kentucky	with a career VORP of: -3.3
+
+Chinanu Onuaku unique per 40 minute NCAA season comparisons:
+	Francisco Elson, 1998-99, University of California	with a career VORP of: 0.8
+	Aaron Gray, 2003-04, Pitt	with a career VORP of: 0.2
+	James Augustine, 2003-04, Illinois	with a career VORP of: 0.0
+	Rakeem Christmas, 2011-12, Syracuse	with a career VORP of: -0.1
+	Mitch McGary, 2012-13, Michigan	with a career VORP of: -0.2
+	Hilton Armstrong, 2002-03, UConn	with a career VORP of: -0.7
+
+Damian Jones unique per 40 minute NCAA season comparisons:
+	Brendan Haywood, 1999-00, UNC	with a career VORP of: 8.4
+	Brandan Wright, 2006-07, UNC	with a career VORP of: 6.1
+	Todd MacCulloch, 1998-99, Washington	with a career VORP of: 1.9
+	Udonis Haslem, 1998-99, Florida	with a career VORP of: 1.9
+	Charles Claxton, 1992-93, Georgia	with a career VORP of: 0.0
+	Derrick Alston, 1991-92, Duquesne	with a career VORP of: -0.1
+	Clifford Rozier, 1993-94, Louisville	with a career VORP of: -0.1
+	Chris Richard, 2006-07, Florida	with a career VORP of: -0.3
+	Dexter Pittman, 2009-10, Texas	with a career VORP of: -0.4
+	David Harrison, 2003-04, Colorado	with a career VORP of: -1.0
+	David Harrison, 2001-02, Colorado	with a career VORP of: -1.0
+	Brian Skinner, 1995-96, Baylor	with a career VORP of: -1.0
+	Jahlil Okafor, 2014-15, Duke	with a career VORP of: -1.2
+	Steven Hunter, 2000-01, DePaul	with a career VORP of: -1.3
+
+DeAndre Bembry unique per 40 minute NCAA season comparisons:
+	Lamar Odom, 1998-99, Rhode Island	with a career VORP of: 36.3
+	Mike Miller, 1998-99, Florida	with a career VORP of: 20.3
+	Mike Miller, 1999-00, Florida	with a career VORP of: 20.3
+	Richard Jefferson, 2000-01, Arizona	with a career VORP of: 20.0
+	Jamal Mashburn, 1992-93, Kentucky	with a career VORP of: 12.9
+	Ronnie Brewer, 2003-04, Arkansas	with a career VORP of: 10.7
+	Bonzi Wells, 1996-97, Ball State	with a career VORP of: 9.3
+	Bob Sura, 1993-94, Florida State	with a career VORP of: 9.2
+	Fred Hoiberg, 1992-93, Iowa State	with a career VORP of: 6.9
+	Shandon Anderson, 1994-95, Georgia	with a career VORP of: 4.9
+	Jeff Green, 2005-06, Georgetown	with a career VORP of: 3.9
+	Jeff Green, 2006-07, Georgetown	with a career VORP of: 3.9
+	Lance Stephenson, 2009-10, Cincinnati	with a career VORP of: 3.6
+	Marquis Daniels, 2002-03, Auburn	with a career VORP of: 2.9
+	Will Barton, 2011-12, Memphis	with a career VORP of: 1.5
+	Jamie Watson, 1993-94, South Carolina	with a career VORP of: 0.3
+	Kirk Snyder, 2002-03, Nevada	with a career VORP of: 0.0
+	Charles OBannon, 1995-96, UCLA	with a career VORP of: -0.1
+	Marcus Williams, 2006-07, Arizona	with a career VORP of: -0.1
+	Greg Minor, 1993-94, Louisville	with a career VORP of: -0.3
+	Jerald Honeycutt, 1994-95, Tulane	with a career VORP of: -0.3
+	Toby Bailey, 1994-95, UCLA	with a career VORP of: -0.3
+	Johnny Taylor, 1996-97, Chattanooga	with a career VORP of: -0.3
+	Chris Robinson, 1992-93, Western Kentucky	with a career VORP of: -0.6
+	Chris Douglas-Roberts, 2005-06, Memphis	with a career VORP of: -1.0
+
+Dejounte Murray unique per 40 minute NCAA season comparisons:
+	Grant Hill, 1993-94, Duke	with a career VORP of: 42.5
+	Michael Finley, 1991-92, Wisconsin	with a career VORP of: 29.2
+	Brent Barry, 1993-94, Oregon State	with a career VORP of: 27.2
+	Derek Anderson, 1995-96, Kentucky	with a career VORP of: 13.3
+	Jalen Rose, 1992-93, Michigan	with a career VORP of: 11.9
+	Bobby Jackson, 1996-97, Minnesota	with a career VORP of: 7.8
+	John Salmons, 2000-01, Miami (FL)	with a career VORP of: 5.8
+	Corey Brewer, 2006-07, Florida	with a career VORP of: 4.1
+	Khalid Reeves, 1992-93, Arizona	with a career VORP of: 0.6
+	Malcolm Lee, 2009-10, UCLA	with a career VORP of: 0.0
+	DJ Strawberry, 2006-07, Maryland	with a career VORP of: -0.2
+	Donnie Boyce, 1994-95, Colorado	with a career VORP of: -0.2
+	Alex Acker, 2003-04, Pepperdine	with a career VORP of: -0.3
+	Jerald Honeycutt, 1995-96, Tulane	with a career VORP of: -0.3
+	James Cotton, 1993-94, Long Beach State	with a career VORP of: -0.3
+	Jimmy King, 1994-95, Michigan	with a career VORP of: -0.8
+	Royal Ivey, 2002-03, Texas	with a career VORP of: -2.8
+
+Demetrius Jackson unique per 40 minute NCAA season comparisons:
+	Steve Nash, 1995-96, Santa Clara	with a career VORP of: 31.2
+	Jameer Nelson, 2002-03, St. Joseph's	with a career VORP of: 13.2
+	Jameer Nelson, 2003-04, St. Joseph's	with a career VORP of: 13.2
+	Mo Williams, 2002-03, Alabama	with a career VORP of: 8.9
+	Francisco Garcia, 2003-04, Louisville	with a career VORP of: 4.9
+	Travis Best, 1994-95, Georgia Tech	with a career VORP of: 4.0
+	Jordan Farmar, 2005-06, UCLA	with a career VORP of: 1.6
+	Nolan Smith, 2010-11, Duke	with a career VORP of: -0.9
+	Vonteego Cummings, 1998-99, Pitt	with a career VORP of: -0.9
+	Acie Law, 2005-06, Texas A&M	with a career VORP of: -2.0
+	Tyronn Lue, 1996-97, Nebraska	with a career VORP of: -2.5
+
+Denzel Valentine unique per 40 minute NCAA season comparisons:
+	Steve Nash, 1992-93, Santa Clara	with a career VORP of: 31.2
+	Deron Williams, 2003-04, Illinois	with a career VORP of: 23.8
+	Deron Williams, 2004-05, Illinois	with a career VORP of: 23.8
+	Damon Stoudamire, 1992-93, Arizona	with a career VORP of: 15.4
+	Jameer Nelson, 2001-02, St. Joseph's	with a career VORP of: 13.2
+	Ray Felton, 2002-03, UNC	with a career VORP of: 10.4
+	Iman Shumpert, 2009-10, Georgia Tech	with a career VORP of: 4.1
+	Chris Whitney, 1992-93, Clemson	with a career VORP of: 2.0
+	Chris Whitney, 1991-92, Clemson	with a career VORP of: 2.0
+	Aaron Brooks, 2003-04, Oregon	with a career VORP of: 0.9
+	Aaron Brooks, 2005-06, Oregon	with a career VORP of: 0.9
+	Travis Diener, 2001-02, Marquette	with a career VORP of: 0.1
+	Travis Diener, 2002-03, Marquette	with a career VORP of: 0.1
+	Jay Williams, 1999-00, Duke	with a career VORP of: -0.1
+	Moochie Norris, 1994-95, Auburn	with a career VORP of: -0.1
+	Cory Alexander, 1991-92, Virginia	with a career VORP of: -0.2
+	Drew Barry, 1995-96, Georgia Tech	with a career VORP of: -0.4
+	Dee Brown, 2003-04, Illinois	with a career VORP of: -0.4
+	Shammond Williams, 1996-97, UNC	with a career VORP of: -0.4
+	Terry Rozier, 2013-14, Louisville	with a career VORP of: -0.5
+	Josh Selby, 2010-11, Kansas	with a career VORP of: -0.6
+	Jerome Allen, 1992-93, Penn	with a career VORP of: -0.7
+	Matthew Dellavedova, 2010-11, Saint Mary's (CA)	with a career VORP of: -1.5
+	Matthew Dellavedova, 2009-10, Saint Mary's (CA)	with a career VORP of: -1.5
+
+Deyonta Davis unique per 40 minute NCAA season comparisons:
+	Robin Lopez, 2006-07, Stanford	with a career VORP of: 8.9
+	Fab Melo, 2011-12, Syracuse	with a career VORP of: 0.0
+	Malcolm Mackey, 1990-91, Georgia Tech	with a career VORP of: -0.2
+	Roy Rogers, 1995-96, Alabama	with a career VORP of: -0.7
+	Marreese Speights, 2006-07, Florida	with a career VORP of: -2.1
+	Sharone Wright, 1992-93, Clemson	with a career VORP of: -4.1
+
+Diamond Stone unique per 40 minute NCAA season comparisons:
+	JaMychal Green, 2009-10, Alabama	with a career VORP of: 1.4
+	Tyler Zeller, 2010-11, UNC	with a career VORP of: 0.7
+	Evers Burns, 1990-91, Maryland	with a career VORP of: -0.1
+	Corsley Edwards, 2000-01, Central Connecticut	with a career VORP of: -0.1
+	Casey Shaw, 1995-96, Toledo	with a career VORP of: -0.1
+	Evers Burns, 1992-93, Maryland	with a career VORP of: -0.1
+	Paul Grant, 1996-97, Wisconsin	with a career VORP of: -0.2
+	Antonio Lang, 1993-94, Duke	with a career VORP of: -0.3
+	JaJuan Johnson, 2009-10, Purdue	with a career VORP of: -0.3
+	Bill Curley, 1992-93, Boston College	with a career VORP of: -0.6
+	DJ White, 2004-05, Indiana	with a career VORP of: -0.7
+	Junior Burrough, 1992-93, Virginia	with a career VORP of: -0.7
+	JaKarr Sampson, 2012-13, St. John's (NY)	with a career VORP of: -1.7
+	Bryant Reeves, 1994-95, Oklahoma State	with a career VORP of: -1.8
+	Loren Meyer, 1993-94, Iowa State	with a career VORP of: -2.2
+	Melvin Ely, 2001-02, Fresno State	with a career VORP of: -2.4
+
+Domantas Sabonis unique per 40 minute NCAA season comparisons:
+	Andrew Bogut, 2004-05, Utah	with a career VORP of: 21.4
+	Raef LaFrentz, 1995-96, Kansas	with a career VORP of: 12.8
+	Brian Grant, 1993-94, Xavier	with a career VORP of: 10.4
+	Malik Rose, 1995-96, Drexel	with a career VORP of: 1.9
+	Lorenzen Wright, 1994-95, Memphis	with a career VORP of: 0.0
+	Ben Davis, 1995-96, Arizona	with a career VORP of: -0.2
+	Mike Peplowski, 1992-93, Michigan State	with a career VORP of: -0.2
+	Sean Lampley, 1998-99, University of California	with a career VORP of: -0.2
+	Darnell Jackson, 2007-08, Kansas	with a career VORP of: -0.7
+	Johnny OBryant, 2012-13, LSU	with a career VORP of: -1.5
+	Jason Caffey, 1992-93, Alabama	with a career VORP of: -1.6
+
+Georges Niang unique per 40 minute NCAA season comparisons:
+	Ray Allen, 1993-94, UConn	with a career VORP of: 58.1
+	Joe Johnson, 1999-00, Arkansas	with a career VORP of: 27.0
+	Kerry Kittles, 1994-95, Villanova	with a career VORP of: 16.9
+	Wesley Person, 1992-93, Auburn	with a career VORP of: 13.8
+	Thaddeus Young, 2006-07, Georgia Tech	with a career VORP of: 13.7
+	Chris Mills, 1990-91, Arizona	with a career VORP of: 8.8
+	Nate Robinson, 2002-03, Washington	with a career VORP of: 7.8
+	Ryan Gomes, 2004-05, Providence	with a career VORP of: 2.3
+	Josh Richardson, 2013-14, Tennessee	with a career VORP of: 1.6
+	Charles Smith, 1994-95, New Mexico	with a career VORP of: 0.2
+	Dijon Thompson, 2002-03, UCLA	with a career VORP of: -0.1
+	Glen Robinson III, 2013-14, Michigan	with a career VORP of: -0.2
+	Morris Almond, 2004-05, Rice	with a career VORP of: -0.4
+	Chris Robinson, 1993-94, Western Kentucky	with a career VORP of: -0.6
+	Cedric Henderson, 1993-94, Memphis	with a career VORP of: -0.7
+	Calbert Cheaney, 1992-93, Indiana	with a career VORP of: -0.7
+	Tony Dumas, 1992-93, UMKC	with a career VORP of: -1.6
+	Jarvis Hayes, 2002-03, Georgia	with a career VORP of: -2.2
+	Adam Morrison, 2004-05, Gonzaga	with a career VORP of: -2.9
+	Ron Mercer, 1996-97, Kentucky	with a career VORP of: -4.3
+	Nick Young, 2004-05, USC	with a career VORP of: -5.2
+	Willie Green, 2000-01, Detroit	with a career VORP of: -5.9
+
+Henry Ellenson unique per 40 minute NCAA season comparisons:
+	Antoine Walker, 1994-95, Kentucky	with a career VORP of: 21.9
+	Gordon Hayward, 2009-10, Butler	with a career VORP of: 16.3
+	Quentin Richardson, 1998-99, DePaul	with a career VORP of: 8.9
+	Nikola Vucevic, 2010-11, USC	with a career VORP of: 8.0
+	Eduardo Najera, 1999-00, Oklahoma	with a career VORP of: 6.4
+	Tobias Harris, 2010-11, Tennessee	with a career VORP of: 5.4
+	Bobby Simmons, 1999-00, DePaul	with a career VORP of: 5.4
+	Maurice Harkless, 2011-12, St. John's (NY)	with a career VORP of: 3.4
+	Jumaine Jones, 1998-99, Georgia	with a career VORP of: 2.4
+	Ryan Gomes, 2003-04, Providence	with a career VORP of: 2.3
+	Jabari Parker, 2013-14, Duke	with a career VORP of: 0.9
+	Monty Williams, 1992-93, Notre Dame	with a career VORP of: 0.5
+	Lawrence Roberts, 2001-02, Baylor	with a career VORP of: 0.2
+	Andrae Patterson, 1996-97, Indiana	with a career VORP of: 0.1
+	Nick Fazekas, 2005-06, Nevada	with a career VORP of: 0.1
+	Nick Fazekas, 2004-05, Nevada	with a career VORP of: 0.1
+	Andrae Patterson, 1995-96, Indiana	with a career VORP of: 0.1
+	Cherokee Parks, 1994-95, Duke	with a career VORP of: -0.1
+	Craig Brackins, 2009-10, Iowa State	with a career VORP of: -0.2
+	Ansu Sesay, 1995-96, Ole Miss	with a career VORP of: -0.4
+	Ansu Sesay, 1996-97, Ole Miss	with a career VORP of: -0.4
+	Quincy Miller, 2011-12, Baylor	with a career VORP of: -0.5
+	Brian Cook, 2001-02, Illinois	with a career VORP of: -0.6
+	Lavor Postell, 1999-00, St. John's (NY)	with a career VORP of: -0.7
+	Ed OBannon, 1993-94, UCLA	with a career VORP of: -1.0
+	Desmond Mason, 1998-99, Oklahoma State	with a career VORP of: -1.9
+	Jason Collier, 1999-00, Georgia Tech	with a career VORP of: -2.3
+	Chris Carr, 1993-94, Southern Illinois	with a career VORP of: -2.4
+
+Isaiah Whitehead unique per 40 minute NCAA season comparisons:
+	Chauncey Billups, 1996-97, Colorado	with a career VORP of: 37.6
+	Jason Terry, 1998-99, Arizona	with a career VORP of: 34.1
+	Allan Houston, 1989-90, Tennessee	with a career VORP of: 9.9
+	Francisco Garcia, 2004-05, Louisville	with a career VORP of: 4.9
+	Ben Gordon, 2003-04, UConn	with a career VORP of: 4.7
+	Daniel Gibson, 2004-05, Texas	with a career VORP of: 2.3
+	Seth Curry, 2011-12, Duke	with a career VORP of: 1.8
+	Roger Mason Jr, 2001-02, Virginia	with a career VORP of: 0.5
+	Travis Diener, 2003-04, Marquette	with a career VORP of: 0.1
+	Tony Snell, 2012-13, New Mexico	with a career VORP of: -0.1
+	Sean Singletary, 2006-07, Virginia	with a career VORP of: -0.2
+	Randolph Childress, 1994-95, Wake Forest	with a career VORP of: -0.4
+	Dan Dickau, 2001-02, Gonzaga	with a career VORP of: -0.4
+	Isaiah Canaan, 2011-12, Murray State	with a career VORP of: -0.7
+	Isaiah Canaan, 2010-11, Murray State	with a career VORP of: -0.7
+	Bryce Drew, 1996-97, Valparaiso	with a career VORP of: -2.6
+	Kenyon Dooling, 1999-00, Missouri	with a career VORP of: -3.6
+
+Jake Layman unique per 40 minute NCAA season comparisons:
+	Tayshaun Prince, 2001-02, Kentucky	with a career VORP of: 16.6
+	Tayshaun Prince, 2000-01, Kentucky	with a career VORP of: 16.6
+	Tayshaun Prince, 1999-00, Kentucky	with a career VORP of: 16.6
+	Mike Dunleavy Jr., 1999-00, Duke	with a career VORP of: 15.9
+	Wesley Person, 1990-91, Auburn	with a career VORP of: 13.8
+	Matt Bonner, 2001-02, Florida	with a career VORP of: 10.1
+	Morris Peterson, 1996-97, Michigan State	with a career VORP of: 9.7
+	Jae Crowder, 2011-12, Marquette	with a career VORP of: 7.3
+	Eduardo Najera, 1998-99, Oklahoma	with a career VORP of: 6.4
+	Bradley Beal, 2011-12, Florida	with a career VORP of: 6.2
+	Khris Middleton, 2009-10, Texas A&M	with a career VORP of: 4.5
+	Austin Croshere, 1994-95, Providence	with a career VORP of: 4.3
+	Terrence Ross, 2011-12, Washington	with a career VORP of: 2.7
+	Carrick Felix, 2011-12, Arizona State	with a career VORP of: 0.0
+	Vincent Yarbrough, 1999-00, Tennessee	with a career VORP of: -0.1
+	Andre Emmett, 2000-01, Texas Tech	with a career VORP of: -0.1
+	Justin Harper, 2009-10, Richmond	with a career VORP of: -0.2
+	Mike Smith, 1999-00, Louisiana-Monroe	with a career VORP of: -0.2
+	Joe Alexander, 2006-07, West Virginia	with a career VORP of: -0.2
+	Demetris Nichols, 2005-06, Syracuse	with a career VORP of: -0.2
+	Jerald Honeycutt, 1993-94, Tulane	with a career VORP of: -0.3
+	Derrick Dial, 1995-96, Eastern Michigan	with a career VORP of: -0.3
+	Anthony Brown, 2011-12, Stanford	with a career VORP of: -0.5
+	KJ McDaniels, 2012-13, Clemson	with a career VORP of: -0.7
+	Jarell Martin, 2013-14, LSU	with a career VORP of: -0.7
+	Desmond Mason, 1996-97, Oklahoma State	with a career VORP of: -1.9
+	Donte Greene, 2007-08, Syracuse	with a career VORP of: -2.0
+
+Jakob Poeltl unique per 40 minute NCAA season comparisons:
+	Elton Brand, 1998-99, Duke	with a career VORP of: 45.2
+	Carlos Boozer, 2001-02, Duke	with a career VORP of: 22.1
+	Carlos Boozer, 2000-01, Duke	with a career VORP of: 22.1
+	Zach Randolph, 2000-01, Michigan State	with a career VORP of: 13.5
+	Brian Grant, 1992-93, Xavier	with a career VORP of: 10.4
+	Ryan Gomes, 2001-02, Providence	with a career VORP of: 2.3
+	Chris Kaman, 2002-03, Central Michigan	with a career VORP of: 0.0
+	Steve Hamer, 1995-96, Tennessee	with a career VORP of: -0.4
+	Brandon Hunter, 1999-00, Ohio	with a career VORP of: -0.5
+	JJ Hickson, 2007-08, North Carolina State	with a career VORP of: -0.9
+	Lonny Baxter, 2001-02, Maryland	with a career VORP of: -1.5
+	Hanno Mottola, 1996-97, Utah	with a career VORP of: -2.3
+
+Jamal Murray unique per 40 minute NCAA season comparisons:
+	Wesley Person, 1993-94, Auburn	with a career VORP of: 13.8
+	Arron Afflalo, 2005-06, UCLA	with a career VORP of: 5.2
+	Langston Galloway, 2011-12, St. Joseph's	with a career VORP of: 1.0
+	RJ Hunter, 2012-13, Georgia State	with a career VORP of: -0.1
+	Will Solomon, 1999-00, Clemson	with a career VORP of: -1.1
+	Cory Carr, 1995-96, Texas Tech	with a career VORP of: -1.1
+
+Jaylen Brown unique per 40 minute NCAA season comparisons:
+	Jimmy Butler, 2010-11, Marquette	with a career VORP of: 19.3
+	Danny Granger, 2003-04, New Mexico	with a career VORP of: 16.1
+	Bruce Bowen, 1992-93, Cal State Fullerton	with a career VORP of: 15.2
+	Jared Dudley, 2005-06, Boston College	with a career VORP of: 14.8
+	Corey Maggette, 1998-99, Duke	with a career VORP of: 9.5
+	Landry Fields, 2009-10, Stanford	with a career VORP of: 2.8
+	Jonathon Simmons, 2011-12, Houston	with a career VORP of: 0.2
+	Kirk Snyder, 2003-04, Nevada	with a career VORP of: 0.0
+	Kris Joseph, 2010-11, Syracuse	with a career VORP of: -0.1
+	Jason Sasser, 1995-96, Texas Tech	with a career VORP of: -0.1
+	Julius Hodge, 2002-03, North Carolina State	with a career VORP of: -0.1
+	Marcus Brown, 1992-93, Murray State	with a career VORP of: -0.1
+	Alec Burks, 2009-10, Colorado	with a career VORP of: -0.2
+	Donnie Boyce, 1992-93, Colorado	with a career VORP of: -0.2
+	Dominique Jones, 2009-10, South Florida	with a career VORP of: -0.3
+	Orlando Johnson, 2009-10, UCSB	with a career VORP of: -0.5
+	Alando Tucker, 2006-07, Wisconsin	with a career VORP of: -0.5
+	Alando Tucker, 2004-05, Wisconsin	with a career VORP of: -0.5
+	Felipe Lopez, 1996-97, St. John's (NY)	with a career VORP of: -0.7
+	Lawrence Moten, 1991-92, Syracuse	with a career VORP of: -0.8
+	Jeffery Taylor, 2010-11, Vanderbilt	with a career VORP of: -1.2
+	Archie Goodwin, 2012-13, Kentucky	with a career VORP of: -1.3
+	Tariq Abdul-Wahad, 1995-96, San Jose State	with a career VORP of: -1.5
+
+Joel Bolomboy unique per 40 minute NCAA season comparisons:
+	Kevin Love, 2007-08, UCLA	with a career VORP of: 23.5
+	Kelly Olynyk, 2010-11, Gonzaga	with a career VORP of: 4.5
+	Markieff Morris, 2010-11, Kansas	with a career VORP of: 4.0
+	Ryan Bowen, 1996-97, Iowa	with a career VORP of: 3.3
+	Terrence Jones, 2011-12, Kentucky	with a career VORP of: 3.0
+	Larry Nance Jr, 2012-13, Wyoming	with a career VORP of: 1.7
+	Dwight Powell, 2010-11, Stanford	with a career VORP of: 1.6
+	Jason Thompson, 2007-08, Rider	with a career VORP of: 1.3
+	Montrezl Harrell, 2014-15, Louisville	with a career VORP of: 0.8
+	Lawrence Roberts, 2003-04, Mississippi State	with a career VORP of: 0.2
+	Kevon Looney, 2014-15, UCLA	with a career VORP of: 0.2
+	Jason Collins, 2000-01, Stanford	with a career VORP of: 0.2
+	Tony Mitchell, 2011-12, North Texas	with a career VORP of: 0.1
+	Randy Holcomb, 2001-02, San Diego State	with a career VORP of: 0.0
+	Curtis Borchardt, 2001-02, Stanford	with a career VORP of: -0.1
+	Damion James, 2009-10, Texas	with a career VORP of: -0.4
+	Cory Jefferson, 2013-14, Baylor	with a career VORP of: -0.4
+	Mark Pope, 1995-96, Kentucky	with a career VORP of: -0.5
+	Jabari Smith, 1998-99, LSU	with a career VORP of: -0.5
+	Alexander Johnson, 2005-06, Florida State	with a career VORP of: -0.7
+	Mark Hendrickson, 1995-96, Washington State	with a career VORP of: -0.8
+	Glen Davis, 2006-07, LSU	with a career VORP of: -0.8
+	Mark Hendrickson, 1993-94, Washington State	with a career VORP of: -0.8
+	Mark Hendrickson, 1994-95, Washington State	with a career VORP of: -0.8
+	Linas Kleiza, 2003-04, Missouri	with a career VORP of: -0.9
+	Adreian Payne, 2012-13, Michigan State	with a career VORP of: -1.2
+	Noah Vonleh, 2013-14, Indiana	with a career VORP of: -1.4
+
+Kay Felder unique per 40 minute NCAA season comparisons:
+
+Kris Dunn unique per 40 minute NCAA season comparisons:
+	Derek Fisher, 1993-94, Arkansas-Little Rock	with a career VORP of: 9.3
+	Antonio Daniels, 1994-95, Bowling Green	with a career VORP of: 4.1
+	Marquis Daniels, 2001-02, Auburn	with a career VORP of: 2.9
+	Delon Wright, 2014-15, Utah	with a career VORP of: 0.4
+	Kyle Weaver, 2007-08, Washington State	with a career VORP of: 0.3
+	Adonis Jordan, 1990-91, Kansas	with a career VORP of: -0.1
+	Lorenzo Brown, 2010-11, North Carolina State	with a career VORP of: -0.5
+	Lorenzo Brown, 2011-12, North Carolina State	with a career VORP of: -0.5
+	Ray McCallum, 2010-11, Detroit	with a career VORP of: -0.6
+	Tyshawn Taylor, 2009-10, Kansas	with a career VORP of: -0.8
+	Vonteego Cummings, 1996-97, Pitt	with a career VORP of: -0.9
+	Reece Gaines, 1999-00, Louisville	with a career VORP of: -0.9
+	Howard Eisley, 1991-92, Boston College	with a career VORP of: -1.0
+	Tyronn Lue, 1995-96, Nebraska	with a career VORP of: -2.5
+
+Malachi Richardson unique per 40 minute NCAA season comparisons:
+	Kyle Korver, 2002-03, Creighton	with a career VORP of: 20.1
+	Devin Harris, 2001-02, Wisconsin	with a career VORP of: 13.7
+	Rip Hamilton, 1996-97, UConn	with a career VORP of: 10.5
+	Fred Hoiberg, 1994-95, Iowa State	with a career VORP of: 6.9
+	Kentavious Caldwell-Pope, 2012-13, Georgia	with a career VORP of: 4.6
+	Trajan Langdon, 1996-97, Duke	with a career VORP of: 0.1
+	Bracey Wright, 2002-03, Indiana	with a career VORP of: -0.1
+	RJ Hunter, 2013-14, Georgia State	with a career VORP of: -0.1
+	Bracey Wright, 2003-04, Indiana	with a career VORP of: -0.1
+	Gabe Pruitt, 2005-06, USC	with a career VORP of: -0.1
+	Kim English, 2010-11, Missouri	with a career VORP of: -0.2
+	James Young, 2013-14, Kentucky	with a career VORP of: -0.3
+	Tamar Slay, 2000-01, Marshall	with a career VORP of: -0.5
+	Jordan McRae, 2011-12, Tennessee	with a career VORP of: -0.5
+	Shelvin Mack, 2010-11, Butler	with a career VORP of: -0.7
+	Maurice Ager, 2003-04, Michigan State	with a career VORP of: -1.1
+	Maurice Ager, 2002-03, Michigan State	with a career VORP of: -1.1
+	Antoine Wright, 2003-04, Texas A&M	with a career VORP of: -1.5
+	Jason Kapono, 2001-02, UCLA	with a career VORP of: -2.3
+	Jason Kapono, 2000-01, UCLA	with a career VORP of: -2.3
+	Terry Dehere, 1989-90, Seton Hall	with a career VORP of: -2.6
+
+Malcom Brogdon unique per 40 minute NCAA season comparisons:
+	Damian Lillard, 2011-12, Weber State	with a career VORP of: 18.7
+	Aaron McKie, 1992-93, Temple	with a career VORP of: 12.9
+	Rip Hamilton, 1998-99, UConn	with a career VORP of: 10.5
+	Allan Houston, 1992-93, Tennessee	with a career VORP of: 9.9
+	Allan Houston, 1991-92, Tennessee	with a career VORP of: 9.9
+	Klay Thompson, 2010-11, Washington State	with a career VORP of: 9.6
+	OJ Mayo, 2007-08, USC	with a career VORP of: 5.1
+	Eddie House, 1999-00, Arizona State	with a career VORP of: 1.6
+	Eddie House, 1998-99, Arizona State	with a career VORP of: 1.6
+	Charles Smith, 1995-96, New Mexico	with a career VORP of: 0.2
+	Darius Johnson-Odom, 2011-12, Marquette	with a career VORP of: -0.1
+	Dijon Thompson, 2003-04, UCLA	with a career VORP of: -0.1
+	Alphonso Ford, 1992-93, Mississippi Valley State	with a career VORP of: -0.2
+	Erick Green, 2011-12, Virginia Tech	with a career VORP of: -0.3
+	Nick Johnson, 2013-14, Arizona	with a career VORP of: -0.3
+	Joe Young, 2012-13, Houston	with a career VORP of: -0.5
+	Joe Young, 2014-15, Oregon	with a career VORP of: -0.5
+	Shannon Brown, 2005-06, Michigan State	with a career VORP of: -0.6
+	Shawn Respert, 1992-93, Michigan State	with a career VORP of: -0.9
+	Courtney Alexander, 1999-00, Fresno State	with a career VORP of: -2.1
+	Juan Dixon, 2001-02, Maryland	with a career VORP of: -2.1
+	Terry Dehere, 1991-92, Seton Hall	with a career VORP of: -2.6
+
+Malik Beasley unique per 40 minute NCAA season comparisons:
+	Michael Finley, 1992-93, Wisconsin	with a career VORP of: 29.2
+	Cuttino Mobley, 1996-97, Rhode Island	with a career VORP of: 15.3
+	Courtney Lee, 2006-07, Western Kentucky	with a career VORP of: 8.7
+	Harrison Barnes, 2010-11, UNC	with a career VORP of: 2.9
+	Jon Leuer, 2010-11, Wisconsin	with a career VORP of: 1.2
+	Orlando Johnson, 2010-11, UCSB	with a career VORP of: -0.5
+	Maurice Ager, 2004-05, Michigan State	with a career VORP of: -1.1
+	Jarvis Hayes, 1999-00, Western Carolina	with a career VORP of: -2.2
+	Royal Ivey, 2001-02, Texas	with a career VORP of: -2.8
+	Rodney Buford, 1996-97, Creighton	with a career VORP of: -2.8
+
+Marquese Chriss unique per 40 minute NCAA season comparisons:
+	Donyell Marshall, 1993-94, UConn	with a career VORP of: 19.1
+	Danny Granger, 2002-03, Bradley	with a career VORP of: 16.1
+	Rodney Rogers, 1992-93, Wake Forest	with a career VORP of: 13.8
+	Kurt Thomas, 1993-94, Texas Christian	with a career VORP of: 13.2
+	Jamal Mashburn, 1991-92, Kentucky	with a career VORP of: 12.9
+	Vin Baker, 1992-93, Hartford	with a career VORP of: 10.4
+	Morris Peterson, 1998-99, Michigan State	with a career VORP of: 9.7
+	Bonzi Wells, 1995-96, Ball State	with a career VORP of: 9.3
+	Marcus Morris, 2010-11, Kansas	with a career VORP of: 4.5
+	Kosta Koufos, 2007-08, Ohio State	with a career VORP of: 2.4
+	Jon Leuer, 2009-10, Wisconsin	with a career VORP of: 1.2
+	Frank Kaminsky, 2013-14, Wisconsin	with a career VORP of: 0.6
+	Frank Kaminsky, 2014-15, Wisconsin	with a career VORP of: 0.6
+	Charles OBannon, 1996-97, UCLA	with a career VORP of: -0.1
+	Sherell Ford, 1993-94, UIC	with a career VORP of: -0.1
+	Sherell Ford, 1992-93, UIC	with a career VORP of: -0.1
+	Trey Thompkins, 2010-11, Georgia	with a career VORP of: -0.2
+	Hassan Adams, 2003-04, Arizona	with a career VORP of: -0.3
+	Tim James, 1998-99, Miami (FL)	with a career VORP of: -0.3
+	Brian Cook, 1999-00, Illinois	with a career VORP of: -0.6
+	Doug Edwards, 1990-91, Florida State	with a career VORP of: -0.6
+	Cedric Henderson, 1994-95, Memphis	with a career VORP of: -0.7
+	KJ McDaniels, 2011-12, Clemson	with a career VORP of: -0.7
+	Marcus Haislip, 2001-02, Tennessee	with a career VORP of: -0.9
+	Tariq Abdul-Wahad, 1996-97, San Jose State	with a career VORP of: -1.5
+	Anthony Bennett, 2012-13, UNLV	with a career VORP of: -1.7
+	Andrew Nicholson, 2011-12, St. Bonaventure	with a career VORP of: -3.4
+	Marcus Fizer, 1999-00, Iowa State	with a career VORP of: -4.1
+	Michael Beasley, 2007-08, Kansas State	with a career VORP of: -4.4
+
+Michael Gbinije unique per 40 minute NCAA season comparisons:
+	Stephon Marbury, 1995-96, Georgia Tech	with a career VORP of: 25.6
+	Sam Cassell, 1991-92, Florida State	with a career VORP of: 25.4
+	Kirk Hinrich, 2002-03, Kansas	with a career VORP of: 14.7
+	Nick Van Exel, 1991-92, Cincinnati	with a career VORP of: 11.4
+	Jay Williams, 2000-01, Duke	with a career VORP of: -0.1
+	Gabe Pruitt, 2004-05, USC	with a career VORP of: -0.1
+	James Collins, 1995-96, Florida State	with a career VORP of: -0.1
+	Jay Williams, 2001-02, Duke	with a career VORP of: -0.1
+	Cory Alexander, 1992-93, Virginia	with a career VORP of: -0.2
+	Toby Bailey, 1995-96, UCLA	with a career VORP of: -0.3
+	DeJuan Wheat, 1993-94, Louisville	with a career VORP of: -0.4
+	DeJuan Wheat, 1995-96, Louisville	with a career VORP of: -0.4
+	Darrun Hilliard, 2013-14, Villanova	with a career VORP of: -0.5
+	Lionel Chalmers, 2003-04, Xavier	with a career VORP of: -0.5
+	Joe Harris, 2013-14, Virginia	with a career VORP of: -0.6
+	Rashad McCants, 2004-05, UNC	with a career VORP of: -0.6
+	Daniel Ewing, 2004-05, Duke	with a career VORP of: -0.7
+	Quincy Lewis, 1995-96, Minnesota	with a career VORP of: -0.9
+	Rex Walters, 1991-92, Kansas	with a career VORP of: -1.5
+
+Pascal Siakam unique per 40 minute NCAA season comparisons:
+	JaMychal Green, 2011-12, Alabama	with a career VORP of: 1.4
+	Alan Henderson, 1991-92, Indiana	with a career VORP of: 1.1
+	Cherokee Parks, 1993-94, Duke	with a career VORP of: -0.1
+	Derrick Caracter, 2009-10, UTEP	with a career VORP of: -0.2
+	Jerome Moiso, 1999-00, UCLA	with a career VORP of: -0.6
+	Damone Brown, 1999-00, Syracuse	with a career VORP of: -0.7
+	Perry Jones III, 2010-11, Baylor	with a career VORP of: -1.1
+	Loren Meyer, 1992-93, Iowa State	with a career VORP of: -2.2
+
+Patrick McCaw unique per 40 minute NCAA season comparisons:
+	Penny Hardaway, 1991-92, Memphis	with a career VORP of: 27.2
+	Kerry Kittles, 1993-94, Villanova	with a career VORP of: 16.9
+	Devin Harris, 2002-03, Wisconsin	with a career VORP of: 13.7
+	Aaron McKie, 1991-92, Temple	with a career VORP of: 12.9
+	Mario Chalmers, 2006-07, Kansas	with a career VORP of: 10.1
+	Keith Bogans, 2001-02, Kentucky	with a career VORP of: 4.5
+	Randy Foye, 2004-05, Villanova	with a career VORP of: 3.4
+	Luther Head, 2003-04, Illinois	with a career VORP of: 3.2
+	Luther Head, 2002-03, Illinois	with a career VORP of: 3.2
+	Will Barton, 2010-11, Memphis	with a career VORP of: 1.5
+	Charles Smith, 1993-94, New Mexico	with a career VORP of: 0.2
+	Brooks Thompson, 1992-93, Oklahoma State	with a career VORP of: 0.1
+	James Collins, 1993-94, Florida State	with a career VORP of: -0.1
+	Darius Miller, 2011-12, Kentucky	with a career VORP of: -0.2
+	Glen Rice Jr, 2010-11, Georgia Tech	with a career VORP of: -0.2
+	Jerald Honeycutt, 1996-97, Tulane	with a career VORP of: -0.3
+	Orien Greene, 2003-04, Louisiana-Lafayette	with a career VORP of: -0.7
+	Mardy Collins, 2004-05, Temple	with a career VORP of: -2.0
+	Mardy Collins, 2002-03, Temple	with a career VORP of: -2.0
+	Mardy Collins, 2003-04, Temple	with a career VORP of: -2.0
+	Juan Dixon, 1998-99, Maryland	with a career VORP of: -2.1
+
+Skal Labissiere unique per 40 minute NCAA season comparisons:
+	Theo Ratliff, 1993-94, Wyoming	with a career VORP of: 15.1
+	Jim McIlvaine, 1993-94, Marquette	with a career VORP of: 2.8
+	Jim McIlvaine, 1992-93, Marquette	with a career VORP of: 2.8
+	Calvin Booth, 1998-99, Penn State	with a career VORP of: 0.8
+	Jason Lawson, 1994-95, Villanova	with a career VORP of: 0.1
+	Meyers Leonard, 2010-11, Illinois	with a career VORP of: -0.1
+	Solomon Alabi, 2009-10, Florida State	with a career VORP of: -0.2
+	Dwayne Whitfield, 1992-93, Jackson State	with a career VORP of: -0.2
+	Ken Johnson, 2000-01, Ohio State	with a career VORP of: -0.3
+	Loren Woods, 1999-00, Arizona	with a career VORP of: -0.6
+	Jerome James, 1996-97, Florida A&M	with a career VORP of: -1.3
+
+Stephen Zimmerman unique per 40 minute NCAA season comparisons:
+	Antonio McDyess, 1994-95, Alabama	with a career VORP of: 16.4
+	Jeff Foster, 1998-99, Texas State	with a career VORP of: 13.0
+	Greg Ostertag, 1991-92, Kansas	with a career VORP of: 10.0
+	Michael Smith, 1993-94, Providence	with a career VORP of: 8.7
+	Kevin Cato, 1995-96, Iowa State	with a career VORP of: 4.6
+	Andrew DeClercq, 1993-94, Florida	with a career VORP of: 2.4
+	Tony Battie, 1995-96, Texas Tech	with a career VORP of: 1.9
+	Aaron Gray, 2005-06, Pitt	with a career VORP of: 0.2
+	James Augustine, 2004-05, Illinois	with a career VORP of: 0.0
+	Ruben Boumtje-Boumtje, 2000-01, Georgetown	with a career VORP of: -0.2
+	Sean May, 2002-03, UNC	with a career VORP of: -0.2
+	Antonio Lang, 1992-93, Duke	with a career VORP of: -0.3
+	Jake Voskuhl, 1999-00, UConn	with a career VORP of: -0.3
+	Lari Ketner, 1998-99, UMass	with a career VORP of: -0.3
+	Amal McCaskill, 1994-95, Marquette	with a career VORP of: -0.6
+	Jermareo Davidson, 2003-04, Alabama	with a career VORP of: -0.6
+	Loren Woods, 1996-97, Wake Forest	with a career VORP of: -0.6
+	Mamadou NDiaye, 1999-00, Auburn	with a career VORP of: -0.7
+	Shelden Williams, 2002-03, Duke	with a career VORP of: -1.2
+	Shelden Williams, 2004-05, Duke	with a career VORP of: -1.2
+	Mark Blount, 1995-96, Pitt	with a career VORP of: -1.4
+	Obinna Ekezie, 1995-96, Maryland	with a career VORP of: -1.5
+
+Taurean Prince unique per 40 minute NCAA season comparisons:
+	Aaron McKie, 1993-94, Temple	with a career VORP of: 12.9
+	Josh Howard, 2002-03, Wake Forest	with a career VORP of: 10.3
+	Courtney Lee, 2005-06, Western Kentucky	with a career VORP of: 8.7
+	Kyle Singler, 2009-10, Duke	with a career VORP of: 0.9
+	Brian Evans, 1995-96, Indiana	with a career VORP of: -0.1
+	Josh Grant, 1990-91, Utah	with a career VORP of: -0.1
+	Dijon Thompson, 2004-05, UCLA	with a career VORP of: -0.1
+	Sam Jacobson, 1995-96, Minnesota	with a career VORP of: -0.3
+	Markel Brown, 2012-13, Oklahoma State	with a career VORP of: -0.3
+	Robbie Hummel, 2009-10, Purdue	with a career VORP of: -0.3
+	Rodney Buford, 1998-99, Creighton	with a career VORP of: -2.8
+	Ron Mercer, 1995-96, Kentucky	with a career VORP of: -4.3
+
+Tyler Ulis unique per 40 minute NCAA season comparisons:
+	Jerian Grant, 2011-12, Notre Dame	with a career VORP of: 0.0
+	Pierre Jackson, 2011-12, Baylor	with a career VORP of: -0.1
+	Will Blalock, 2004-05, Iowa State	with a career VORP of: -0.2
+
+Wade Baldwin unique per 40 minute NCAA season comparisons:
+	Chris Paul, 2004-05, Wake Forest	with a career VORP of: 71.7
+	Kemba Walker, 2009-10, UConn	with a career VORP of: 15.8
+	Derek Fisher, 1995-96, Arkansas-Little Rock	with a career VORP of: 9.3
+	Derek Fisher, 1994-95, Arkansas-Little Rock	with a career VORP of: 9.3
+	Brevin Knight, 1996-97, Stanford	with a career VORP of: 4.3
+	Andrew Harrison, 2014-15, Kentucky	with a career VORP of: -0.2
+	Andrew Harrison, 2013-14, Kentucky	with a career VORP of: -0.2
+	Tim Frazier, 2013-14, Penn State	with a career VORP of: -0.3
+	Tim Frazier, 2011-12, Penn State	with a career VORP of: -0.3
+	Frank Williams, 2001-02, Illinois	with a career VORP of: -0.7
+	Nate Wolters, 2009-10, South Dakota State	with a career VORP of: -0.7
+	Howard Eisley, 1990-91, Boston College	with a career VORP of: -1.0
+	Kenny Satterfield, 2000-01, Cincinnati	with a career VORP of: -1.1
+	Rodrick Rhodes, 1994-95, Kentucky	with a career VORP of: -1.4
+
+Yogi Ferrell unique per 40 minute NCAA season comparisons:
+	Damon Stoudamire, 1994-95, Arizona	with a career VORP of: 15.4
+	Luke Ridnour, 2001-02, Oregon	with a career VORP of: 5.8
+	Jeff McInnis, 1995-96, UNC	with a career VORP of: -2.5
+
+
+
+ADVANCED UNIQUE SEASONS:
+
+AJ Hammons unique advanced NCAA season comparisons:
+
+Ben Bentil unique advanced NCAA season comparisons:
+	TJ Warren, 2013-14, North Carolina State	with a career VORP of: 1.1
+
+Ben Simmons unique advanced NCAA season comparisons:
+	Jimmy Butler, 2010-11, Marquette	with a career VORP of: 19.3
+	Draymond Green, 2011-12, Michigan State	with a career VORP of: 16.4
+	Solomon Hill, 2011-12, Arizona	with a career VORP of: 2.4
+	Kyle Anderson, 2012-13, UCLA	with a career VORP of: 2.1
+	Rondae Hollis-Jefferson, 2013-14, Arizona	with a career VORP of: 0.9
+	Rondae Hollis-Jefferson, 2014-15, Arizona	with a career VORP of: 0.9
+	Justin Anderson, 2012-13, Virginia	with a career VORP of: 0.3
+	Royce White, 2011-12, Iowa State	with a career VORP of: 0.0
+	Jamaal Franklin, 2012-13, San Diego State	with a career VORP of: -0.1
+
+Brandon Ingram unique advanced NCAA season comparisons:
+
+Brice Johnson unique advanced NCAA season comparisons:
+	Jae Crowder, 2011-12, Marquette	with a career VORP of: 7.3
+	Cory Jefferson, 2012-13, Baylor	with a career VORP of: -0.4
+
+Buddy Hield unique advanced NCAA season comparisons:
+
+Caris LeVert unique advanced NCAA season comparisons:
+
+Cheick Diallo unique advanced NCAA season comparisons:
+
+Chinanu Onuaku unique advanced NCAA season comparisons:
+	Gorgui Dieng, 2012-13, Louisville	with a career VORP of: 8.0
+	Mason Plumlee, 2010-11, Duke	with a career VORP of: 7.7
+	Andre Roberson, 2010-11, Colorado	with a career VORP of: 3.5
+	Andre Roberson, 2012-13, Colorado	with a career VORP of: 3.5
+	Willie Cauley-Stein, 2014-15, Kentucky	with a career VORP of: 1.3
+	Rakeem Christmas, 2013-14, Syracuse	with a career VORP of: -0.1
+
+Damian Jones unique advanced NCAA season comparisons:
+
+DeAndre Bembry unique advanced NCAA season comparisons:
+	Tyler Johnson, 2013-14, Fresno State	with a career VORP of: 2.6
+	Frank Kaminsky, 2012-13, Wisconsin	with a career VORP of: 0.6
+
+Dejounte Murray unique advanced NCAA season comparisons:
+	Lorenzo Brown, 2010-11, North Carolina State	with a career VORP of: -0.5
+	Shane Larkin, 2011-12, Miami (FL)	with a career VORP of: -0.6
+
+Demetrius Jackson unique advanced NCAA season comparisons:
+
+Denzel Valentine unique advanced NCAA season comparisons:
+	TJ McConnell, 2013-14, Arizona	with a career VORP of: 0.0
+	TJ McConnell, 2011-12, Duquesne	with a career VORP of: 0.0
+	TJ McConnell, 2014-15, Arizona	with a career VORP of: 0.0
+
+Deyonta Davis unique advanced NCAA season comparisons:
+
+Diamond Stone unique advanced NCAA season comparisons:
+	JaKarr Sampson, 2012-13, St. John's (NY)	with a career VORP of: -1.7
+
+Domantas Sabonis unique advanced NCAA season comparisons:
+
+Georges Niang unique advanced NCAA season comparisons:
+	Khris Middleton, 2011-12, Texas A&M	with a career VORP of: 4.5
+	Terrence Ross, 2010-11, Washington	with a career VORP of: 2.7
+	Langston Galloway, 2012-13, St. Joseph's	with a career VORP of: 1.0
+	Jeremy Lamb, 2010-11, UConn	with a career VORP of: 0.7
+	Jordan Hamilton, 2010-11, Texas	with a career VORP of: 0.3
+	Tim Hardaway Jr., 2012-13, Michigan	with a career VORP of: -0.1
+	Ian Clark, 2010-11, Belmont	with a career VORP of: -0.3
+	Ian Clark, 2011-12, Belmont	with a career VORP of: -0.3
+
+Henry Ellenson unique advanced NCAA season comparisons:
+
+Isaiah Whitehead unique advanced NCAA season comparisons:
+	Devyn Marble, 2013-14, Iowa	with a career VORP of: -0.3
+
+Jake Layman unique advanced NCAA season comparisons:
+	Robert Covington, 2010-11, Tennessee State	with a career VORP of: 3.7
+	Josh Richardson, 2012-13, Tennessee	with a career VORP of: 1.6
+	Allen Crabbe, 2010-11, Cal	with a career VORP of: 1.5
+	Norman Powell, 2012-13, UCLA	with a career VORP of: 0.5
+	Tyler Honeycutt, 2010-11, UCLA	with a career VORP of: -0.1
+	Erik Murphy, 2011-12, Florida	with a career VORP of: -0.1
+	Darius Miller, 2010-11, Kentucky	with a career VORP of: -0.2
+	Darrun Hilliard, 2011-12, Villanova	with a career VORP of: -0.5
+	Anthony Brown, 2011-12, Stanford	with a career VORP of: -0.5
+	Hollis Thompson, 2010-11, Georgetown	with a career VORP of: -1.3
+
+Jakob Poeltl unique advanced NCAA season comparisons:
+
+Jamal Murray unique advanced NCAA season comparisons:
+
+Jaylen Brown unique advanced NCAA season comparisons:
+	Devyn Marble, 2010-11, Iowa	with a career VORP of: -0.3
+	Markel Brown, 2010-11, Oklahoma State	with a career VORP of: -0.3
+	Archie Goodwin, 2012-13, Kentucky	with a career VORP of: -1.3
+	Tony Wroten, 2011-12, Washington	with a career VORP of: -1.6
+
+Joel Bolomboy unique advanced NCAA season comparisons:
+	Kenneth Faried, 2010-11, Morehead State	with a career VORP of: 9.2
+	Mason Plumlee, 2011-12, Duke	with a career VORP of: 7.7
+	Jared Sullinger, 2010-11, Ohio State	with a career VORP of: 4.1
+	Kyle OQuinn, 2010-11, Norfolk State	with a career VORP of: 3.5
+	Julius Randle, 2013-14, Kentucky	with a career VORP of: 0.1
+	Cameron Bairstow, 2012-13, New Mexico	with a career VORP of: -0.2
+	Jordan Williams, 2010-11, Maryland	with a career VORP of: -0.2
+
+Kay Felder unique advanced NCAA season comparisons:
+
+Kris Dunn unique advanced NCAA season comparisons:
+	Michael Carter-Williams, 2011-12, Syracuse	with a career VORP of: 2.2
+	Peyton Siva, 2012-13, Louisville	with a career VORP of: -0.3
+
+Malachi Richardson unique advanced NCAA season comparisons:
+	Jordan Clarkson, 2011-12, Tulsa	with a career VORP of: 0.5
+	Malcolm Lee, 2010-11, UCLA	with a career VORP of: 0.0
+	Tim Hardaway Jr., 2011-12, Michigan	with a career VORP of: -0.1
+	Austin Rivers, 2011-12, Duke	with a career VORP of: -2.2
+
+Malcom Brogdon unique advanced NCAA season comparisons:
+	Kemba Walker, 2010-11, UConn	with a career VORP of: 15.8
+	CJ McCollum, 2012-13, Lehigh	with a career VORP of: 3.9
+	Darius Johnson-Odom, 2011-12, Marquette	with a career VORP of: -0.1
+	Joe Young, 2013-14, Oregon	with a career VORP of: -0.5
+	Jordan McRae, 2013-14, Tennessee	with a career VORP of: -0.5
+	Orlando Johnson, 2010-11, UCSB	with a career VORP of: -0.5
+	Sean Kilpatrick, 2013-14, Cincinnati	with a career VORP of: -0.6
+
+Malik Beasley unique advanced NCAA season comparisons:
+	Kentavious Caldwell-Pope, 2011-12, Georgia	with a career VORP of: 4.6
+	Terrence Ross, 2011-12, Washington	with a career VORP of: 2.7
+	Jon Leuer, 2010-11, Wisconsin	with a career VORP of: 1.2
+	Doug McDermott, 2010-11, Creighton	with a career VORP of: -1.6
+
+Marquese Chriss unique advanced NCAA season comparisons:
+	Victor Oladipo, 2010-11, Indiana	with a career VORP of: 4.7
+
+Michael Gbinije unique advanced NCAA season comparisons:
+
+Pascal Siakam unique advanced NCAA season comparisons:
+	Mike Muscala, 2012-13, Bucknell	with a career VORP of: 1.4
+
+Patrick McCaw unique advanced NCAA season comparisons:
+
+Skal Labissiere unique advanced NCAA season comparisons:
+
+Stephen Zimmerman unique advanced NCAA season comparisons:
+	Jerami Grant, 2012-13, Syracuse	with a career VORP of: -0.1
+	Johnny OBryant, 2011-12, LSU	with a career VORP of: -1.5
+
+Taurean Prince unique advanced NCAA season comparisons:
+	Jordan Adams, 2013-14, UCLA	with a career VORP of: 0.1
+
+Tyler Ulis unique advanced NCAA season comparisons:
+
+Wade Baldwin unique advanced NCAA season comparisons:
+	Spencer Dinwiddie, 2012-13, Colorado	with a career VORP of: 0.0
+	Spencer Dinwiddie, 2013-14, Colorado	with a career VORP of: 0.0
+	Andrew Harrison, 2013-14, Kentucky	with a career VORP of: -0.2
+	Ray McCallum, 2010-11, Detroit	with a career VORP of: -0.6
+	Semaj Christon, 2012-13, Xavier	with a career VORP of: -1.1
+
+Yogi Ferrell unique advanced NCAA season comparisons:
+
