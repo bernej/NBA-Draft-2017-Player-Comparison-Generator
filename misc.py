@@ -58,7 +58,7 @@ def initialize_output_files(divider):
     out_file.write("This file contains all of the NBA player per 40 minute & advanced NCAA seasons that were returned for only a single prospect.\n\n")
 
     # Message to be printed at the top of each output file
-    header = "A cosine similarity is computed between each prospect and NBA player, using both their per 40 minutes and advanced statistics from their NCAA seasons (collected from sports-reference.com).\n\nThe NBA players collected are every top 5 pick since 1993 that played in the NCAA, every all-star or all-NBA drafted since 1993, as well as certain exceptions from recent drafts for proper \'modern NBA\' comparisons of players who are currently contributing to an NBA team.\n"
+    header = "A cosine similarity is computed between each prospect and NBA player, using both their per 40 minutes and advanced statistics from their NCAA seasons (collected from sports-reference.com).\n\nThe NBA player per 40 minute set is every draft pick's NCAA seasons from the 1993 Draft to the 2016 Draft with a complete seasonal per 40 minutes stat line. The NBA Player advanced set include every draftee from 2011 to 2016 with NCAA data.\n"
     gist = header + '\n' + divider + '\n'
 
     # Write header to each output file
