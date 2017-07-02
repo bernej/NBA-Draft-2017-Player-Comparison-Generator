@@ -125,7 +125,7 @@ Below is my top 10 ranking of the consensus top 10 freshmen and some words to ma
 
 *1.* **Lonzo Ball** - Jason Kidd, Jason Williams, Deron Williams
 
-The most unique prospect in the dataset. Lonzo’s unprecedented advanced stats caused extremely low similarity scores in the adv set. Curiously enough, all four of TJ McConnell’s college seasons were returned, and TJ’s freshman year at Duquesne was the highest scored season in the intersection set. The comparisons to Jason Kidd are validated with the only Kidd season (the more impressive Sophomore season) appearing in the per40 set. Interestingly, another passing magician makes his lone appearance here, Jason Williams with his Marshall season. Lonzo’s absurd open-court playmaking skills along with his NBA range is why I give him the slight edge over Fultz.
+The most unique prospect in the dataset. Lonzo’s unprecedented advanced stats caused extremely low similarity scores in the adv set. Curiously enough, all four of TJ McConnell’s college seasons were returned, and TJ’s freshman year at Duquesne was the highest scored season in the intersection set. The comparisons to Jason Kidd are validated with the only Kidd season (the more impressive Sophomore season) appearing in the per40 set. Interestingly, another passing magician makes his lone appearance here, Jason Williams with his Marshall season. Lonzo’s absurd open-court playmaking skills and NBA range are why I give him the slight edge over Fultz.
 
 *2.* **Markelle Fultz** - Russell Westbrook, Sam Cassell, George Hill
 
@@ -169,7 +169,7 @@ Monk unfortunately appears to be a SG in a PG body. A lot of great college shoot
 
 Richaun Holmes’ final two Bowling Green seasons are Zach Collins’ top two similar seasons in the intersection set. If Collins can encapsulate what Holmes brings to the table (energy, shot blocking, and not being a black-hole on offense), then he will be a servicaeble backup big with the potential to eventually start. He's got to stop fouling so much, though.
 
-Feel free to check out all of the results in the guards.txt, wings.txt, and bigs.txt files!
+Feel free to check out all of the results in the [guards.txt](https://github.com/bernej/NBA-Draft-2017-Player-Comparison-Generator/blob/master/guards.txt), [wings.txt](https://github.com/bernej/NBA-Draft-2017-Player-Comparison-Generator/blob/master/wings.txt), and [bigs.txt](https://github.com/bernej/NBA-Draft-2017-Player-Comparison-Generator/blob/master/bigs.txt) files!
 
 ## Acknowledgments
 
