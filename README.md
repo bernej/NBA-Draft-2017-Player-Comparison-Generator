@@ -30,7 +30,7 @@ cd NBA-Draft-2017-Player-Comparison-Generator
 vagrant up
 ```
 
-Now, you are installing the Ubuntu Linux vm on your machine. Once installed, the 'vagrant up' command simply starts the machine. Instead of accessing the vm through VirtualBox we will are accessing the vm through Terminal.
+Now, you are installing the Ubuntu Linux vm on your machine. Once installed, the 'vagrant up' command simply starts the machine. Instead of accessing the vm through VirtualBox we are accessing the vm through Terminal.
 
 ```
 vagrant ssh
